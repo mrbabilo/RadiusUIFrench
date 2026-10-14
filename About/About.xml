@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Radius UI - Traduction française</name>
+  <packageId>mrbabilo.RadiusUI.FrenchTranslation</packageId>
+  <author>mrbabilo</author>
+  <description>Traduction française de la suite Radius UI d'astryl : Framework, Colonist Bar, Everywhere, Faction Menu, Health Tab, Ideology, Mission Control, Needs Tab, Quest Menu et Xenotypes.
+
+Activez-la avec n'importe quels mods de la suite, après eux dans la liste. Elle ne contient aucun code et ne touche pas aux sauvegardes.
+
+Radius UI - Inspector Plus a déjà son français et n'est pas concerné. Les textes écrits directement dans le code des mods ne peuvent pas être traduits par un mod de traduction et restent en anglais.
+
+French translation of astryl's Radius UI suite.</description>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <loadAfter>
+    <li>astryl.RadiusUI.Framework</li>
+    <li>astryl.RadiusUI.ColonistBar</li>
+    <li>mrbabilo.RadiusUI.ColonistBarPlus</li>
+    <li>astryl.RadiusUI.Everywhere</li>
+    <li>astryl.RadiusUI.FactionMenu</li>
+    <li>astryl.RadiusUI.HealthTab</li>
+    <li>astryl.RadiusUI.Ideology</li>
+    <li>astryl.RadiusUI.MissionControl</li>
+    <li>astryl.RadiusUI.NeedsTab</li>
+    <li>astryl.RadiusUI.QuestMenu</li>
+    <li>astryl.RadiusUI.Xenotypes</li>
+  </loadAfter>
+  <modVersion>1.0.0</modVersion>
+</ModMetaData>

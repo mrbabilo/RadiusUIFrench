@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Keyed files always load: a key of a missing mod is ignored. A DefInjected translation of a missing def is an
+     error, so the Colonist Bar key binding loads only with Colonist Bar or its fork. -->
+<LoadFolders>
+  <v1.6>
+    <li>/</li>
+    <li IfModActive="astryl.RadiusUI.ColonistBar, mrbabilo.RadiusUI.ColonistBarPlus">ColonistBar</li>
+  </v1.6>
+</LoadFolders>
