@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  English keys for Radius UI - Quest Menu. Ships so keys resolve at runtime and so
+  translators have a complete template.
+  House style (GLOBAL_RULES §7 + 2026-08-17 review round): vanilla sentence case with the
+  FIRST word capitalised everywhere a string stands alone; ASCII only (comma separators,
+  spaced hyphen - never a middot, em dash or en dash); no trailing period on labels.
+  "AcceptQuest" is not here - the vanilla key is reused so the button matches the base game.
+-->
+<!-- Traduction française : mod « Radius UI - Traduction française » (mrbabilo). -->
+<LanguageData>
+
+  <RadiusQM.Title>Quêtes</RadiusQM.Title>
+  <RadiusQM.Counts>{0} disponibles, {1} en cours, {2} dans l'historique</RadiusQM.Counts>
+  <RadiusQM.CloseTip>Fermer (Échap)</RadiusQM.CloseTip>
+  <RadiusQM.SwapTip>Passer à la fenêtre des quêtes du jeu pour cette session</RadiusQM.SwapTip>
+  <RadiusQM.BackToRadius>Revenir au panneau des quêtes Radius</RadiusQM.BackToRadius>
+  <RadiusQM.LocTip>Cliquez pour voir ce lieu sur la carte du monde</RadiusQM.LocTip>
+  <RadiusQM.LocTile>Case {0}</RadiusQM.LocTile>
+  <RadiusQM.LocUnknown>Lieu inconnu</RadiusQM.LocUnknown>
+  <RadiusQM.SettingsTip>Réglages de Radius UI : couleur d'accent, arrondi des coins, polices</RadiusQM.SettingsTip>
+
+  <!-- Feed sections -->
+  <RadiusQM.SectionPinned>Épinglées</RadiusQM.SectionPinned>
+  <RadiusQM.SectionExpiring>Expirent bientôt</RadiusQM.SectionExpiring>
+  <RadiusQM.SectionOffers>Offres</RadiusQM.SectionOffers>
+  <RadiusQM.SectionSetAside>Mises de côté</RadiusQM.SectionSetAside>
+  <RadiusQM.SectionOngoing>En cours</RadiusQM.SectionOngoing>
+  <RadiusQM.SectionEnded>Terminées</RadiusQM.SectionEnded>
+  <RadiusQM.ShowN>Afficher {0}</RadiusQM.ShowN>
+  <RadiusQM.Hide>Masquer</RadiusQM.Hide>
+  <RadiusQM.EmptyOffers>Aucune offre de quête pour le moment.</RadiusQM.EmptyOffers>
+  <RadiusQM.EmptyOngoing>Rien en cours.</RadiusQM.EmptyOngoing>
+  <RadiusQM.EmptyDetail>Aucune quête sélectionnée : choisissez-en une à gauche.</RadiusQM.EmptyDetail>
+
+  <!-- Ticker -->
+  <RadiusQM.TickerTip>Contexte du donneur de quête. Cliquez pour la note suivante.</RadiusQM.TickerTip>
+  <RadiusQM.TickerExpiring>{0} offres expirent dans la journée</RadiusQM.TickerExpiring>
+  <RadiusQM.TickerAlso>Aussi de {0} : {1}</RadiusQM.TickerAlso>
+  <RadiusQM.TickerIdleOffers>{0} offres attendent une décision</RadiusQM.TickerIdleOffers>
+  <RadiusQM.TickerIdle>Aucune offre de quête pour le moment</RadiusQM.TickerIdle>
+
+  <!-- Sort -->
+  <RadiusQM.SortTip>Trier les offres</RadiusQM.SortTip>
+  <RadiusQM.SortExpiry>Par expiration</RadiusQM.SortExpiry>
+  <RadiusQM.SortChallenge>Par difficulté</RadiusQM.SortChallenge>
+  <RadiusQM.SortName>Par nom</RadiusQM.SortName>
+
+  <!-- Rows and detail -->
+  <RadiusQM.ExpiresIn>Expire dans {0}</RadiusQM.ExpiresIn>
+  <RadiusQM.AutoDeclines>Refusée d'office si ignorée</RadiusQM.AutoDeclines>
+  <RadiusQM.AcceptedAgo>Acceptée il y a {0}</RadiusQM.AcceptedAgo>
+  <RadiusQM.AcceptedBy>Acceptée par {0}</RadiusQM.AcceptedBy>
+  <RadiusQM.FinishedAgo>Terminée il y a {0}</RadiusQM.FinishedAgo>
+  <RadiusQM.InProgress>En cours</RadiusQM.InProgress>
+  <RadiusQM.InProgressBar>En cours, acceptée il y a {0}</RadiusQM.InProgressBar>
+  <RadiusQM.SetAsideFlag>mise de côté</RadiusQM.SetAsideFlag>
+  <RadiusQM.NoGiver>Pas de donneur de quête</RadiusQM.NoGiver>
+  <RadiusQM.QuestGiver>Donneur de quête</RadiusQM.QuestGiver>
+  <RadiusQM.Goodwill>Bonne entente {0}</RadiusQM.Goodwill>
+  <RadiusQM.Charity>Charité</RadiusQM.Charity>
+  <RadiusQM.PinnedFlag>Épinglée</RadiusQM.PinnedFlag>
+  <RadiusQM.AtAGlance>En bref</RadiusQM.AtAGlance>
+  <RadiusQM.ChallengeRating>Difficulté</RadiusQM.ChallengeRating>
+  <RadiusQM.Involved>Impliqués</RadiusQM.Involved>
+
+  <!-- Deadlines carried by quest parts. The countdown sentence itself comes from the part
+       (and is already translated by whoever wrote the quest); these are only the sub-labels
+       that say what happens when the clock runs out. -->
+  <RadiusQM.DeadlineFails>Quête échouée si le délai est dépassé</RadiusQM.DeadlineFails>
+  <RadiusQM.DeadlineInfo>Prévu</RadiusQM.DeadlineInfo>
+  <RadiusQM.Locations>Lieux</RadiusQM.Locations>
+
+  <!-- Live map view -->
+  <RadiusQM.Live>DIRECT</RadiusQM.Live>
+  <RadiusQM.LiveGroup>{0} sujets sur cette carte</RadiusQM.LiveGroup>
+  <RadiusQM.LiveHere>Sur cette carte</RadiusQM.LiveHere>
+  <RadiusQM.LiveWarmup>Mise au point…</RadiusQM.LiveWarmup>
+  <RadiusQM.LiveTip>Vue en direct des sujets de cette quête. Cliquez pour aller vers eux et les sélectionner.</RadiusQM.LiveTip>
+
+  <!-- Outcomes -->
+  <RadiusQM.OutcomeSuccess>Quête réussie</RadiusQM.OutcomeSuccess>
+  <RadiusQM.OutcomeFailed>Quête échouée</RadiusQM.OutcomeFailed>
+  <RadiusQM.OutcomeExpired>Offre expirée</RadiusQM.OutcomeExpired>
+  <RadiusQM.OutcomeEnded>Quête terminée</RadiusQM.OutcomeEnded>
+
+  <!-- Rewards -->
+  <RadiusQM.Rewards>Récompenses</RadiusQM.Rewards>
+  <RadiusQM.ChooseReward>Choisissez une récompense</RadiusQM.ChooseReward>
+  <RadiusQM.ChoiceNote>Accepter fige votre choix.</RadiusQM.ChoiceNote>
+  <RadiusQM.ChooseRewardFirst>Choisissez d'abord une récompense.</RadiusQM.ChooseRewardFirst>
+  <RadiusQM.RewardUnknown>(récompense impossible à décrire)</RadiusQM.RewardUnknown>
+
+  <!-- Actions -->
+  <RadiusQM.AcceptTip>Accepter cette quête (Entrée)</RadiusQM.AcceptTip>
+  <RadiusQM.AcceptBy>Accepter avec {0}</RadiusQM.AcceptBy>
+  <RadiusQM.NoAccepter>Aucun colon ne peut accepter cette quête.</RadiusQM.NoAccepter>
+  <RadiusQM.NotNow>Pas maintenant</RadiusQM.NotNow>
+  <RadiusQM.NotNowTip>Garder l'offre mais l'écarter. Elle peut toujours expirer.</RadiusQM.NotNowTip>
+  <RadiusQM.ResumeQuest>Reprendre la quête</RadiusQM.ResumeQuest>
+  <RadiusQM.Pin>Épingler</RadiusQM.Pin>
+  <RadiusQM.Unpin>Désépingler</RadiusQM.Unpin>
+  <RadiusQM.ViewOnMap>Voir sur la carte</RadiusQM.ViewOnMap>
+  <RadiusQM.KeyHint>Haut et bas pour naviguer, Entrée pour accepter, Échap pour fermer</RadiusQM.KeyHint>
+
+  <!-- Dev tools (only visible in dev mode) -->
+  <RadiusQM.DevTools>Outils de développement</RadiusQM.DevTools>
+  <RadiusQM.DevHide>Masquer les outils de développement</RadiusQM.DevHide>
+  <RadiusQM.DevAccept>DEV : accepter tout de suite</RadiusQM.DevAccept>
+  <RadiusQM.DevDelete>DEV : supprimer la quête</RadiusQM.DevDelete>
+  <RadiusQM.DevHidden>{0} quêtes cachées</RadiusQM.DevHidden>
+
+</LanguageData>
