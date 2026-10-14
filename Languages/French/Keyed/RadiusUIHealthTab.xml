@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  English keys for Radius UI - Health Tab. Ships so keys resolve at runtime AND so
+  translators have a complete template to copy.
+
+  House style, applied here and enforced on every new string:
+    - Sentence case. Only proper nouns and the first word are capitalised.
+    - ASCII only, except the three glyphs the suite already uses: \u25b8 \u25be \u00d7
+    - No trailing periods on labels; full stops only in sentences and tooltips.
+    - {0}/{1} are ordinal so translators can reorder freely.
+-->
+<!-- Traduction française : mod « Radius UI - Traduction française » (mrbabilo). -->
+<LanguageData>
+
+  <!-- Identity -->
+  <RadiusUI.HealthTab.Title>Radius UI - Health Tab</RadiusUI.HealthTab.Title>
+  <RadiusUI.HealthTab.Set.UseModern>Utiliser l'onglet santé Radius</RadiusUI.HealthTab.Set.UseModern>
+  <RadiusUI.HealthTab.Set.TabScale>Taille de l'onglet : {0}</RadiusUI.HealthTab.Set.TabScale>
+  <RadiusUI.HealthTab.Set.TabScaleTip>La place que prend l'onglet santé à l'écran. 100 % est la taille prévue, et c'est ce qu'il vous faut presque toujours : utilisez l'échelle d'interface des options de RimWorld pour agrandir ou réduire toute l'interface. Ne baissez cette valeur que pour raccourcir l'onglet sur un petit écran : le texte garde sa taille quand l'onglet rétrécit, donc les libellés se serrent sous 85 % environ.</RadiusUI.HealthTab.Set.TabScaleTip>
+  <RadiusUI.HealthTab.SwapToModern>Passer à l'onglet santé Radius</RadiusUI.HealthTab.SwapToModern>
+
+  <!-- Panel tabs -->
+  <RadiusUI.HealthTab.Tab.Timeline>Chronologie</RadiusUI.HealthTab.Tab.Timeline>
+  <RadiusUI.HealthTab.Tab.Chronic>Chronique</RadiusUI.HealthTab.Tab.Chronic>
+  <!-- Body replaced Augmentations: same hediff set, read from the other end. The key
+       name must stay in sync with the PanelMode member, because the settings screen
+       resolves a tab's label as "RadiusUI.HealthTab.Tab." + the enum name. -->
+  <RadiusUI.HealthTab.Tab.Body>Corps</RadiusUI.HealthTab.Tab.Body>
+  <RadiusUI.HealthTab.Tab.Triage>Triage</RadiusUI.HealthTab.Tab.Triage>
+  <RadiusUI.HealthTab.Tab.Contagion>Contagion</RadiusUI.HealthTab.Tab.Contagion>
+  <RadiusUI.HealthTab.Tab.Physique>Physique</RadiusUI.HealthTab.Tab.Physique>
+
+  <!-- ══ Physique tab (Rimbody compat) ══
+       Only ever shown when Rimbody is loaded AND the selected pawn has a seeded
+       CompPhysique. "Muscle group" names follow Rimbody's partFatigue index order. -->
+
+  <!-- readiness verdict, in precedence order -->
+  <RadiusUI.HealthTab.Phys.V.Collapsed>Effondré d'épuisement</RadiusUI.HealthTab.Phys.V.Collapsed>
+  <RadiusUI.HealthTab.Phys.V.CollapsedSub>Repos forcé jusqu'à 40</RadiusUI.HealthTab.Phys.V.CollapsedSub>
+  <RadiusUI.HealthTab.Phys.V.Exhausted>Épuisement critique : {0} %</RadiusUI.HealthTab.Phys.V.Exhausted>
+  <RadiusUI.HealthTab.Phys.V.ExhaustedSub>Effondrement à 100</RadiusUI.HealthTab.Phys.V.ExhaustedSub>
+  <RadiusUI.HealthTab.Phys.V.Spent>{0} : à bout</RadiusUI.HealthTab.Phys.V.Spent>
+  <RadiusUI.HealthTab.Phys.V.SpentSub>{0} avant de pouvoir resservir</RadiusUI.HealthTab.Phys.V.SpentSub>
+  <RadiusUI.HealthTab.Phys.V.Banked>Réserve de gains pleine : {0}/{1}</RadiusUI.HealthTab.Phys.V.Banked>
+  <RadiusUI.HealthTab.Phys.V.BankedSub>L'entraînement est perdu jusqu'au prochain sommeil</RadiusUI.HealthTab.Phys.V.BankedSub>
+  <RadiusUI.HealthTab.Phys.V.Fresh>Frais : prêt à tout</RadiusUI.HealthTab.Phys.V.Fresh>
+  <RadiusUI.HealthTab.Phys.V.FreshSub>{0} les plus frais</RadiusUI.HealthTab.Phys.V.FreshSub>
+  <RadiusUI.HealthTab.Phys.V.Ready>Prêt à s'entraîner : {0} les plus frais</RadiusUI.HealthTab.Phys.V.Ready>
+  <RadiusUI.HealthTab.Phys.V.ReadyPlain>Prêt à s'entraîner</RadiusUI.HealthTab.Phys.V.ReadyPlain>
+  <RadiusUI.HealthTab.Phys.V.ReadySub>Éviter : {0}</RadiusUI.HealthTab.Phys.V.ReadySub>
+
+  <!-- durations -->
+  <RadiusUI.HealthTab.Phys.Now>maintenant</RadiusUI.HealthTab.Phys.Now>
+  <RadiusUI.HealthTab.Phys.Hours>~{0} h</RadiusUI.HealthTab.Phys.Hours>
+  <RadiusUI.HealthTab.Phys.Days>~{0} j</RadiusUI.HealthTab.Phys.Days>
+  <RadiusUI.HealthTab.Phys.Never>Jamais</RadiusUI.HealthTab.Phys.Never>
+  <!-- These two are INTERPOLATED mid-sentence ("Recovering while asleep", "...at the awake
+       recovery rate"), so they stay lowercase. Sentence case applies to a string that STARTS
+       a line, not to every string. -->
+  <RadiusUI.HealthTab.Phys.Asleep>endormi</RadiusUI.HealthTab.Phys.Asleep>
+  <RadiusUI.HealthTab.Phys.Awake>éveillé</RadiusUI.HealthTab.Phys.Awake>
+
+  <!-- page head -->
+  <RadiusUI.HealthTab.Phys.Meta>Morphologie {0} - {1}</RadiusUI.HealthTab.Phys.Meta>
+  <RadiusUI.HealthTab.Phys.FromLine>{0} de {1}</RadiusUI.HealthTab.Phys.FromLine>
+  <RadiusUI.HealthTab.Phys.PastLine>{0} au-delà de {1}</RadiusUI.HealthTab.Phys.PastLine>
+  <RadiusUI.HealthTab.Phys.Body.Average>Moyenne</RadiusUI.HealthTab.Phys.Body.Average>
+  <RadiusUI.HealthTab.Phys.Body.Thin>Mince</RadiusUI.HealthTab.Phys.Body.Thin>
+  <RadiusUI.HealthTab.Phys.Body.Fat>Corpulente</RadiusUI.HealthTab.Phys.Body.Fat>
+  <RadiusUI.HealthTab.Phys.Body.Hulk>Massive</RadiusUI.HealthTab.Phys.Body.Hulk>
+  <RadiusUI.HealthTab.Phys.Edit>Modifier</RadiusUI.HealthTab.Phys.Edit>
+  <RadiusUI.HealthTab.Phys.EditTip>Régler directement la masse musculaire et la graisse corporelle, puis laisser Rimbody choisir de nouveau la morphologie. Faire défiler la molette sur une valeur marche aussi. C'est une aide de débogage, pas un raccourci d'entraînement.</RadiusUI.HealthTab.Phys.EditTip>
+
+  <!-- composition capsule -->
+  <RadiusUI.HealthTab.Phys.Composition>Composition</RadiusUI.HealthTab.Phys.Composition>
+  <RadiusUI.HealthTab.Phys.Scale>La morphologie change aux repères</RadiusUI.HealthTab.Phys.Scale>
+  <RadiusUI.HealthTab.Phys.Muscle>Masse musculaire</RadiusUI.HealthTab.Phys.Muscle>
+  <RadiusUI.HealthTab.Phys.MuscleTip>La masse musculaire détermine la statistique Carrure et la morphologie massive.\n\nLes repères marquent les seuils mince ({0}) et massif ({1}). La fine ligne dorée au-dessus de la barre est la réserve de gains : elle ne devient du vrai muscle que pendant le repos du pion.</RadiusUI.HealthTab.Phys.MuscleTip>
+  <RadiusUI.HealthTab.Phys.Fat>Graisse corporelle</RadiusUI.HealthTab.Phys.Fat>
+  <RadiusUI.HealthTab.Phys.FatTip>La graisse corporelle se brûle par le cardio et se gagne par un excès de nourriture.\n\nLes repères marquent les seuils mince ({0}) et corpulent ({1}).</RadiusUI.HealthTab.Phys.FatTip>
+
+  <!-- goal controls (Rimbody's own) -->
+  <RadiusUI.HealthTab.Phys.Goal>Objectif</RadiusUI.HealthTab.Phys.Goal>
+  <RadiusUI.HealthTab.Phys.GoalOff>Aucun objectif</RadiusUI.HealthTab.Phys.GoalOff>
+  <RadiusUI.HealthTab.Phys.GoalMuscleTip>Avec un objectif, ce pion continue de s'entraîner vers la masse musculaire visée et lève le pied une fois atteinte.</RadiusUI.HealthTab.Phys.GoalMuscleTip>
+  <RadiusUI.HealthTab.Phys.GoalFatTip>Avec un objectif, ce pion ajuste ce qu'il mange pour amener sa graisse corporelle vers la valeur visée.</RadiusUI.HealthTab.Phys.GoalFatTip>
+
+  <!-- groups -->
+  <RadiusUI.HealthTab.Phys.Grp.Banked>Réserve et épuisement</RadiusUI.HealthTab.Phys.Grp.Banked>
+  <RadiusUI.HealthTab.Phys.Grp.Fatigue>Fatigue par groupe musculaire</RadiusUI.HealthTab.Phys.Grp.Fatigue>
+  <RadiusUI.HealthTab.Phys.Grp.FatigueSub>Récupère pendant qu'il est {0}</RadiusUI.HealthTab.Phys.Grp.FatigueSub>
+  <RadiusUI.HealthTab.Phys.Grp.Log>Derniers entraînements</RadiusUI.HealthTab.Phys.Grp.Log>
+  <RadiusUI.HealthTab.Phys.Grp.LogSub>Aucun ne se répète avant le prochain sommeil</RadiusUI.HealthTab.Phys.Grp.LogSub>
+  <RadiusUI.HealthTab.Phys.FatigueOff>La fatigue par groupe est désactivée dans les réglages de Rimbody.</RadiusUI.HealthTab.Phys.FatigueOff>
+  <RadiusUI.HealthTab.Phys.LogEmpty>Aucun entraînement en mémoire : la liste se vide à chaque sommeil.</RadiusUI.HealthTab.Phys.LogEmpty>
+
+  <!-- stat cards -->
+  <!-- Stat-card keys and detail lines share a quarter of the stage width, so they are
+       kept SHORT by design rather than relying on truncation. The full sentence lives
+       in each card's tooltip.
+       SENTENCE CASE, like everything else in this tab except the timeline day separator.
+       Sentence case is also NARROWER than caps, which is what lets these keys say
+       "Gain buffer" and "Last trained" instead of the clipped abbreviations. -->
+  <RadiusUI.HealthTab.Phys.St.Buffer>Réserve de gains</RadiusUI.HealthTab.Phys.St.Buffer>
+  <RadiusUI.HealthTab.Phys.St.BufferOk>Convertie au repos</RadiusUI.HealthTab.Phys.St.BufferOk>
+  <RadiusUI.HealthTab.Phys.St.BufferFull>Pleine : repos maintenant</RadiusUI.HealthTab.Phys.St.BufferFull>
+  <RadiusUI.HealthTab.Phys.St.BufferTip>Le fruit de l'entraînement arrive d'abord ici et ne devient du muscle que pendant le repos du pion. Une fois le plafond atteint, tout entraînement de plus dans ce cycle est perdu.</RadiusUI.HealthTab.Phys.St.BufferTip>
+  <RadiusUI.HealthTab.Phys.St.Exhaustion>Épuisement</RadiusUI.HealthTab.Phys.St.Exhaustion>
+  <RadiusUI.HealthTab.Phys.St.ExhOk>Effondrement à 100</RadiusUI.HealthTab.Phys.St.ExhOk>
+  <RadiusUI.HealthTab.Phys.St.ExhRest>Repos jusqu'à 40</RadiusUI.HealthTab.Phys.St.ExhRest>
+  <RadiusUI.HealthTab.Phys.St.ExhTip>Monte pendant l'entraînement et baisse pendant le repos. À 100, le pion est forcé de se reposer jusqu'à repasser sous 40.</RadiusUI.HealthTab.Phys.St.ExhTip>
+  <RadiusUI.HealthTab.Phys.St.Brawn>Carrure</RadiusUI.HealthTab.Phys.St.Brawn>
+  <RadiusUI.HealthTab.Phys.St.BrawnSub>Selon la masse musculaire</RadiusUI.HealthTab.Phys.St.BrawnSub>
+  <RadiusUI.HealthTab.Phys.St.BrawnTip>La statistique Carrure de Rimbody. La charge portée et les dégâts au corps à corps en dépendent.</RadiusUI.HealthTab.Phys.St.BrawnTip>
+  <RadiusUI.HealthTab.Phys.St.Trained>Dernier entraînement</RadiusUI.HealthTab.Phys.St.Trained>
+  <RadiusUI.HealthTab.Phys.St.NoLog>Aucun enregistré</RadiusUI.HealthTab.Phys.St.NoLog>
+  <RadiusUI.HealthTab.Phys.St.TrainedTip>Temps écoulé depuis le dernier entraînement de ce pion.</RadiusUI.HealthTab.Phys.St.TrainedTip>
+  <RadiusUI.HealthTab.Phys.St.Disabled>Désactivé</RadiusUI.HealthTab.Phys.St.Disabled>
+
+  <!-- muscle groups, in Rimbody's partFatigue index order -->
+  <RadiusUI.HealthTab.Phys.Part.Shoulders>Épaules</RadiusUI.HealthTab.Phys.Part.Shoulders>
+  <RadiusUI.HealthTab.Phys.Part.Chest>Pectoraux</RadiusUI.HealthTab.Phys.Part.Chest>
+  <RadiusUI.HealthTab.Phys.Part.Biceps>Biceps</RadiusUI.HealthTab.Phys.Part.Biceps>
+  <RadiusUI.HealthTab.Phys.Part.Triceps>Triceps</RadiusUI.HealthTab.Phys.Part.Triceps>
+  <RadiusUI.HealthTab.Phys.Part.Back>Dos</RadiusUI.HealthTab.Phys.Part.Back>
+  <RadiusUI.HealthTab.Phys.Part.Abs>Abdominaux</RadiusUI.HealthTab.Phys.Part.Abs>
+  <RadiusUI.HealthTab.Phys.Part.Glutes>Fessiers</RadiusUI.HealthTab.Phys.Part.Glutes>
+  <RadiusUI.HealthTab.Phys.Part.Quads>Quadriceps</RadiusUI.HealthTab.Phys.Part.Quads>
+  <RadiusUI.HealthTab.Phys.Part.Hamstrings>Ischio-jambiers</RadiusUI.HealthTab.Phys.Part.Hamstrings>
+  <RadiusUI.HealthTab.Phys.PartTip>{0} à {1} % de fatigue.\n\nEntraîner ce groupe ne rapporte qu'une partie de sa valeur tant qu'il n'a pas récupéré. Environ {2} au rythme de récupération {3} ; le repos est trois fois plus rapide.</RadiusUI.HealthTab.Phys.PartTip>
+
+  <!-- workout categories -->
+  <RadiusUI.HealthTab.Phys.Cat.Strength>Force</RadiusUI.HealthTab.Phys.Cat.Strength>
+  <RadiusUI.HealthTab.Phys.Cat.Balance>Équilibre</RadiusUI.HealthTab.Phys.Cat.Balance>
+  <RadiusUI.HealthTab.Phys.Cat.Cardio>Cardio</RadiusUI.HealthTab.Phys.Cat.Cardio>
+  <RadiusUI.HealthTab.Phys.Cat.Job>Travail</RadiusUI.HealthTab.Phys.Cat.Job>
+  <RadiusUI.HealthTab.Phys.LogTip>{0} ({1})\n\nRimbody retient les cinq derniers entraînements et ne choisira pas de nouveau le même avant que ce pion dorme.</RadiusUI.HealthTab.Phys.LogTip>
+
+  <!-- Chronic tab -->
+  <RadiusUI.HealthTab.Chronic.None>Rien de durable</RadiusUI.HealthTab.Chronic.None>
+  <RadiusUI.HealthTab.Chronic.Count>{0} durables, aucun soignable pour l'instant</RadiusUI.HealthTab.Chronic.Count>
+  <RadiusUI.HealthTab.Chronic.Empty>Rien de durable : ni cicatrice, ni maladie chronique, ni tolérance.</RadiusUI.HealthTab.Chronic.Empty>
+  <RadiusUI.HealthTab.Chronic.GroupScars>Blessures permanentes</RadiusUI.HealthTab.Chronic.GroupScars>
+  <RadiusUI.HealthTab.Chronic.GroupScarsSub>{0} - guéries, mais elles ont laissé une trace</RadiusUI.HealthTab.Chronic.GroupScarsSub>
+  <RadiusUI.HealthTab.Chronic.GroupOther>Affections chroniques</RadiusUI.HealthTab.Chronic.GroupOther>
+  <RadiusUI.HealthTab.Chronic.GroupOtherSub>{0} - durables ; pas soignables pour l'instant</RadiusUI.HealthTab.Chronic.GroupOtherSub>
+  <RadiusUI.HealthTab.Chronic.CapMax>{0} max {1} %</RadiusUI.HealthTab.Chronic.CapMax>
+
+  <!-- Chemical dependency (Biotech drug-dependency genes).
+       {0} is a chemical label such as "psychite" - lowercase, it sits inside a
+       sentence fragment. "deficiency" and "coma" are the vanilla stage names. -->
+  <!-- Each of these is a whole CELL in the chronic row's note/cost columns, or a band sub -
+       it starts its own line, so sentence case applies. -->
+  <RadiusUI.HealthTab.Dep.LastDose>Dernière dose il y a {0}</RadiusUI.HealthTab.Dep.LastDose>
+  <RadiusUI.HealthTab.Dep.NoDose>Aucune dose enregistrée</RadiusUI.HealthTab.Dep.NoDose>
+  <RadiusUI.HealthTab.Dep.Stable>Stable</RadiusUI.HealthTab.Dep.Stable>
+  <RadiusUI.HealthTab.Dep.NextDeficiency>Carence dans {0}</RadiusUI.HealthTab.Dep.NextDeficiency>
+  <RadiusUI.HealthTab.Dep.NextComa>Coma dans {0}</RadiusUI.HealthTab.Dep.NextComa>
+  <RadiusUI.HealthTab.Dep.NextDeath>Mort dans {0}</RadiusUI.HealthTab.Dep.NextDeath>
+  <RadiusUI.HealthTab.Dep.InComa>Coma de carence</RadiusUI.HealthTab.Dep.InComa>
+  <RadiusUI.HealthTab.Dep.DiesIn>Mort dans {0}</RadiusUI.HealthTab.Dep.DiesIn>
+  <RadiusUI.HealthTab.Dep.ComaLabel>Coma de carence en {0} : donnez une dose</RadiusUI.HealthTab.Dep.ComaLabel>
+  <RadiusUI.HealthTab.Dep.BandDeficiency>Carence en {0} dans {1}</RadiusUI.HealthTab.Dep.BandDeficiency>
+  <RadiusUI.HealthTab.Dep.BandComa>Coma ({0}) dans {1}</RadiusUI.HealthTab.Dep.BandComa>
+  <RadiusUI.HealthTab.Dep.BandInDeficiency>En carence de {0}</RadiusUI.HealthTab.Dep.BandInDeficiency>
+
+  <!-- Triage tab -->
+  <RadiusUI.HealthTab.Triage.None>Colonie : personne n'a besoin de soins</RadiusUI.HealthTab.Triage.None>
+  <RadiusUI.HealthTab.Triage.Count>Colonie : {0} patients, {1} non soignés</RadiusUI.HealthTab.Triage.Count>
+  <RadiusUI.HealthTab.Triage.NoTreatment>Aucun soin enregistré pour l'instant</RadiusUI.HealthTab.Triage.NoTreatment>
+  <RadiusUI.HealthTab.Triage.TendWorst>Soigner le plus grave : {0}</RadiusUI.HealthTab.Triage.TendWorst>
+  <RadiusUI.HealthTab.Triage.TendWorstTip>Envoyer {0} soigner {1} tout de suite.</RadiusUI.HealthTab.Triage.TendWorstTip>
+
+  <!-- Now cluster -->
+  <RadiusUI.HealthTab.Now.Label>Maintenant</RadiusUI.HealthTab.Now.Label>
+  <RadiusUI.HealthTab.Now.NoConditions>aucune affection active</RadiusUI.HealthTab.Now.NoConditions>
+  <RadiusUI.HealthTab.Now.Active>affections actives</RadiusUI.HealthTab.Now.Active>
+  <RadiusUI.HealthTab.Now.ActiveNeeding>affections actives - {0} à soigner</RadiusUI.HealthTab.Now.ActiveNeeding>
+  <RadiusUI.HealthTab.Now.TendNow>Soigner maintenant</RadiusUI.HealthTab.Now.TendNow>
+  <RadiusUI.HealthTab.Now.TendNowBy>Soigner maintenant : {0}</RadiusUI.HealthTab.Now.TendNowBy>
+
+  <!-- Status strip -->
+  <RadiusUI.HealthTab.Status.Healthy>Aucune blessure à soigner</RadiusUI.HealthTab.Status.Healthy>
+  <RadiusUI.HealthTab.Status.Injured>Blessé : {0}</RadiusUI.HealthTab.Status.Injured>
+  <RadiusUI.HealthTab.Status.Bleeding>{0} hémorragies</RadiusUI.HealthTab.Status.Bleeding>
+  <RadiusUI.HealthTab.Status.Untended>{0} non soignées</RadiusUI.HealthTab.Status.Untended>
+  <RadiusUI.HealthTab.Status.DiesIn>mort dans {0} sans soins</RadiusUI.HealthTab.Status.DiesIn>
+  <RadiusUI.HealthTab.Status.TendQuality>soin ~{0}</RadiusUI.HealthTab.Status.TendQuality>
+
+  <!-- Timeline -->
+  <RadiusUI.HealthTab.Time.Today>Aujourd'hui</RadiusUI.HealthTab.Time.Today>
+  <RadiusUI.HealthTab.Time.Yesterday>Hier</RadiusUI.HealthTab.Time.Yesterday>
+  <RadiusUI.HealthTab.Time.DaysAgo>Il y a {0} jours</RadiusUI.HealthTab.Time.DaysAgo>
+  <RadiusUI.HealthTab.Time.NoEvents>Aucun événement enregistré pour l'instant</RadiusUI.HealthTab.Time.NoEvents>
+  <RadiusUI.HealthTab.Time.NothingProjected>Rien de prévu</RadiusUI.HealthTab.Time.NothingProjected>
+
+  <!-- Augmentations -->
+  <RadiusUI.HealthTab.Aug.TierArchotech>archotech</RadiusUI.HealthTab.Aug.TierArchotech>
+  <RadiusUI.HealthTab.Aug.TierBionic>bionique</RadiusUI.HealthTab.Aug.TierBionic>
+  <RadiusUI.HealthTab.Aug.TierProsthetic>prothèse</RadiusUI.HealthTab.Aug.TierProsthetic>
+  <RadiusUI.HealthTab.Aug.TierImplant>implant</RadiusUI.HealthTab.Aug.TierImplant>
+  <RadiusUI.HealthTab.Aug.TierModifier>modificateur</RadiusUI.HealthTab.Aug.TierModifier>
+
+  <!-- ══ Body tab ══
+       Every body part that exists, what it holds, what it feeds, what could go in it.
+       Report only: nothing here queues a bill. -->
+
+  <!-- view switch. Sites is the default: a pristine human is 64 records and only 24
+       of them can ever hold anything. -->
+  <RadiusUI.HealthTab.Body.View.Everything>Tout</RadiusUI.HealthTab.Body.View.Everything>
+  <RadiusUI.HealthTab.Body.View.Problems>Problèmes</RadiusUI.HealthTab.Body.View.Problems>
+  <RadiusUI.HealthTab.Body.View.Sites>Emplacements d'implants</RadiusUI.HealthTab.Body.View.Sites>
+  <!-- The old top-level Augmentations tab, folded back in as a view: it is exactly the
+       filled sites plus the modifiers that have no body part. -->
+  <RadiusUI.HealthTab.Body.View.Augmentations>Améliorations</RadiusUI.HealthTab.Body.View.Augmentations>
+
+  <RadiusUI.HealthTab.Body.MetaSites>{0} emplacements occupés sur {1} - {2} parties</RadiusUI.HealthTab.Body.MetaSites>
+  <RadiusUI.HealthTab.Body.MetaNoSites>{0} parties - rien ne peut être installé</RadiusUI.HealthTab.Body.MetaNoSites>
+  <!-- Why the part count is lower than the body's full record count: a whole-part
+       replacement, or a lost limb, takes everything under it with it. -->
+  <RadiusUI.HealthTab.Body.MetaHidden>({0} dans des parties remplacées ou perdues)</RadiusUI.HealthTab.Body.MetaHidden>
+  <RadiusUI.HealthTab.Body.Affected>{0} touchées</RadiusUI.HealthTab.Body.Affected>
+  <RadiusUI.HealthTab.Body.Open>ouvert</RadiusUI.HealthTab.Body.Open>
+  <RadiusUI.HealthTab.Body.Fold>{0} × {1}</RadiusUI.HealthTab.Body.Fold>
+  <RadiusUI.HealthTab.Body.FoldTip>{0} parties, toutes intactes et aucune capable de recevoir quoi que ce soit. Elles sont regroupées sur une ligne pour que la liste reste lisible ; si l'une d'elles a un problème, elle apparaît à part.</RadiusUI.HealthTab.Body.FoldTip>
+
+  <!-- part state -->
+  <RadiusUI.HealthTab.Body.State.Intact>Intacte</RadiusUI.HealthTab.Body.State.Intact>
+  <RadiusUI.HealthTab.Body.State.Scarred>Cicatrisée</RadiusUI.HealthTab.Body.State.Scarred>
+  <RadiusUI.HealthTab.Body.State.Tended>Soignée</RadiusUI.HealthTab.Body.State.Tended>
+  <RadiusUI.HealthTab.Body.State.Injured>Blessée</RadiusUI.HealthTab.Body.State.Injured>
+  <RadiusUI.HealthTab.Body.State.Infected>Infectée</RadiusUI.HealthTab.Body.State.Infected>
+  <RadiusUI.HealthTab.Body.State.Bleeding>En hémorragie</RadiusUI.HealthTab.Body.State.Bleeding>
+  <RadiusUI.HealthTab.Body.State.Missing>Manquante</RadiusUI.HealthTab.Body.State.Missing>
+
+  <!-- what a part feeds, read off its BodyPartDef tags. The cell lists the capacity
+       names plainly; when there are none it holds one ITALIC word instead, because the
+       column otherwise contains data and this is the absence of it. The long form is
+       kept for the tooltip, which has room to explain. -->
+  <RadiusUI.HealthTab.Body.Structure>Structure</RadiusUI.HealthTab.Body.Structure>
+  <RadiusUI.HealthTab.Body.StructureLong>Structure seulement : n'alimente aucune capacité</RadiusUI.HealthTab.Body.StructureLong>
+
+  <!-- expanded row -->
+  <RadiusUI.HealthTab.Body.K.Occupant>Installé</RadiusUI.HealthTab.Body.K.Occupant>
+  <RadiusUI.HealthTab.Body.K.Implant>Implant</RadiusUI.HealthTab.Body.K.Implant>
+  <RadiusUI.HealthTab.Body.K.Condition>État</RadiusUI.HealthTab.Body.K.Condition>
+  <RadiusUI.HealthTab.Body.K.Efficiency>Efficacité</RadiusUI.HealthTab.Body.K.Efficiency>
+  <RadiusUI.HealthTab.Body.K.Feeds>Alimente</RadiusUI.HealthTab.Body.K.Feeds>
+  <RadiusUI.HealthTab.Body.EffFromPart>- la valeur propre de la partie, pas sa santé</RadiusUI.HealthTab.Body.EffFromPart>
+  <RadiusUI.HealthTab.Body.EffFromHp>- d'après sa part de santé</RadiusUI.HealthTab.Body.EffFromHp>
+  <RadiusUI.HealthTab.Body.CanHold>Peut recevoir</RadiusUI.HealthTab.Body.CanHold>
+  <RadiusUI.HealthTab.Body.CanHoldNothing>Rien. Aucune opération dont vous disposez ne vise : {0}.</RadiusUI.HealthTab.Body.CanHoldNothing>
+  <RadiusUI.HealthTab.Body.PartWord>partie</RadiusUI.HealthTab.Body.PartWord>
+  <RadiusUI.HealthTab.Body.NotResearched>Non recherché</RadiusUI.HealthTab.Body.NotResearched>
+  <!-- The point of the delta column: a vanilla prosthetic arm is 50% and a cochlear
+       implant is 65%, both WORSE than the part they replace, and nothing else in the
+       game says so before the operation is queued. -->
+  <RadiusUI.HealthTab.Body.DeltaNote>L'écart est mesuré par rapport à ce qui occupe cette partie maintenant.</RadiusUI.HealthTab.Body.DeltaNote>
+  <RadiusUI.HealthTab.Body.SomeWorse>Certains sont moins bons que ce qui est en place. L'écart est mesuré par rapport à la partie actuelle, pas par rapport à rien.</RadiusUI.HealthTab.Body.SomeWorse>
+  <RadiusUI.HealthTab.Body.AllGain>Cette partie a disparu : tout ce qui peut aller ici est une amélioration.</RadiusUI.HealthTab.Body.AllGain>
+
+  <!-- modifiers: the part of the old Augmentations tab with no body part of its own -->
+  <RadiusUI.HealthTab.Body.Group.Modifiers>Modificateurs</RadiusUI.HealthTab.Body.Group.Modifiers>
+  <RadiusUI.HealthTab.Body.Group.ModifiersSub>liés à aucune partie du corps</RadiusUI.HealthTab.Body.Group.ModifiersSub>
+  <RadiusUI.HealthTab.Body.NoEffects>Aucun effet mesurable pour l'instant.</RadiusUI.HealthTab.Body.NoEffects>
+
+  <!-- tooltips and empty states -->
+  <RadiusUI.HealthTab.Body.NOptions>{0} choses pourraient aller ici</RadiusUI.HealthTab.Body.NOptions>
+  <RadiusUI.HealthTab.Body.NoOptions>Rien de ce que vous avez ne peut aller ici</RadiusUI.HealthTab.Body.NoOptions>
+  <RadiusUI.HealthTab.Body.ClickToExpand>Cliquez pour le détail. Clic droit sur une partie installée pour sa fiche d'information.</RadiusUI.HealthTab.Body.ClickToExpand>
+  <RadiusUI.HealthTab.Body.TipPart>Cette partie vaut {0}.</RadiusUI.HealthTab.Body.TipPart>
+  <RadiusUI.HealthTab.Body.TipNow>Ce qui est en place vaut {0}.</RadiusUI.HealthTab.Body.TipNow>
+  <RadiusUI.HealthTab.Body.TipResearch>Demande : {0}.</RadiusUI.HealthTab.Body.TipResearch>
+  <RadiusUI.HealthTab.Body.TipInfoCard>Cliquez pour en savoir plus. Cet onglet ne programme jamais d'opération : utilisez pour cela l'onglet des opérations.</RadiusUI.HealthTab.Body.TipInfoCard>
+  <RadiusUI.HealthTab.Body.NoSites>Rien de ce que vous avez ne peut être installé sur {0}.</RadiusUI.HealthTab.Body.NoSites>
+  <RadiusUI.HealthTab.Body.NoSitesSub>La liste des emplacements vient des opérations possibles pour ce pion : elle est vide, pas fausse. Les {0} parties restent toutes listées dans Tout, avec leur état.</RadiusUI.HealthTab.Body.NoSitesSub>
+  <RadiusUI.HealthTab.Body.NoProblems>{0} n'a aucun problème.</RadiusUI.HealthTab.Body.NoProblems>
+  <RadiusUI.HealthTab.Body.NoProblemsSub>Chaque partie est intacte.</RadiusUI.HealthTab.Body.NoProblemsSub>
+  <RadiusUI.HealthTab.Body.NoAugs>Rien n'est installé sur {0}.</RadiusUI.HealthTab.Body.NoAugs>
+  <RadiusUI.HealthTab.Body.NoAugsSub>Ni prothèse, ni implant, ni modificateur. {0} emplacements pourraient recevoir quelque chose : voir Emplacements d'implants.</RadiusUI.HealthTab.Body.NoAugsSub>
+  <RadiusUI.HealthTab.Body.NoParts>Ce corps n'a aucune partie à lister.</RadiusUI.HealthTab.Body.NoParts>
+
+  <!-- default tab: right-click a pill (recognition) or the settings dropdown (recall) -->
+  <RadiusUI.HealthTab.Body.OpenOnHead>Ouvrir l'onglet santé sur</RadiusUI.HealthTab.Body.OpenOnHead>
+  <RadiusUI.HealthTab.Body.MakeDefault>Toujours ouvrir sur {0}</RadiusUI.HealthTab.Body.MakeDefault>
+  <RadiusUI.HealthTab.Body.MakeDefaultTip>Chaque fois que vous sélectionnez un autre pion, sa santé s'ouvre sur {0}.</RadiusUI.HealthTab.Body.MakeDefaultTip>
+  <RadiusUI.HealthTab.Body.RememberLast>Retenir le dernier onglet utilisé</RadiusUI.HealthTab.Body.RememberLast>
+  <RadiusUI.HealthTab.Body.RememberLastTip>L'onglet reste sur le panneau où vous l'avez laissé, même quand vous sélectionnez un autre pion. C'est le comportement habituel.</RadiusUI.HealthTab.Body.RememberLastTip>
+  <RadiusUI.HealthTab.Body.RightClickTip>Clic droit pour toujours ouvrir ici.</RadiusUI.HealthTab.Body.RightClickTip>
+  <RadiusUI.HealthTab.Body.IsDefaultTip>L'onglet santé s'ouvre ici. Clic droit pour changer.</RadiusUI.HealthTab.Body.IsDefaultTip>
+
+  <RadiusUI.HealthTab.Set.DefaultTab>Ouvrir l'onglet santé sur</RadiusUI.HealthTab.Set.DefaultTab>
+  <RadiusUI.HealthTab.Set.DefaultTabLast>Le dernier onglet utilisé</RadiusUI.HealthTab.Set.DefaultTabLast>
+  <RadiusUI.HealthTab.Set.DefaultTabTip>Le panneau sur lequel s'ouvre la santé d'un pion quand vous le sélectionnez. « Le dernier onglet utilisé » garde l'onglet là où vous l'avez laissé, comme d'habitude. Vous pouvez aussi le régler d'un clic droit sur un onglet.</RadiusUI.HealthTab.Set.DefaultTabTip>
+
+  <!-- Colony medicine stock. EVERY tier is named after its actual item def now,
+       including the vanilla three, so no key exists (or should) for any of them.
+       Med.Herbal / Med.Industrial / Med.Glitter / Med.Exotic were removed with the
+       fixed-bucket scan they belonged to. -->
+  <RadiusUI.HealthTab.Med.None>aucun médicament en stock</RadiusUI.HealthTab.Med.None>
+
+  <!-- One hediff spread over many body parts, folded into a single counted row -->
+  <RadiusUI.HealthTab.Collapse.Group>Généralisé</RadiusUI.HealthTab.Collapse.Group>
+  <RadiusUI.HealthTab.Collapse.GroupSub>La même affection sur de nombreuses parties</RadiusUI.HealthTab.Collapse.GroupSub>
+  <RadiusUI.HealthTab.Collapse.Parts>Sur {0} parties du corps</RadiusUI.HealthTab.Collapse.Parts>
+
+  <!-- Care row -->
+  <RadiusUI.HealthTab.Care.Group>Soins</RadiusUI.HealthTab.Care.Group>
+  <RadiusUI.HealthTab.Care.Food>Nourriture :</RadiusUI.HealthTab.Care.Food>
+  <RadiusUI.HealthTab.Care.Operations>Opérations</RadiusUI.HealthTab.Care.Operations>
+  <RadiusUI.HealthTab.Care.SelfTend>Auto-soin</RadiusUI.HealthTab.Care.SelfTend>
+  <RadiusUI.HealthTab.Care.Level>Soins :</RadiusUI.HealthTab.Care.Level>
+  <RadiusUI.HealthTab.Care.None>Aucun</RadiusUI.HealthTab.Care.None>
+  <RadiusUI.HealthTab.Care.NoMeds>Sans médicament</RadiusUI.HealthTab.Care.NoMeds>
+  <RadiusUI.HealthTab.Care.Herbal>Herbes médicinales</RadiusUI.HealthTab.Care.Herbal>
+  <RadiusUI.HealthTab.Care.Normal>Médicaments</RadiusUI.HealthTab.Care.Normal>
+  <RadiusUI.HealthTab.Care.Best>Meilleurs</RadiusUI.HealthTab.Care.Best>
+  <!-- Care pill menu: the medicine picker. Item names come from the medicine defs
+       themselves, so modded medicines need no keys here. -->
+  <RadiusUI.HealthTab.Care.TendWith>Soigner avec</RadiusUI.HealthTab.Care.TendWith>
+  <RadiusUI.HealthTab.Care.BestAvailable>Le meilleur disponible</RadiusUI.HealthTab.Care.BestAvailable>
+
+  <!-- Forecasts -->
+  <RadiusUI.HealthTab.Proj.Recovers>Guérit : {0}</RadiusUI.HealthTab.Proj.Recovers>
+  <!-- Projection sub-lines. EtaOnly() cuts these at the first " - " for the alert band, so the
+       leading clause has to read correctly on its own ("In 5h"). -->
+  <RadiusUI.HealthTab.Proj.RecoversSub>L'immunité l'emporte : immunisé dans {0}</RadiusUI.HealthTab.Proj.RecoversSub>
+  <RadiusUI.HealthTab.Proj.Dies>Mort par {0} : la gravité dépasse l'immunité</RadiusUI.HealthTab.Proj.Dies>
+  <RadiusUI.HealthTab.Proj.DiesSub>Dans {0} - soins et repos au lit pour inverser la tendance</RadiusUI.HealthTab.Proj.DiesSub>
+  <RadiusUI.HealthTab.Proj.BloodLoss>Mort par perte de sang, sans soins</RadiusUI.HealthTab.Proj.BloodLoss>
+  <RadiusUI.HealthTab.Proj.BloodLossSub>Dans {0} - écarté dès qu'un soin est fait</RadiusUI.HealthTab.Proj.BloodLossSub>
+  <RadiusUI.HealthTab.Proj.DepDeficiency>Carence : dépendance à {0}</RadiusUI.HealthTab.Proj.DepDeficiency>
+  <RadiusUI.HealthTab.Proj.DepComa>Coma de carence : dépendance à {0}</RadiusUI.HealthTab.Proj.DepComa>
+  <RadiusUI.HealthTab.Proj.DepDeath>Mort par carence de {0}</RadiusUI.HealthTab.Proj.DepDeath>
+  <RadiusUI.HealthTab.Proj.DepSub>Dans {0} - une dose de {1} remet le compteur à zéro</RadiusUI.HealthTab.Proj.DepSub>
+
+  <!-- Settings -->
+  <RadiusUI.HealthTab.Set.ModernTab>Utiliser l'onglet santé moderne</RadiusUI.HealthTab.Set.ModernTab>
+  <RadiusUI.HealthTab.Set.TimelineLayout>Disposition en chronologie</RadiusUI.HealthTab.Set.TimelineLayout>
+  <RadiusUI.HealthTab.Set.TimelineLayoutTip>Afficher la chronologie médicale au lieu de la liste classique des affections.</RadiusUI.HealthTab.Set.TimelineLayoutTip>
+  <RadiusUI.HealthTab.Set.PulseBoosted>Faire pulser les capacités renforcées</RadiusUI.HealthTab.Set.PulseBoosted>
+  <RadiusUI.HealthTab.Set.PulseCritical>Faire pulser les affections critiques</RadiusUI.HealthTab.Set.PulseCritical>
+  <RadiusUI.HealthTab.Set.SeverityColour>Couleurs selon la gravité</RadiusUI.HealthTab.Set.SeverityColour>
+  <RadiusUI.HealthTab.Set.CapacityPercent>Afficher les pourcentages des capacités</RadiusUI.HealthTab.Set.CapacityPercent>
+  <RadiusUI.HealthTab.Set.Prognosis>Afficher le pronostic</RadiusUI.HealthTab.Set.Prognosis>
+  <RadiusUI.HealthTab.Set.Healed>Afficher les blessures guéries</RadiusUI.HealthTab.Set.Healed>
+  <RadiusUI.HealthTab.Set.HideScars>Cacher les cicatrices guéries sans effet</RadiusUI.HealthTab.Set.HideScars>
+  <RadiusUI.HealthTab.Set.DiscreetParts>Parties du corps discrètes</RadiusUI.HealthTab.Set.DiscreetParts>
+  <RadiusUI.HealthTab.Set.DiscreetPartsTip>Cacher les parties intimes de la liste des affections, sauf si elles sont blessées.</RadiusUI.HealthTab.Set.DiscreetPartsTip>
+  <RadiusUI.HealthTab.Set.SeverityBars>Barres de gravité sur les affections</RadiusUI.HealthTab.Set.SeverityBars>
+  <RadiusUI.HealthTab.Set.SeverityBarsTip>Ajoute à chaque ligne d'affection une petite barre qui montre sa gravité : les dégâts faits par une blessure, ou l'avancée d'une maladie. La barre se remplit toujours vers le pire. Les lignes sans grandeur mesurable n'ont pas de barre, et la barre disparaît avant que le nom de l'affection soit raccourci.</RadiusUI.HealthTab.Set.SeverityBarsTip>
+
+  <!-- Condition severity bar - tooltip lines. Each states the real numbers, because the
+       bar itself only ever says "how bad", never which quantity it measured. -->
+  <RadiusUI.HealthTab.Bar.Wound>Blessure : {0} de la santé de cette partie perdue</RadiusUI.HealthTab.Bar.Wound>
+  <RadiusUI.HealthTab.Bar.PartLeft>Santé restante de la partie : {0}</RadiusUI.HealthTab.Bar.PartLeft>
+  <RadiusUI.HealthTab.Bar.Lethal>Progression : {0} du chemin vers la mort</RadiusUI.HealthTab.Bar.Lethal>
+  <RadiusUI.HealthTab.Bar.Severity>Gravité : {0} du maximum</RadiusUI.HealthTab.Bar.Severity>
+  <RadiusUI.HealthTab.Bar.Immunity>Immunité : {0} (la marque sur la barre)</RadiusUI.HealthTab.Bar.Immunity>
+  <RadiusUI.HealthTab.Bar.Winning>L'immunité est en avance : cela devrait passer.</RadiusUI.HealthTab.Bar.Winning>
+  <RadiusUI.HealthTab.Bar.Losing>La maladie est en avance sur l'immunité.</RadiusUI.HealthTab.Bar.Losing>
+
+</LanguageData>
