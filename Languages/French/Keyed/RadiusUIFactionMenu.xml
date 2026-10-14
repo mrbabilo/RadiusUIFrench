@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Traduction française : mod « Radius UI - Traduction française » (mrbabilo). -->
+<LanguageData>
+  <!-- Window chrome -->
+  <RUIFM.Title>Factions</RUIFM.Title>
+  <RUIFM.FactionsKnown>{0} factions connues</RUIFM.FactionsKnown>
+  <RUIFM.CloseTip>Fermer. Échap marche aussi.</RUIFM.CloseTip>
+  <RUIFM.SwapToVanilla>Passer à la vue des factions du jeu.</RUIFM.SwapToVanilla>
+  <RUIFM.RadiusView>Passer à la vue des factions Radius.</RUIFM.RadiusView>
+  <RUIFM.DevShowAll>DEV : tout afficher</RUIFM.DevShowAll>
+
+  <!-- Rail -->
+  <RUIFM.SearchHint>Rechercher un nom ou un type</RUIFM.SearchHint>
+  <RUIFM.FilterAll>Toutes</RUIFM.FilterAll>
+  <RUIFM.Pinned>Épinglées</RUIFM.Pinned>
+  <RUIFM.Factions>Factions</RUIFM.Factions>
+  <RUIFM.RailHints>Haut et bas pour choisir - Entrée ouvre le dossier - P épingle - tapez pour rechercher - Échap ferme</RUIFM.RailHints>
+  <RUIFM.YourColony>Votre colonie</RUIFM.YourColony>
+  <RUIFM.Defeated>vaincue</RUIFM.Defeated>
+  <RUIFM.HiddenTag>cachée</RUIFM.HiddenTag>
+  <RUIFM.Pin>Épingler en tête de liste. Enregistré avec cette partie.</RUIFM.Pin>
+  <RUIFM.Unpin>Désépingler.</RUIFM.Unpin>
+
+  <!-- Stage -->
+  <RUIFM.OverlaySettlements>Colonies</RUIFM.OverlaySettlements>
+  <RUIFM.OverlayWeb>Toile des relations</RUIFM.OverlayWeb>
+  <RUIFM.OverlayWebTip>Afficher la diplomatie de la faction choisie : des lignes de sa capitale vers chaque autre capitale. Vert plein pour une alliance, rouge pointillé pour une guerre, gris fin pour la neutralité.</RUIFM.OverlayWebTip>
+  <RUIFM.RelationsOf>Relations de {0}</RUIFM.RelationsOf>
+  <RUIFM.RelationsPickFaction>Choisissez une faction pour voir ses relations</RUIFM.RelationsPickFaction>
+  <RUIFM.LegendAlly>Alliée</RUIFM.LegendAlly>
+  <RUIFM.LegendHostile>En guerre</RUIFM.LegendHostile>
+  <RUIFM.LegendNeutral>Neutre</RUIFM.LegendNeutral>
+  <RUIFM.ClaimsOf>Revendications de {0}</RUIFM.ClaimsOf>
+  <RUIFM.OverlayTerritory>Territoire</RUIFM.OverlayTerritory>
+  <RUIFM.OverlayTerritoryTip>Colorer les cases revendiquées. La revendication de la faction choisie est pleine, les autres restent pâles, et les cases revendiquées par plusieurs factions sont rayées.</RUIFM.OverlayTerritoryTip>
+  <RUIFM.OverlayAirspace>Espace aérien</RUIFM.OverlayAirspace>
+  <RUIFM.OverlayAirspaceTip>Afficher l'état du transit au-dessus des cases revendiquées et vérifier la route depuis votre colonie : vert là où vous avez un permis, rayé rouge là où vous n'en avez pas.</RUIFM.OverlayAirspaceTip>
+  <RUIFM.LegendClaim>Revendication de cette faction</RUIFM.LegendClaim>
+  <RUIFM.LegendOtherClaims>Revendications des autres factions</RUIFM.LegendOtherClaims>
+  <RUIFM.LegendContested>Revendication disputée</RUIFM.LegendContested>
+  <RUIFM.LegendPermit>Permis obtenu</RUIFM.LegendPermit>
+  <RUIFM.LegendNoPermit>Pas de permis : péage ou refus</RUIFM.LegendNoPermit>
+  <RUIFM.RoutePermit>Permis obtenu : passage libre</RUIFM.RoutePermit>
+  <RUIFM.RouteNoPermit>Pas de permis : traverse un espace aérien revendiqué</RUIFM.RouteNoPermit>
+  <RUIFM.StageHint>Survolez une colonie pour les détails - un clic choisit sa faction - un double-clic va sur la carte du monde</RUIFM.StageHint>
+  <RUIFM.StageClickHint>Cliquez pour choisir. Double-cliquez pour aller sur la carte du monde.</RUIFM.StageClickHint>
+  <RUIFM.Capital>Capitale</RUIFM.Capital>
+  <RUIFM.TilesAway>À {0} cases</RUIFM.TilesAway>
+
+  <!-- Drawer -->
+  <RUIFM.PermanentlyHostile>Hostile en permanence</RUIFM.PermanentlyHostile>
+  <RUIFM.Leader>Chef</RUIFM.Leader>
+  <RUIFM.NoLeader>Pas de chef</RUIFM.NoLeader>
+  <RUIFM.Ideoligion>Idéoligion</RUIFM.Ideoligion>
+  <RUIFM.IdeoTip>Ouvrir la fenêtre de l'idéoligion.</RUIFM.IdeoTip>
+  <RUIFM.NoKnownEnemies>Aucun ennemi connu</RUIFM.NoKnownEnemies>
+  <RUIFM.InfoCard>Fiche d'information</RUIFM.InfoCard>
+  <RUIFM.OpenComms>Ouvrir les communications</RUIFM.OpenComms>
+  <RUIFM.Description>Description</RUIFM.Description>
+
+  <!-- Dossier (ledger). Values that stand alone are sentence case; fragments that only ever
+       appear mid-phrase (band labels, "0 - defeated", list parts) stay lowercase and are
+       capitalized by the caller when they lead. -->
+  <RUIFM.FullDossier>Dossier complet</RUIFM.FullDossier>
+  <RUIFM.CloseDossier>Fermer le dossier. Échap marche aussi.</RUIFM.CloseDossier>
+  <RUIFM.Trends>Tendances</RUIFM.Trends>
+  <RUIFM.GraphRelations>Relations</RUIFM.GraphRelations>
+  <RUIFM.GraphSettlements>Colonies</RUIFM.GraphSettlements>
+  <RUIFM.GraphStability>Stabilité</RUIFM.GraphStability>
+  <RUIFM.GraphTerritory>Territoire</RUIFM.GraphTerritory>
+  <RUIFM.GraphPopulation>Population</RUIFM.GraphPopulation>
+  <RUIFM.GraphWealth>Richesse</RUIFM.GraphWealth>
+  <RUIFM.NoTrendData>Pas encore de données de tendance : l'enregistrement se fait tous les quarts de journée</RUIFM.NoTrendData>
+  <RUIFM.Stability>Stabilité</RUIFM.Stability>
+  <RUIFM.StabilityInputs>Dépend de</RUIFM.StabilityInputs>
+  <RUIFM.InputPopulation>la population et les prix</RUIFM.InputPopulation>
+  <RUIFM.InputTerritory>le territoire revendiqué</RUIFM.InputTerritory>
+  <RUIFM.InputBasics>les colonies, le niveau technologique et votre relation</RUIFM.InputBasics>
+  <RUIFM.SplinterOf>Dissidente de</RUIFM.SplinterOf>
+  <RUIFM.BandStable>stable</RUIFM.BandStable>
+  <RUIFM.BandUneasy>tendue</RUIFM.BandUneasy>
+  <RUIFM.BandUnrest>agitée</RUIFM.BandUnrest>
+  <RUIFM.BandCollapsing>en effondrement</RUIFM.BandCollapsing>
+  <RUIFM.Demographics>Démographie</RUIFM.Demographics>
+  <RUIFM.TotalLiving>Vivants au total</RUIFM.TotalLiving>
+  <RUIFM.Adults>Adultes</RUIFM.Adults>
+  <RUIFM.Children>Enfants</RUIFM.Children>
+  <RUIFM.Elders>Anciens</RUIFM.Elders>
+  <RUIFM.Archetype>Archétype</RUIFM.Archetype>
+  <RUIFM.Wealth>Richesse</RUIFM.Wealth>
+  <RUIFM.Silver>Argent</RUIFM.Silver>
+  <RUIFM.Inflation>Inflation mondiale</RUIFM.Inflation>
+  <RUIFM.Language>Langue</RUIFM.Language>
+  <RUIFM.Dialect>Dialecte</RUIFM.Dialect>
+  <RUIFM.Progress>Compréhension</RUIFM.Progress>
+  <RUIFM.Learned>Apprise</RUIFM.Learned>
+  <RUIFM.AlsoSpokenBy>Aussi parlée par</RUIFM.AlsoSpokenBy>
+  <RUIFM.Territory>Territoire</RUIFM.Territory>
+  <RUIFM.TilesClaimed>Cases revendiquées</RUIFM.TilesClaimed>
+  <RUIFM.VassalagePoints>Points de vassalité</RUIFM.VassalagePoints>
+  <RUIFM.VassalOutpost>Avant-poste vassal : cliquez pour voir</RUIFM.VassalOutpost>
+  <RUIFM.Diplomacy>Diplomatie</RUIFM.Diplomacy>
+  <RUIFM.NoOtherFactions>Aucune autre faction connue</RUIFM.NoOtherFactions>
+  <RUIFM.Rankings>Classement des puissances</RUIFM.Rankings>
+  <RUIFM.MetricSettlements>Colonies</RUIFM.MetricSettlements>
+  <RUIFM.MetricStability>Stabilité</RUIFM.MetricStability>
+  <RUIFM.MetricTerritory>Territoire</RUIFM.MetricTerritory>
+  <RUIFM.MetricPopulation>Population</RUIFM.MetricPopulation>
+  <RUIFM.MetricWealth>Richesse</RUIFM.MetricWealth>
+  <RUIFM.MetricStrength>Force</RUIFM.MetricStrength>
+  <RUIFM.OverlayRoads>Routes</RUIFM.OverlayRoads>
+  <RUIFM.OverlayRoadsTip>Le réseau routier de la planète. Roads of the Rim y ajoute celles que construisent vos caravanes.</RUIFM.OverlayRoadsTip>
+  <RUIFM.LegendHighway>Grand-route</RUIFM.LegendHighway>
+  <RUIFM.LegendRoad>Route ou piste</RUIFM.LegendRoad>
+
+  <!-- Roads of the Rim -->
+  <RUIFM.SectionRoads>Construction de routes</RUIFM.SectionRoads>
+  <RUIFM.RoadCrews>Équipes de construction</RUIFM.RoadCrews>
+  <RUIFM.RoadHelpingNow>Aide en ce moment</RUIFM.RoadHelpingNow>
+  <RUIFM.RoadReady>Prête à aider</RUIFM.RoadReady>
+  <RUIFM.RoadCooldown>Disponible dans {0} jours</RUIFM.RoadCooldown>
+  <RUIFM.RoadSites>Chantiers en cours</RUIFM.RoadSites>
+  <RUIFM.RoadHelpTip>Demander à cette faction de contribuer à une route, par la console de com. Son aide coûte de la bonne entente à la fin des travaux.</RUIFM.RoadHelpTip>
+
+  <!-- Empire Refactored -->
+  <RUIFM.SectionEmpire>Empire</RUIFM.SectionEmpire>
+  <RUIFM.EmpireLevel>Niveau de l'empire</RUIFM.EmpireLevel>
+  <RUIFM.EmpireHoldings>Possessions</RUIFM.EmpireHoldings>
+  <RUIFM.EmpireProsperity>Prospérité moyenne</RUIFM.EmpireProsperity>
+  <RUIFM.EmpireIncome>Revenu net</RUIFM.EmpireIncome>
+  <RUIFM.EmpirePopulation>Travailleurs</RUIFM.EmpirePopulation>
+  <RUIFM.EmpireTax>Prochain impôt</RUIFM.EmpireTax>
+  <RUIFM.EmpireTaxDays>dans {0} jours</RUIFM.EmpireTaxDays>
+  <RUIFM.EmpireTaxDue>à payer maintenant</RUIFM.EmpireTaxDue>
+  <RUIFM.EmpireBills>Factures impayées</RUIFM.EmpireBills>
+  <RUIFM.EmpireEvents>Événements en cours</RUIFM.EmpireEvents>
+  <RUIFM.EmpirePolicies>Politiques</RUIFM.EmpirePolicies>
+  <RUIFM.EmpireSilverPerDay>{0} d'argent par jour</RUIFM.EmpireSilverPerDay>
+  <RUIFM.EmpireEventDays>{0}, {1} jours</RUIFM.EmpireEventDays>
+
+  <RUIFM.InOrbit>En orbite</RUIFM.InOrbit>
+  <RUIFM.OverlayOrbit>Orbite</RUIFM.OverlayOrbit>
+  <RUIFM.OverlayOrbitTip>Les possessions qui ne sont pas à la surface de la planète, affichées dans une bande au-dessus de la carte.</RUIFM.OverlayOrbitTip>
+  <RUIFM.PrevSettlement>Colonie précédente</RUIFM.PrevSettlement>
+  <RUIFM.NextSettlement>Colonie suivante</RUIFM.NextSettlement>
+
+  <!-- Activity ticker: tags are badges, the snip text follows them mid-phrase -->
+  <RUIFM.TagUnrest>Agitation</RUIFM.TagUnrest>
+  <RUIFM.TagWarrant>Mandat</RUIFM.TagWarrant>
+  <RUIFM.TagTrader>Marchand</RUIFM.TagTrader>
+  <RUIFM.TagEvent>Événement</RUIFM.TagEvent>
+  <RUIFM.TagTitle>Titre</RUIFM.TagTitle>
+  <RUIFM.SnipUnrest>sa stabilité se fissure</RUIFM.SnipUnrest>
+  <RUIFM.SnipWarrants>{0} mandats visent votre colonie</RUIFM.SnipWarrants>
+  <RUIFM.SnipTrader>un marchand de bonne entente approche</RUIFM.SnipTrader>
+  <RUIFM.SnipTitle>vous avez le rang de {0}</RUIFM.SnipTitle>
+
+  <!-- Settings panel -->
+  <RUIFM.SettingsOverlays>Calques de la carte</RUIFM.SettingsOverlays>
+  <RUIFM.SettingsPanel>Panneau</RUIFM.SettingsPanel>
+  <RUIFM.SettingsTicker>Afficher le fil d'activité</RUIFM.SettingsTicker>
+  <RUIFM.SettingsPreviews>Afficher les aperçus des colonies</RUIFM.SettingsPreviews>
+  <RUIFM.SettingsResetLayout>Réinitialiser la disposition du panneau</RUIFM.SettingsResetLayout>
+  <RUIFM.SettingsResetHint>Rouvre toutes les sections repliées et réaffiche les graphiques de tendance cachés.</RUIFM.SettingsResetHint>
+  <RUIFM.SettingsFrameworkHint>La couleur d'accent, l'arrondi des coins et les polices sont communs à toute la suite et se règlent dans les réglages de Radius UI Framework.</RUIFM.SettingsFrameworkHint>
+
+  <!-- Compat sections -->
+  <RUIFM.Statecraft>Affaires d'État</RUIFM.Statecraft>
+  <RUIFM.Pacts>Pactes</RUIFM.Pacts>
+  <RUIFM.AgentsPlaced>Agents placés</RUIFM.AgentsPlaced>
+  <RUIFM.Military>Armée</RUIFM.Military>
+  <RUIFM.TotalStrength>Force totale</RUIFM.TotalStrength>
+  <RUIFM.CapitalTier>{0} - rang {1}</RUIFM.CapitalTier>
+  <RUIFM.Outposts>Avant-postes</RUIFM.Outposts>
+  <RUIFM.ClickToView>Cliquez pour voir</RUIFM.ClickToView>
+  <RUIFM.ImperialStanding>Statut impérial</RUIFM.ImperialStanding>
+  <RUIFM.HighestTitle>Votre plus haut titre</RUIFM.HighestTitle>
+  <RUIFM.Honours>Honneurs</RUIFM.Honours>
+  <RUIFM.Activity>Activité</RUIFM.Activity>
+  <RUIFM.TraderInbound>Marchand de bonne entente en approche</RUIFM.TraderInbound>
+  <RUIFM.Airspace>Espace aérien</RUIFM.Airspace>
+  <RUIFM.TransitPermit>Permis de transit</RUIFM.TransitPermit>
+  <RUIFM.PermitActive>Actif</RUIFM.PermitActive>
+  <RUIFM.PermitNone>Aucun</RUIFM.PermitNone>
+  <RUIFM.PassesRemaining>Passages restants</RUIFM.PassesRemaining>
+  <RUIFM.BaseLeaders>Chefs de base</RUIFM.BaseLeaders>
+  <RUIFM.Warrants>Mandats</RUIFM.Warrants>
+  <RUIFM.WarrantsIssued>Émis par cette faction</RUIFM.WarrantsIssued>
+  <RUIFM.Senate>Sénat</RUIFM.Senate>
+  <RUIFM.SenatorsWon>Sénateurs ralliés</RUIFM.SenatorsWon>
+  <RUIFM.EraCornerstones>Ère et piliers</RUIFM.EraCornerstones>
+  <RUIFM.Era>Ère</RUIFM.Era>
+  <RUIFM.CornerstonePoints>Points de piliers</RUIFM.CornerstonePoints>
+  <RUIFM.ViaMod>par {0}</RUIFM.ViaMod>
+  <RUIFM.Kind>Type</RUIFM.Kind>
+  <RUIFM.Settlements>Colonies</RUIFM.Settlements>
+  <RUIFM.OpenVanillaInfo>Ouvrir la fiche d'information du jeu</RUIFM.OpenVanillaInfo>
+
+  <!-- Action gating reasons -->
+  <RUIFM.ReasonThisIsYou>C'est vous.</RUIFM.ReasonThisIsYou>
+  <RUIFM.ReasonPermanentEnemy>Hostile en permanence : refuse tout contact.</RUIFM.ReasonPermanentEnemy>
+  <RUIFM.ReasonNoLeader>Cette faction n'a pas de chef avec qui négocier.</RUIFM.ReasonNoLeader>
+  <RUIFM.ReasonHidden>Cette faction ne peut pas être contactée.</RUIFM.ReasonHidden>
+  <RUIFM.ReasonNoConsole>Il faut une console de com alimentée.</RUIFM.ReasonNoConsole>
+  <RUIFM.ReasonNoNegotiator>Aucun colon capable de parler n'est disponible.</RUIFM.ReasonNoNegotiator>
+
+  <!-- Generation-15 restyle. AlwaysHostile is the chip on a permanent enemy: it carries no
+       goodwill number, because that number never moves and printing it invites the player to
+       try. SettingsLink is the plain word on the right of the chrome bar. -->
+  <RUIFM.AlwaysHostile>Toujours hostile</RUIFM.AlwaysHostile>
+  <RUIFM.SettingsLink>Réglages</RUIFM.SettingsLink>
+</LanguageData>
