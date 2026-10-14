@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Radius UI - Needs Tab - English keys.
+     GLOBAL_RULES §7: vanilla sentence case, no em or en dashes anywhere.
+     Def labels and descriptions are handled by DefInjected and are not listed here. -->
+<!-- Traduction française : mod « Radius UI - Traduction française » (mrbabilo). -->
+<LanguageData>
+
+  <RadiusUI.NeedsTab.ModTitle>Radius UI - Needs Tab</RadiusUI.NeedsTab.ModTitle>
+
+  <!-- stage header. The title names the column; when a rail filter is active it names the need
+       instead, and {0} is that need's LabelCap because it STARTS the string (§7). -->
+  <RadiusUI.NeedsTab.Header.Timeline>Chronologie</RadiusUI.NeedsTab.Header.Timeline>
+  <!-- The stage is a MOOD timeline whenever the pawn has a mood need and no rail filter is
+       narrowing it to one need. Animals and mechs get the plain "Timeline" title above. -->
+  <RadiusUI.NeedsTab.Header.MoodTimeline>Chronologie de l'humeur</RadiusUI.NeedsTab.Header.MoodTimeline>
+  <RadiusUI.NeedsTab.Header.MoodEventCount>{0} événements d'humeur</RadiusUI.NeedsTab.Header.MoodEventCount>
+  <RadiusUI.NeedsTab.Header.MoodEventCountOne>1 événement d'humeur</RadiusUI.NeedsTab.Header.MoodEventCountOne>
+  <RadiusUI.NeedsTab.Header.TimelineOf>Chronologie : {0}</RadiusUI.NeedsTab.Header.TimelineOf>
+  <RadiusUI.NeedsTab.Header.EventCount>{0} événements</RadiusUI.NeedsTab.Header.EventCount>
+  <RadiusUI.NeedsTab.Header.EventCountOne>1 événement</RadiusUI.NeedsTab.Header.EventCountOne>
+
+  <!-- stage -->
+  <!-- Sentence case, not NOW. GLOBAL_RULES §7 bans title case and shouting for player-facing
+       text; the Health Tab's all-caps NOW predates that rule and is not a licence to repeat it. -->
+  <RadiusUI.NeedsTab.Now>Maintenant</RadiusUI.NeedsTab.Now>
+  <RadiusUI.NeedsTab.NowSummary>{0} besoins, {1} critiques, {2} en baisse</RadiusUI.NeedsTab.NowSummary>
+  <RadiusUI.NeedsTab.AllSteady>Tous les besoins sont stables. Rien ne demande d'attention.</RadiusUI.NeedsTab.AllSteady>
+
+  <!-- NOW card summary when it is listing thoughts. {1} counts the ones expiring within six
+       in-game hours; when none are, the shorter form is used instead of "0 wearing off soon". -->
+  <RadiusUI.NeedsTab.ThoughtSummary>{0} pensées actives, {1} bientôt dissipées</RadiusUI.NeedsTab.ThoughtSummary>
+  <RadiusUI.NeedsTab.ThoughtSummaryOnly>{0} pensées actives</RadiusUI.NeedsTab.ThoughtSummaryOnly>
+  <RadiusUI.NeedsTab.NoThoughts>Rien ne préoccupe ce colon.</RadiusUI.NeedsTab.NoThoughts>
+
+  <!-- Section captions inside the NOW card. Printed EXACTLY as written - unlike the spine's
+       TODAY / AHEAD markers, these are not upper-cased at the draw site. They sit directly above
+       readable rows, where shouting is noise. -->
+  <RadiusUI.NeedsTab.Section.Needs>Besoins</RadiusUI.NeedsTab.Section.Needs>
+  <RadiusUI.NeedsTab.Section.Thoughts>Pensées</RadiusUI.NeedsTab.Section.Thoughts>
+  <!-- Caption when the card cannot fit every active thought. The pick keeps the STRONGEST
+       offsets of both signs, so the caption says so rather than implying a simple truncation. -->
+  <RadiusUI.NeedsTab.Section.ThoughtsOf>Pensées, les {0} plus fortes sur {1}</RadiusUI.NeedsTab.Section.ThoughtsOf>
+  <RadiusUI.NeedsTab.NoEvents>Rien d'enregistré pour l'instant. Les événements apparaissent ici quand les besoins changent.</RadiusUI.NeedsTab.NoEvents>
+  <RadiusUI.NeedsTab.NothingProjected>Rien de prévu.</RadiusUI.NeedsTab.NothingProjected>
+  <!-- Shown instead of the above when there are not yet enough readings to measure a fall rate.
+       Forecasts here are MEASURED, never read off the need's definition, so a brand new colonist
+       genuinely has no forecast until they have been watched for a little while. -->
+  <RadiusUI.NeedsTab.StillMeasuring>Mesure en cours de la vitesse à laquelle les besoins de ce colon changent.</RadiusUI.NeedsTab.StillMeasuring>
+  <RadiusUI.NeedsTab.FromMod>{0} (de {1})</RadiusUI.NeedsTab.FromMod>
+
+  <!-- {0} is the need's own lowercase def label, NOT LabelCap: it sits mid-sentence, and
+       "Showing Beauty" is title case by accident. -->
+  <RadiusUI.NeedsTab.ShowingClear>Affiche : {0}</RadiusUI.NeedsTab.ShowingClear>
+  <RadiusUI.NeedsTab.ShowingClearTip>Cliquez pour afficher de nouveau tous les besoins.</RadiusUI.NeedsTab.ShowingClearTip>
+
+  <!-- day separators -->
+  <RadiusUI.NeedsTab.Day.Today>Aujourd'hui</RadiusUI.NeedsTab.Day.Today>
+  <RadiusUI.NeedsTab.Day.Yesterday>Hier</RadiusUI.NeedsTab.Day.Yesterday>
+  <RadiusUI.NeedsTab.Day.DaysAgo>Il y a {0} jours</RadiusUI.NeedsTab.Day.DaysAgo>
+  <!-- Separates the forecasts from NOW. Written in sentence case like every other key: the tab
+       upper-cases section markers at the draw site, so this is not the place to shout. -->
+  <RadiusUI.NeedsTab.Day.Ahead>À venir</RadiusUI.NeedsTab.Day.Ahead>
+
+  <!-- relative age -->
+  <RadiusUI.NeedsTab.Ago.Minutes>il y a {0} min</RadiusUI.NeedsTab.Ago.Minutes>
+  <RadiusUI.NeedsTab.Ago.Hours>il y a {0} h</RadiusUI.NeedsTab.Ago.Hours>
+  <RadiusUI.NeedsTab.Ago.Days>il y a {0} j</RadiusUI.NeedsTab.Ago.Days>
+
+  <!-- rate line. EmptyIn is appended after a comma inside a sentence, so it stays lowercase:
+       "Falling 3.1% per hour, empty in 2h". Every string that stands on its OWN line is
+       capitalised (§7 sentence case = the first word of the string, not of the paragraph). -->
+  <RadiusUI.NeedsTab.Falling>Baisse de {0} % par heure</RadiusUI.NeedsTab.Falling>
+  <RadiusUI.NeedsTab.Rising>Hausse de {0} % par heure</RadiusUI.NeedsTab.Rising>
+  <RadiusUI.NeedsTab.Steady>Stable</RadiusUI.NeedsTab.Steady>
+  <RadiusUI.NeedsTab.EmptyIn>vide dans {0}</RadiusUI.NeedsTab.EmptyIn>
+
+  <!-- rail groups -->
+  <RadiusUI.NeedsTab.Group.Critical>À surveiller</RadiusUI.NeedsTab.Group.Critical>
+  <RadiusUI.NeedsTab.Group.Falling>En baisse</RadiusUI.NeedsTab.Group.Falling>
+  <RadiusUI.NeedsTab.Group.Steady>Stables</RadiusUI.NeedsTab.Group.Steady>
+  <!-- The fourth rail group: needs that are standing or cumulative measures rather than
+       reservoirs. They never raise alerts and never appear in the Now card. -->
+  <RadiusUI.NeedsTab.Group.LongTerm>À long terme</RadiusUI.NeedsTab.Group.LongTerm>
+
+  <!-- rail sub-lines. These stand alone on their own row under the need name, so each one
+       starts a sentence and takes a capital. -->
+  <RadiusUI.NeedsTab.Sub.Below>Sous le seuil</RadiusUI.NeedsTab.Sub.Below>
+  <RadiusUI.NeedsTab.Sub.BelowEmptyIn>Sous le seuil, vide dans {0}</RadiusUI.NeedsTab.Sub.BelowEmptyIn>
+  <RadiusUI.NeedsTab.Sub.ThresholdIn>Seuil dans {0}</RadiusUI.NeedsTab.Sub.ThresholdIn>
+  <RadiusUI.NeedsTab.Sub.Rising>En hausse</RadiusUI.NeedsTab.Sub.Rising>
+
+  <!-- tooltips -->
+  <RadiusUI.NeedsTab.Tip.From>de {0}</RadiusUI.NeedsTab.Tip.From>
+  <RadiusUI.NeedsTab.Tip.ClickToFilter>Cliquez pour limiter la chronologie à ce besoin.</RadiusUI.NeedsTab.Tip.ClickToFilter>
+  <RadiusUI.NeedsTab.Tip.WearsOffIn>Se dissipe dans {0}</RadiusUI.NeedsTab.Tip.WearsOffIn>
+  <RadiusUI.NeedsTab.Tip.ClickToOpen>Cliquez pour voir le détail.</RadiusUI.NeedsTab.Tip.ClickToOpen>
+  <RadiusUI.NeedsTab.Tip.Permanent>Celle-ci ne se dissipe pas.</RadiusUI.NeedsTab.Tip.Permanent>
+
+  <!-- alert band -->
+  <RadiusUI.NeedsTab.Alert.Breaking>{0} en cours</RadiusUI.NeedsTab.Alert.Breaking>
+  <RadiusUI.NeedsTab.Alert.InProgress>En ce moment</RadiusUI.NeedsTab.Alert.InProgress>
+  <RadiusUI.NeedsTab.Alert.BreakRisk>Humeur en risque de crise de nerfs</RadiusUI.NeedsTab.Alert.BreakRisk>
+  <RadiusUI.NeedsTab.Alert.Empty>{0} : vide</RadiusUI.NeedsTab.Alert.Empty>
+  <RadiusUI.NeedsTab.Alert.NothingRefilling>Rien ne le remplit</RadiusUI.NeedsTab.Alert.NothingRefilling>
+  <RadiusUI.NeedsTab.Alert.BelowThreshold>{0} : sous son seuil</RadiusUI.NeedsTab.Alert.BelowThreshold>
+  <RadiusUI.NeedsTab.Alert.SoonBelow>{0} : bientôt sous son seuil</RadiusUI.NeedsTab.Alert.SoonBelow>
+  <!-- band right slot: its own visually separate cell, so capitalised like any standalone label -->
+  <RadiusUI.NeedsTab.Alert.EmptyIn>Vide dans {0}</RadiusUI.NeedsTab.Alert.EmptyIn>
+  <RadiusUI.NeedsTab.Alert.AtPercent>À {0}</RadiusUI.NeedsTab.Alert.AtPercent>
+  <RadiusUI.NeedsTab.Alert.In>Dans {0}</RadiusUI.NeedsTab.Alert.In>
+  <RadiusUI.NeedsTab.Band.Count>{0} alertes actives.</RadiusUI.NeedsTab.Band.Count>
+  <RadiusUI.NeedsTab.Band.HoverHolds>Le survol fige la rotation.</RadiusUI.NeedsTab.Band.HoverHolds>
+
+  <!-- projections. These are TIME-FREE and take one argument: the forecast row prints "In 2.5h"
+       on its own line above the title, so a label ending "in 2.5h" would say it twice. The keys
+       are new names rather than edits of the old two-argument ones, so a stale translation from
+       an older language pack cannot leave a literal "{1}" on screen. -->
+  <RadiusUI.NeedsTab.Proj.BelowThresholdShort>{0} passe sous son seuil</RadiusUI.NeedsTab.Proj.BelowThresholdShort>
+  <RadiusUI.NeedsTab.Proj.AtRate>Atteint {0} au rythme de baisse actuel</RadiusUI.NeedsTab.Proj.AtRate>
+  <RadiusUI.NeedsTab.Proj.EmptyShort>{0} se vide</RadiusUI.NeedsTab.Proj.EmptyShort>
+  <RadiusUI.NeedsTab.Proj.NothingRefilling>Rien ne le remplit</RadiusUI.NeedsTab.Proj.NothingRefilling>
+  <RadiusUI.NeedsTab.Proj.FullShort>{0} est plein</RadiusUI.NeedsTab.Proj.FullShort>
+  <RadiusUI.NeedsTab.Proj.ThoughtWearsOff>{0} se dissipe</RadiusUI.NeedsTab.Proj.ThoughtWearsOff>
+  <RadiusUI.NeedsTab.Proj.Rising>Remonte seul</RadiusUI.NeedsTab.Proj.Rising>
+
+  <!-- recorded events -->
+  <RadiusUI.NeedsTab.Ev.CrossedBelow>{0} est passé sous {1}</RadiusUI.NeedsTab.Ev.CrossedBelow>
+  <RadiusUI.NeedsTab.Ev.Recovered>{0} est remonté au-dessus de {1}</RadiusUI.NeedsTab.Ev.Recovered>
+  <RadiusUI.NeedsTab.Ev.HitZero>{0} est tombé à zéro</RadiusUI.NeedsTab.Ev.HitZero>
+  <!-- A memory that expired or was removed. {0} is the thought's label; the row's number column
+       carries the mood DELTA (a -8 thought going is +8 to mood), matching the Ahead section. -->
+  <RadiusUI.NeedsTab.Ev.ThoughtLost>{0} s'est dissipée</RadiusUI.NeedsTab.Ev.ThoughtLost>
+
+  <!-- the drill-in: what a long-term need shows when you click it -->
+  <RadiusUI.NeedsTab.Drill.Back>Chronologie</RadiusUI.NeedsTab.Drill.Back>
+  <!-- Why this need was put in the Long term group. Shown in the panel so the classification is
+       never a silent judgement the player cannot argue with. -->
+  <RadiusUI.NeedsTab.Drill.Why.NoThresholds>Ce besoin n'a aucun seuil : aucun niveau ne compte comme trop bas.</RadiusUI.NeedsTab.Drill.Why.NoThresholds>
+  <RadiusUI.NeedsTab.Drill.Why.Scale>Ses repères forment une échelle régulière, pas des lignes d'alerte.</RadiusUI.NeedsTab.Drill.Why.Scale>
+  <RadiusUI.NeedsTab.Drill.WantsMet>envies satisfaites en ce moment</RadiusUI.NeedsTab.Drill.WantsMet>
+  <RadiusUI.NeedsTab.Drill.AspirationsDone>aspirations accomplies</RadiusUI.NeedsTab.Drill.AspirationsDone>
+  <RadiusUI.NeedsTab.Drill.Satisfied>Satisfaits</RadiusUI.NeedsTab.Drill.Satisfied>
+  <RadiusUI.NeedsTab.Drill.NotLately>Pas récemment</RadiusUI.NeedsTab.Drill.NotLately>
+  <RadiusUI.NeedsTab.Drill.Against>Contraires</RadiusUI.NeedsTab.Drill.Against>
+  <RadiusUI.NeedsTab.Drill.Met>satisfait</RadiusUI.NeedsTab.Drill.Met>
+  <RadiusUI.NeedsTab.Drill.Waiting>en attente</RadiusUI.NeedsTab.Drill.Waiting>
+  <RadiusUI.NeedsTab.Drill.Unmet>non satisfait</RadiusUI.NeedsTab.Drill.Unmet>
+  <RadiusUI.NeedsTab.Drill.Favourites>Favoris</RadiusUI.NeedsTab.Drill.Favourites>
+  <RadiusUI.NeedsTab.Drill.LastMeals>Derniers repas</RadiusUI.NeedsTab.Drill.LastMeals>
+  <RadiusUI.NeedsTab.Drill.LastIngredients>Derniers ingrédients</RadiusUI.NeedsTab.Drill.LastIngredients>
+  <RadiusUI.NeedsTab.Drill.Aspirations>Aspirations de vie</RadiusUI.NeedsTab.Drill.Aspirations>
+  <RadiusUI.NeedsTab.Drill.Done>accomplie</RadiusUI.NeedsTab.Drill.Done>
+  <RadiusUI.NeedsTab.Drill.Pending>pas encore</RadiusUI.NeedsTab.Drill.Pending>
+  <!-- {0} is the source mod's tag or the need's own name. -->
+  <RadiusUI.NeedsTab.Drill.NoDetail>{0} ne décrit pas ce besoin : il n'y a rien de plus à montrer.</RadiusUI.NeedsTab.Drill.NoDetail>
+
+  <!-- settings -->
+  <RadiusUI.NeedsTab.Set.UseModern>Utiliser l'onglet des besoins Radius</RadiusUI.NeedsTab.Set.UseModern>
+  <RadiusUI.NeedsTab.Set.UseModernTip>Désactivez cette option pour revenir à tout moment à l'onglet des besoins du jeu. L'historique enregistré est conservé.</RadiusUI.NeedsTab.Set.UseModernTip>
+  <RadiusUI.NeedsTab.Set.TabScale>Taille de l'onglet : {0} %</RadiusUI.NeedsTab.Set.TabScale>
+  <RadiusUI.NeedsTab.Set.TabScaleTip>Agrandit ou réduit tout l'onglet. La colonne resserre ses lignes quand l'onglet rétrécit : chaque besoin reste visible dans les deux cas.</RadiusUI.NeedsTab.Set.TabScaleTip>
+  <RadiusUI.NeedsTab.Set.CardNeeds>Afficher les besoins dans la carte Maintenant</RadiusUI.NeedsTab.Set.CardNeeds>
+  <RadiusUI.NeedsTab.Set.CardNeedsTip>La carte Maintenant liste vos besoins les plus urgents avec leurs barres. Désactivée, ces lignes vont à la liste des pensées. Chaque besoin reste visible dans la colonne de gauche dans les deux cas.</RadiusUI.NeedsTab.Set.CardNeedsTip>
+  <RadiusUI.NeedsTab.Set.CardThoughts>Afficher les pensées dans la carte Maintenant</RadiusUI.NeedsTab.Set.CardThoughts>
+  <RadiusUI.NeedsTab.Set.CardThoughtsTip>La carte Maintenant liste ce que ressent ce colon et l'effet de chaque pensée sur son humeur. Désactivée, ces lignes vont à la liste des besoins.</RadiusUI.NeedsTab.Set.CardThoughtsTip>
+  <RadiusUI.NeedsTab.Set.SpineThoughts>Pensées sur la chronologie</RadiusUI.NeedsTab.Set.SpineThoughts>
+  <RadiusUI.NeedsTab.Set.SpineThoughtsTip>Des lignes pour les pensées gagnées par ce colon et pour les souvenirs dissipés. Les dissipations sont enregistrées à partir de maintenant ; les gains sont lus directement dans le jeu, et remontent donc avant l'installation du mod.</RadiusUI.NeedsTab.Set.SpineThoughtsTip>
+  <RadiusUI.NeedsTab.Set.SpineNeeds>Événements de besoins sur la chronologie</RadiusUI.NeedsTab.Set.SpineNeeds>
+  <RadiusUI.NeedsTab.Set.SpineNeedsTip>Des lignes pour les besoins qui franchissent leurs seuils. L'historique est toujours enregistré : cette option ne fait que cacher les lignes. Cliquer sur un besoin dans la colonne de gauche affiche toujours tout son historique.</RadiusUI.NeedsTab.Set.SpineNeedsTip>
+  <RadiusUI.NeedsTab.Set.SpineImportant>Besoins importants seulement</RadiusUI.NeedsTab.Set.SpineImportant>
+  <RadiusUI.NeedsTab.Set.SpineImportantTip>Seuls les besoins aux vraies conséquences (nourriture, repos, humeur, etc.) ont des lignes sur la chronologie. Le confort, la beauté et les autres besoins secondaires restent hors de la chronologie non filtrée.</RadiusUI.NeedsTab.Set.SpineImportantTip>
+  <RadiusUI.NeedsTab.Set.SpineRecoveries>Inclure les remontées</RadiusUI.NeedsTab.Set.SpineRecoveries>
+  <RadiusUI.NeedsTab.Set.SpineRecoveriesTip>Affiche aussi des lignes pour les besoins qui repassent au-dessus d'un seuil, pas seulement ceux qui passent dessous.</RadiusUI.NeedsTab.Set.SpineRecoveriesTip>
+  <RadiusUI.NeedsTab.Set.Cycle>Faire défiler toutes les alertes</RadiusUI.NeedsTab.Set.Cycle>
+  <RadiusUI.NeedsTab.Set.CycleTip>Le bandeau d'alertes affiche chaque alerte active à tour de rôle. Désactivez cette option pour n'afficher que la plus grave. Le survol du bandeau le fige toujours.</RadiusUI.NeedsTab.Set.CycleTip>
+  <RadiusUI.NeedsTab.Set.CycleEvery>Changer d'alerte toutes les {0} secondes</RadiusUI.NeedsTab.Set.CycleEvery>
+  <RadiusUI.NeedsTab.Set.HistoryDays>Garder {0} jours d'historique</RadiusUI.NeedsTab.Set.HistoryDays>
+  <RadiusUI.NeedsTab.Set.HistoryDaysTip>Jusqu'où la chronologie remonte. L'historique est enregistré avec votre colonie.</RadiusUI.NeedsTab.Set.HistoryDaysTip>
+  <RadiusUI.NeedsTab.Set.Sample>Enregistrer une mesure tous les {0} ticks</RadiusUI.NeedsTab.Set.Sample>
+  <RadiusUI.NeedsTab.Set.SampleTip>Plus bas donne plus de détail et prend plus de place dans la sauvegarde. 1000 ticks font environ 24 minutes de jeu.</RadiusUI.NeedsTab.Set.SampleTip>
+  <RadiusUI.NeedsTab.Set.Estimate>{0} mesures par besoin, environ {1} Ko de plus pour une sauvegarde de 20 colons</RadiusUI.NeedsTab.Set.Estimate>
+
+</LanguageData>
