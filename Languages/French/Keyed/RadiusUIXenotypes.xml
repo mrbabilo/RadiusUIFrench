@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Radius UI - Xenotypes. Every player-facing string emitted from C# lives here.
+     House style (GLOBAL_RULES §7): vanilla sentence case, second person, no em or en
+     dashes anywhere - a spaced hyphen, a comma or a full stop instead. -->
+<!-- Traduction française : mod « Radius UI - Traduction française » (mrbabilo). -->
+<LanguageData>
+
+  <!-- ============================ header ============================ -->
+  <RadiusUIXeno.GeneSample>Échantillon de gènes</RadiusUIXeno.GeneSample>
+  <!-- The header title is the xenotype; the pane already names the pawn above the tab row. -->
+  <RadiusUIXeno.HeaderSub>{XG} implantés, {EG} germinaux</RadiusUIXeno.HeaderSub>
+  <RadiusUIXeno.HeaderSubItem>{N} gènes dans cet échantillon</RadiusUIXeno.HeaderSubItem>
+  <RadiusUIXeno.GCX>CPX</RadiusUIXeno.GCX>
+  <RadiusUIXeno.MET>MÉT</RadiusUIXeno.MET>
+  <RadiusUIXeno.ARC>ARC</RadiusUIXeno.ARC>
+
+  <RadiusUIXeno.Tip.Vanilla>Revenir à l'onglet des gènes du jeu.</RadiusUIXeno.Tip.Vanilla>
+  <RadiusUIXeno.Tip.InfoCard>Ouvrir la fiche d'information de ce pion.</RadiusUIXeno.Tip.InfoCard>
+  <RadiusUIXeno.Tip.Met>Efficacité métabolique {MET}.\n\nCe colon mange {FOOD} fois plus qu'un humain, pour le reste de sa vie.\n\nUn xénogerme ne peut pas être assemblé sous {MIN}. Une efficacité négative est le prix des gènes que vous lui avez donnés.</RadiusUIXeno.Tip.Met>
+  <RadiusUIXeno.Tip.Cpx>Complexité {CPX}. L'assembleur de gènes a besoin d'environ {HOURS} heures.</RadiusUIXeno.Tip.Cpx>
+  <RadiusUIXeno.Tip.CpxFits>Tient dans la limite de base de {MAX}.</RadiusUIXeno.Tip.CpxFits>
+  <RadiusUIXeno.Tip.CpxProc>Il vous faut {N} processeurs de gènes de plus pour monter aussi haut.</RadiusUIXeno.Tip.CpxProc>
+
+  <!-- ============================ provenance keys ============================ -->
+  <!-- Keys are single-line: the row shares the strand column and the sub-lines clipped
+       at every width tried. The full wording lives in the tooltips below. -->
+  <RadiusUIXeno.Key.Endo>Gènes germinaux</RadiusUIXeno.Key.Endo>
+  <RadiusUIXeno.Key.Xeno>Xénogènes</RadiusUIXeno.Key.Xeno>
+  <RadiusUIXeno.Key.Arc>Archites</RadiusUIXeno.Key.Arc>
+
+  <RadiusUIXeno.Tip.Endo>Gènes germinaux. Ce pion est né avec, et ses enfants peuvent hériter de chacun. Un xénogerme ne peut jamais ajouter ni retirer un gène germinal.</RadiusUIXeno.Tip.Endo>
+  <RadiusUIXeno.Tip.Xeno>Gènes implantés. Ils viennent d'un xénogerme et ne passent jamais aux enfants. Ce sont les gènes qu'un plan peut changer.</RadiusUIXeno.Tip.Xeno>
+  <RadiusUIXeno.Tip.ArcKey>Capsules d'archites nécessaires pour assembler ce jeu de gènes. Les capsules d'archites ne se fabriquent pas : on ne peut que les trouver.</RadiusUIXeno.Tip.ArcKey>
+
+  <!-- The keys are also the filter. Include semantics: all three on is everything, and each
+       chip's off state means "do not show these". -->
+  <RadiusUIXeno.Tip.FilterHide>Cliquez pour masquer ces gènes.</RadiusUIXeno.Tip.FilterHide>
+  <RadiusUIXeno.Tip.FilterShow>Cliquez pour afficher de nouveau ces gènes.</RadiusUIXeno.Tip.FilterShow>
+  <RadiusUIXeno.Tip.FilterLocked>Rien n'est germinal ni implanté tant que ce n'est pas dans un pion : ce filtre ne s'applique pas à un échantillon de gènes.</RadiusUIXeno.Tip.FilterLocked>
+
+  <!-- ============================ the strand ============================ -->
+  <RadiusUIXeno.Strand>Brin de gènes</RadiusUIXeno.Strand>
+  <RadiusUIXeno.NoGenes>Aucun gène à afficher.</RadiusUIXeno.NoGenes>
+  <!-- No fixed side captions: on a full turn the strands cross, so side cannot carry
+       meaning here. Provenance is the dot beside each label and the strip on each card. -->
+  <RadiusUIXeno.Toggle.Plan>Plan {N}</RadiusUIXeno.Toggle.Plan>
+  <RadiusUIXeno.Toggle.Inherit>Hérédité</RadiusUIXeno.Toggle.Inherit>
+  <RadiusUIXeno.Tip.Plan>Afficher les gènes que vous avez préparés, greffés sur le brin implanté en nœuds creux. C'est un plan, pas un fait.</RadiusUIXeno.Tip.Plan>
+  <RadiusUIXeno.Tip.InheritToggle>Estomper chaque gène qu'un enfant ne pourrait jamais recevoir, pour ne garder que le brin héréditaire.</RadiusUIXeno.Tip.InheritToggle>
+
+  <!-- Status words are OURS, so they take sentence case. Category sub-lines are DEF
+       labels and stay raw lowercase - that split is vanilla's own convention. -->
+  <RadiusUIXeno.Label.Graft>Greffe préparée</RadiusUIXeno.Label.Graft>
+  <RadiusUIXeno.Label.Breaking>Retrait</RadiusUIXeno.Label.Breaking>
+  <RadiusUIXeno.Label.Inactive>Supplanté</RadiusUIXeno.Label.Inactive>
+  <RadiusUIXeno.Readout>Gène {I} sur {N} - {DEG}° par gène</RadiusUIXeno.Readout>
+  <RadiusUIXeno.ReadoutIdle>{DEG}° par gène</RadiusUIXeno.ReadoutIdle>
+  <RadiusUIXeno.Carried>{N} portés</RadiusUIXeno.Carried>
+  <RadiusUIXeno.CarriedFiltered>{VIS} affichés sur {N}</RadiusUIXeno.CarriedFiltered>
+  <RadiusUIXeno.Cap.Germline>Germinal</RadiusUIXeno.Cap.Germline>
+  <RadiusUIXeno.Cap.Implanted>Implanté</RadiusUIXeno.Cap.Implanted>
+
+  <!-- the lens -->
+  <RadiusUIXeno.Lens.All>Tout</RadiusUIXeno.Lens.All>
+  <RadiusUIXeno.Lens.Cost>Coût</RadiusUIXeno.Lens.Cost>
+  <RadiusUIXeno.Lens.Impact>Impact</RadiusUIXeno.Lens.Impact>
+  <RadiusUIXeno.Lens.Reach>Accès</RadiusUIXeno.Lens.Reach>
+  <RadiusUIXeno.Sort.All>Tri : germinaux puis implantés</RadiusUIXeno.Sort.All>
+  <RadiusUIXeno.Sort.Cost>Tri : les plus chers d'abord</RadiusUIXeno.Sort.Cost>
+  <RadiusUIXeno.Sort.Impact>Tri : les plus marquants d'abord</RadiusUIXeno.Sort.Impact>
+  <RadiusUIXeno.Sort.Reach>Tri : les plus difficiles à obtenir d'abord</RadiusUIXeno.Sort.Reach>
+  <RadiusUIXeno.Tip.Lens>Mettre en avant un axe. Le brin et la liste se trient tous deux selon lui, et le tri est indiqué à côté de ces boutons.</RadiusUIXeno.Tip.Lens>
+
+  <!-- the gene list, the rail's resting state -->
+  <RadiusUIXeno.List.Title>Tous les gènes</RadiusUIXeno.List.Title>
+  <RadiusUIXeno.List.Count>{VIS} sur {ALL}</RadiusUIXeno.List.Count>
+  <RadiusUIXeno.List.NoMatch>Aucun gène ne correspond aux catégories que vous avez gardées.</RadiusUIXeno.List.NoMatch>
+  <RadiusUIXeno.Filter.ShowAll>Afficher tous les gènes</RadiusUIXeno.Filter.ShowAll>
+  <RadiusUIXeno.List.Tip>Cliquez pour tourner le brin vers {GENE}. Clic droit pour sa fiche d'information.</RadiusUIXeno.List.Tip>
+  <RadiusUIXeno.List.Back>Tous les gènes</RadiusUIXeno.List.Back>
+  <RadiusUIXeno.List.BackTip>Revenir à la liste complète. Cliquer de nouveau sur le gène dans le brin fait la même chose.</RadiusUIXeno.List.BackTip>
+  <RadiusUIXeno.Tip.Breaking>Prévu pour le retrait. Le brin est dessiné rompu à cet échelon.</RadiusUIXeno.Tip.Breaking>
+
+  <!-- ============================ gene tooltip ============================ -->
+  <RadiusUIXeno.Tip.Overridden>Inactif. {GENE} le supplante : il n'a aucun effet.</RadiusUIXeno.Tip.Overridden>
+  <RadiusUIXeno.AnotherGene>un autre gène</RadiusUIXeno.AnotherGene>
+  <RadiusUIXeno.Tip.Biostats>Complexité {CPX}, métabolisme {MET}, archites {ARC}.</RadiusUIXeno.Tip.Biostats>
+  <RadiusUIXeno.Tip.Axes>Coût {COST}. Impact {IMPACT}, {SCORE} sur 100.</RadiusUIXeno.Tip.Axes>
+  <RadiusUIXeno.Tip.ImpactIsOurs>L'impact est un classement propre à ce mod, qui mesure à quel point un gène change le pion. Ce n'est pas une valeur du jeu.</RadiusUIXeno.Tip.ImpactIsOurs>
+  <RadiusUIXeno.Tip.RightClick>Clic droit pour la fiche d'information complète.</RadiusUIXeno.Tip.RightClick>
+
+  <RadiusUIXeno.Prov.Endo>Germinal. Ce pion est né avec, et ses enfants peuvent en hériter.</RadiusUIXeno.Prov.Endo>
+  <RadiusUIXeno.Prov.Xeno>Implanté. Il vient d'un xénogerme et ne passera pas aux enfants.</RadiusUIXeno.Prov.Xeno>
+  <RadiusUIXeno.Prov.Graft>Préparé dans votre plan. Rien n'a été implanté.</RadiusUIXeno.Prov.Graft>
+
+  <!-- ============================ the capsule ============================ -->
+  <RadiusUIXeno.PickAGene>Choisissez un gène sur le brin pour le lire.</RadiusUIXeno.PickAGene>
+  <RadiusUIXeno.Tip.Pin>Épingler ce gène, pour le retrouver sur n'importe quel pion.</RadiusUIXeno.Tip.Pin>
+  <RadiusUIXeno.Tip.Unpin>Ne plus épingler ce gène.</RadiusUIXeno.Tip.Unpin>
+
+  <RadiusUIXeno.Axis.Cost>Coût</RadiusUIXeno.Axis.Cost>
+  <RadiusUIXeno.Axis.Impact>Impact</RadiusUIXeno.Axis.Impact>
+  <RadiusUIXeno.Axis.Reach>Accès</RadiusUIXeno.Axis.Reach>
+  <RadiusUIXeno.Tip.CostAxis>Ce que coûte ce gène dans un xénogerme. Complexité {CPX}, archites {ARC}.</RadiusUIXeno.Tip.CostAxis>
+  <RadiusUIXeno.Axis.CostSub>cpx {CPX} · mét {MET}</RadiusUIXeno.Axis.CostSub>
+  <RadiusUIXeno.Tip.ImpactAxis>À quel point ce gène change le pion, {SCORE} sur 100.\n\nC'est un classement propre à ce mod, calculé d'après ce que fait le gène. Ce n'est pas une valeur du jeu.</RadiusUIXeno.Tip.ImpactAxis>
+  <RadiusUIXeno.Tip.ReachAxis>La source la plus proche trouvée pour l'instant.\n\n{DETAIL}</RadiusUIXeno.Tip.ReachAxis>
+  <RadiusUIXeno.Tip.ReachCarried>Ce pion le porte déjà.</RadiusUIXeno.Tip.ReachCarried>
+
+  <RadiusUIXeno.Cost.Trivial>négligeable</RadiusUIXeno.Cost.Trivial>
+  <RadiusUIXeno.Cost.Light>léger</RadiusUIXeno.Cost.Light>
+  <RadiusUIXeno.Cost.Heavy>lourd</RadiusUIXeno.Cost.Heavy>
+  <RadiusUIXeno.Cost.Archite>archite</RadiusUIXeno.Cost.Archite>
+
+  <RadiusUIXeno.Impact.Low>faible</RadiusUIXeno.Impact.Low>
+  <RadiusUIXeno.Impact.Moderate>modéré</RadiusUIXeno.Impact.Moderate>
+  <RadiusUIXeno.Impact.High>fort</RadiusUIXeno.Impact.High>
+  <RadiusUIXeno.Impact.Profound>profond</RadiusUIXeno.Impact.Profound>
+
+  <RadiusUIXeno.Fx.Ability>Capacité : {A}</RadiusUIXeno.Fx.Ability>
+  <RadiusUIXeno.Fx.Trait>Élément marquant : {T}</RadiusUIXeno.Fx.Trait>
+
+  <!-- ============================ the locator ============================ -->
+  <RadiusUIXeno.Reach.Carried>porté</RadiusUIXeno.Reach.Carried>
+  <RadiusUIXeno.Reach.InStorage>en stock</RadiusUIXeno.Reach.InStorage>
+  <RadiusUIXeno.Reach.CarrierOnMap>sur la carte</RadiusUIXeno.Reach.CarrierOnMap>
+  <RadiusUIXeno.Reach.TradeOrVisit>commerce ou visite</RadiusUIXeno.Reach.TradeOrVisit>
+  <RadiusUIXeno.Reach.RaidToCapture>raid pour capturer</RadiusUIXeno.Reach.RaidToCapture>
+  <RadiusUIXeno.Reach.NoKnownSource>aucune source connue</RadiusUIXeno.Reach.NoKnownSource>
+
+  <RadiusUIXeno.Reach.StorageDetail>Vous possédez déjà {COUNT} packs de gènes avec ce gène.</RadiusUIXeno.Reach.StorageDetail>
+  <RadiusUIXeno.Reach.CarrierDetail>{PAWN} le porte ({WHO}). Un extracteur de gènes peut le prélever.</RadiusUIXeno.Reach.CarrierDetail>
+  <RadiusUIXeno.Reach.TradeDetail>{FACTION} ({KIND}) compte des gens qui le portent. Commercez ou rendez-leur visite.</RadiusUIXeno.Reach.TradeDetail>
+  <RadiusUIXeno.Reach.RaidDetail>Seuls les membres de {FACTION} ({KIND}) le portent, et cette faction est hostile. Capturez l'un d'eux.</RadiusUIXeno.Reach.RaidDetail>
+  <RadiusUIXeno.Reach.NoneDetail>Rien dans ce monde ne le porte pour l'instant. Surveillez les marchands, les quêtes et les xénotypes des pillards.</RadiusUIXeno.Reach.NoneDetail>
+
+  <RadiusUIXeno.Who.Prisoner>votre prisonnier</RadiusUIXeno.Who.Prisoner>
+  <RadiusUIXeno.Who.Colonist>votre colon</RadiusUIXeno.Who.Colonist>
+  <RadiusUIXeno.Who.Stranger>sans faction</RadiusUIXeno.Who.Stranger>
+
+  <!-- ============================ planner actions ============================ -->
+  <RadiusUIXeno.Act.Graft>Ajouter au plan</RadiusUIXeno.Act.Graft>
+  <RadiusUIXeno.Act.Unstage>Retirer du plan</RadiusUIXeno.Act.Unstage>
+  <RadiusUIXeno.Act.Remove>Prévoir de le retirer</RadiusUIXeno.Act.Remove>
+  <RadiusUIXeno.Act.Keep>Garder ce gène</RadiusUIXeno.Act.Keep>
+  <RadiusUIXeno.Act.Germline>Germinal, ne peut pas être retiré</RadiusUIXeno.Act.Germline>
+  <RadiusUIXeno.Tip.Germline>Un xénogerme ne peut changer que les gènes implantés. Celui-ci vient des parents du pion : rien de ce que vous assemblez ne peut le lui enlever.</RadiusUIXeno.Tip.Germline>
+  <RadiusUIXeno.Tip.NeverApplied>Un plan est une liste de courses. Rien ici n'est jamais appliqué au pion.</RadiusUIXeno.Tip.NeverApplied>
+
+  <!-- ============================ inheritance ============================ -->
+  <RadiusUIXeno.Inherit.Title>Si {PAWN} a un enfant</RadiusUIXeno.Inherit.Title>
+  <RadiusUIXeno.Inherit.Band>{N} transmis - {LOST} implantés perdus</RadiusUIXeno.Inherit.Band>
+  <RadiusUIXeno.Inherit.Foot>Une chance sur deux, sauf si les deux parents le portent.</RadiusUIXeno.Inherit.Foot>
+  <RadiusUIXeno.Inherit.Tag>Germinaux seulement</RadiusUIXeno.Inherit.Tag>
+
+  <!-- ============================ the verdict band ============================ -->
+  <RadiusUIXeno.Band.Staged>{N} préparés</RadiusUIXeno.Band.Staged>
+  <RadiusUIXeno.Band.Ok>Ce plan s'assemble en environ {HOURS} heures. {PAWN} n'a pas été modifié.</RadiusUIXeno.Band.Ok>
+  <RadiusUIXeno.Band.Archite>Ce plan demande {N} capsules d'archites, qui ne se fabriquent pas. Environ {HOURS} heures d'assemblage.</RadiusUIXeno.Band.Archite>
+  <RadiusUIXeno.Band.Unbuildable>L'efficacité métabolique {MET} est sous {MIN} : ce plan ne peut pas être assemblé. Retirez encore {SHORT}.</RadiusUIXeno.Band.Unbuildable>
+  <RadiusUIXeno.Band.Item>C'est un échantillon de gènes, pas un pion. Il n'y a ni xénotype ni plan possible.</RadiusUIXeno.Band.Item>
+  <RadiusUIXeno.Band.Empty>Rien de préparé. Un plan est une liste de courses : il ne change jamais {PAWN}.</RadiusUIXeno.Band.Empty>
+
+  <!-- ============================ footer ============================ -->
+  <RadiusUIXeno.Foot>Cliquez sur un gène dans la liste pour y tourner le brin. Faites défiler le brin pour avancer. Clic droit sur un gène pour sa fiche d'information.</RadiusUIXeno.Foot>
+  <RadiusUIXeno.FootItem>Clic gauche sur un gène pour le lire. Clic droit pour sa fiche d'information.</RadiusUIXeno.FootItem>
+
+  <!-- ============================ settings ============================ -->
+  <RadiusUIXeno.Set.Layout>Mise en page</RadiusUIXeno.Set.Layout>
+  <RadiusUIXeno.Set.Scale>Taille de l'onglet : {0}</RadiusUIXeno.Set.Scale>
+  <RadiusUIXeno.Set.ScaleTip>La taille à laquelle l'onglet est dessiné. Le réduire réorganise le contenu au lieu de l'écraser.</RadiusUIXeno.Set.ScaleTip>
+  <RadiusUIXeno.Set.ScaleNote>Santé, besoins et social utilisent la même taille : le panneau ne saute pas quand vous passez de l'un à l'autre.</RadiusUIXeno.Set.ScaleNote>
+  <RadiusUIXeno.Set.Motion>Animation</RadiusUIXeno.Set.Motion>
+  <RadiusUIXeno.Set.MotionStrand>Inertie et traînée du brin</RadiusUIXeno.Set.MotionStrand>
+  <RadiusUIXeno.Set.MotionStrandTip>Le brin tourne avec un peu d'inertie et laisse une courte traînée en tournant. Désactivez cette option pour un mouvement instantané et minimal. Dans tous les cas, rien ne bouge tant que le brin est au repos.</RadiusUIXeno.Set.MotionStrandTip>
+  <RadiusUIXeno.Set.Fallback>En cas de problème</RadiusUIXeno.Set.Fallback>
+  <RadiusUIXeno.Set.Vanilla>Utiliser plutôt l'onglet des gènes du jeu</RadiusUIXeno.Set.Vanilla>
+  <RadiusUIXeno.Set.VanillaTip>Dessiner l'onglet des gènes de RimWorld. Vos plans et vos épingles sont conservés, et vous pouvez revenir à tout moment.</RadiusUIXeno.Set.VanillaTip>
+  <RadiusUIXeno.Set.Reset>Valeurs par défaut</RadiusUIXeno.Set.Reset>
+  <RadiusUIXeno.Msg.VanillaOn>Onglet des gènes du jeu affiché. Le petit bouton dans son coin supérieur permet de revenir.</RadiusUIXeno.Msg.VanillaOn>
+  <RadiusUIXeno.Msg.VanillaOff>Onglet des gènes de Radius UI affiché.</RadiusUIXeno.Msg.VanillaOff>
+  <RadiusUIXeno.Swap.Back>Radius UI</RadiusUIXeno.Swap.Back>
+  <RadiusUIXeno.Tip.BackToRadius>Revenir à l'onglet des gènes de Radius UI. La case à cocher des réglages du mod fait la même chose.</RadiusUIXeno.Tip.BackToRadius>
+
+</LanguageData>

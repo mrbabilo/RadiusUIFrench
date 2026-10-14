@@ -35,7 +35,7 @@ MODS = [
 # Values allowed to stay as in English: proper names, symbols, words French writes the same way.
 EXCEPTIONS = {
     "Radius UI", "Radius", "OK", "HP", "XP", "DPS", "Mission Control", "Command Center",
-    "Menu", "Stock", "Auto", "Radius UI Framework", "violet", "rose", "Structure", "Styles", "Rites", "Hostile", "Radius UI - Ideology", "factions", "Factions", "Radius UI - Needs Tab",
+    "Menu", "Stock", "Auto", "Radius UI Framework", "violet", "rose", "Structure", "Styles", "Rites", "Hostile", "Radius UI - Ideology", "factions", "Factions", "Radius UI - Needs Tab", "ARC", "Impact", "Plan", "archite",
 }
 
 DEF_INJECTED = HERE / "ColonistBar/Languages/French/DefInjected/KeyBindingDef/KeyBindings.xml"
