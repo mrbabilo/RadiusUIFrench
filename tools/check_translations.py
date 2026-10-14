@@ -34,8 +34,16 @@ MODS = [
 
 # Values allowed to stay as in English: proper names, symbols, words French writes the same way.
 EXCEPTIONS = {
-    "Radius UI", "Radius", "OK", "HP", "XP", "DPS", "Mission Control", "Command Center",
-    "Menu", "Stock", "Auto", "Radius UI Framework", "violet", "rose", "Structure", "Styles", "Rites", "Hostile", "Radius UI - Ideology", "factions", "Factions", "Radius UI - Needs Tab", "ARC", "Impact", "Plan", "archite", "Relations", "Population", "Description", "Empire", "stable", "Archétype", "Radius UI - Health Tab", "Triage", "Contagion", "Physique", "Composition", "Biceps", "Triceps", "Cardio", "Stable", "archotech", "implant", "Implant", "Structure", "Radius UI - Colonist Bar", "Portraits", "Extras", "Kit", "auto",
+    "Agenda", "ARC", "archite", "archotech", "Auto", "auto", "Biceps", "C", "C&F", "Cardio", "centre", "Col",
+    "Command Center", "Composition", "Conclave", "Conclaves", "Conditions", "contacts ·", "Contagion", "Date",
+    "Description", "DPS", "E", "Empire", "Extras", "F", "Factions", "factions", "h", "Hos", "Hostile",
+    "hostiles", "HP", "Impact", "Implant", "implant", "Incident", "Incidents", "Infestation", "Info", "K",
+    "Kit", "Menu", "Message", "Messages", "Mission Control", "N", "NE", "Occasions", "OK", "Pause",
+    "Physique", "Plan", "Population", "Portraits", "Position", "Radiation", "Radius", "Radius UI",
+    "Radius UI - Colonist Bar", "Radius UI - Health Tab", "Radius UI - Ideology", "Radius UI - Needs Tab",
+    "Radius UI Framework", "Raid", "Raids", "Relations", "Rites", "rose", "S", "SE", "Source", "Stable",
+    "stable", "Stock", "Structure", "Styles", "Ticks", "TPS", "Triage", "Triceps", "Urgent", "violet", "XP",
+    "Zzz",
 }
 
 DEF_INJECTED = HERE / "ColonistBar/Languages/French/DefInjected/KeyBindingDef/KeyBindings.xml"

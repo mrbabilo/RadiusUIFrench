@@ -1,0 +1,677 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Traduction française : mod « Radius UI - Traduction française » (mrbabilo). -->
+<LanguageData>
+
+  <!-- ── Settings: Sections ─────────────────────────────────────────── -->
+  <MN_SettingsSectionsHeader>Surfaces  (activez ou désactivez chaque type)</MN_SettingsSectionsHeader>
+  <MN_AppearanceHeader>Apparence</MN_AppearanceHeader>
+  <MN_SurfaceDisabledNote>Activez cette surface dans Surfaces pour la régler.</MN_SurfaceDisabledNote>
+  <MN_StyledMessages>Messages restylés</MN_StyledMessages>
+  <MN_StyledMessagesDesc>Restyle les messages passagers. Désactivé : messages du jeu.</MN_StyledMessagesDesc>
+  <MN_StyledAlerts>Alertes restylées</MN_StyledAlerts>
+  <MN_StyledAlertsDesc>Restyle la liste d'alertes à droite de l'écran. Désactivé : alertes du jeu.</MN_StyledAlertsDesc>
+  <MN_StyledLetters>Lettres restylées</MN_StyledLetters>
+  <MN_StyledLettersDesc>Restyle les boutons de lettres avec des icônes d'événement. Désactivé : lettres du jeu.</MN_StyledLettersDesc>
+  <MN_ShowRowIcon>Afficher l'icône</MN_ShowRowIcon>
+  <MN_HideConditionTimer>Cacher le temps restant</MN_HideConditionTimer>
+  <MN_HideConditionTimerDesc>Cacher le compte à rebours (par exemple « 2j » ou « 5h ») affiché sur les lignes de conditions à durée limitée, comme l'éclipse ou la pluie toxique. Le temps restant complet s'affiche toujours au survol de la ligne.</MN_HideConditionTimerDesc>
+  <MN_RowRaidIcon>Icône du compte à rebours de raid</MN_RowRaidIcon>
+  <MN_RowRaidIconDesc>Afficher le pictogramme d'alerte sur la ligne de compte à rebours de raid (affichée quand un raid détecté approche). Désactivé : texte seul.</MN_RowRaidIconDesc>
+  <MN_BottomRightPanel>Panneau en bas à droite</MN_BottomRightPanel>
+  <MN_BottomRightPanelDesc>Remplacer l'affichage en bas à droite (vitesse, météo, date, conditions). Désactivé : commandes du jeu.</MN_BottomRightPanelDesc>
+  <MN_RowWeather>Ligne météo et température</MN_RowWeather>
+  <MN_RowDate>Ligne date et heure</MN_RowDate>
+  <MN_RowSeason>Ligne de la saison</MN_RowSeason>
+  <MN_RowConditions>Conditions en cours</MN_RowConditions>
+  <MN_RowPerf>Compteur IPS / TPS</MN_RowPerf>
+  <MN_RowVitals>Ligne de l'état de la colonie</MN_RowVitals>
+
+  <!-- ── Settings: per-area show + size ─────────────── -->
+  <MN_AreasHint>Afficher, cacher et redimensionner chaque zone :</MN_AreasHint>
+  <MN_RowPlaySettings>Tiroir des options de jeu</MN_RowPlaySettings>
+  <MN_RowSpeed>Commandes de vitesse</MN_RowSpeed>
+  <MN_RowWeek>Bande de la semaine</MN_RowWeek>
+  <MN_VSize>Taille</MN_VSize>
+  <MN_RowRealClock>Horloge réelle</MN_RowRealClock>
+  <MN_RealClock24h>Format 24 heures</MN_RealClock24h>
+  <MN_RealClock24hDesc>Afficher l'horloge réelle au format 24 heures (par exemple 18:30). Désactivé : le format horaire de votre système est utilisé.</MN_RealClock24hDesc>
+
+  <!-- ── Settings: in-game date layout (international) ── -->
+  <MN_DateLayout>Format de la date du jeu</MN_DateLayout>
+  <MN_DateLayout_Default>Par défaut du jeu</MN_DateLayout_Default>
+  <MN_DateLayout_DMY>Jour, mois, année</MN_DateLayout_DMY>
+  <MN_DateLayout_MDY>Mois, jour, année</MN_DateLayout_MDY>
+  <MN_DateLayout_YMD>Année, mois, jour</MN_DateLayout_YMD>
+
+  <!-- ── Settings: Text font ────────────────────── -->
+  <MN_FontHeader>Police du texte  (toutes les surfaces)</MN_FontHeader>
+  <MN_FontFamily>Police</MN_FontFamily>
+  <MN_FontDefault>Par défaut (police du jeu)</MN_FontDefault>
+  <MN_FontHint>S'applique aux messages, aux alertes, aux lettres et au panneau en bas à droite.</MN_FontHint>
+  <MN_FontPickerTitle>Choisir une police</MN_FontPickerTitle>
+
+  <!-- ── Settings: Appearance + Compatibility ───────────────────────── -->
+  <MN_AccentHeader>Couleur d'accent  (calendrier, rappels, mises en évidence)</MN_AccentHeader>
+  <MN_CompatHeader>Compatibilité</MN_CompatHeader>
+  <MN_DeferDeclutter>Suivre Declutter UI</MN_DeferDeclutter>
+  <MN_DeferDeclutterDesc>Activé : Mission Control reprend sur son panneau les choix de Declutter UI pour alléger l'affichage. Notre ligne météo se cache quand vous y désactivez le widget météo du jeu, notre ligne de conditions avec le widget des conditions, notre date avec l'affichage de la date, et notre compteur IPS/TPS quand Declutter affiche le sien. Désactivez pour ignorer les choix de Declutter et régler chaque ligne depuis les réglages de Mission Control.</MN_DeferDeclutterDesc>
+  <MN_DeclutterNotDetected>Declutter UI non détecté. Ses options de compatibilité apparaissent ici quand il est actif.</MN_DeclutterNotDetected>
+  <MN_StyleExplicitTimings>Restyler les libellés d'Explicit Timings</MN_StyleExplicitTimings>
+  <MN_StyleExplicitTimingsDesc>Dessiner les libellés de durée d'Explicit Timings à droite de l'écran (crises de nerfs, minuteurs de conditions) en cartes sombres assorties au reste de la pile de notifications. Le clic pour y aller et les infobulles sont conservés. Désactivez pour garder le style propre à ce mod.</MN_StyleExplicitTimingsDesc>
+  <MN_ExplicitTimingsNotDetected>Explicit Timings non détecté. Ses libellés de durée sont restylés en cartes quand il est actif.</MN_ExplicitTimingsNotDetected>
+  <MN_HideDrawerDeclutter>Cacher le tiroir de widgets, utiliser le menu de Declutter</MN_HideDrawerDeclutter>
+  <MN_HideDrawerDeclutterDesc>Cacher le tiroir d'options de jeu de Mission Control (le bouton grille et sa grille d'options) et utiliser à la place le menu d'options de jeu de Declutter UI. Ne s'applique que si le menu avec recherche ou l'affichage au survol de Declutter est activé ; si vous les désactivez dans les réglages de Declutter, notre tiroir revient de lui-même pour que les options ne soient jamais perdues.</MN_HideDrawerDeclutterDesc>
+  <MN_HideDrawerInactiveNote>Le menu d'options de jeu de Declutter est désactivé pour l'instant : notre tiroir reste visible.</MN_HideDrawerInactiveNote>
+  <MN_DeclutterAreasNote>Tant que Mission Control suit Declutter UI, c'est Declutter UI qui décide si les zones météo, conditions, date et IPS/TPS sont cachées : changez cela dans les réglages de Declutter.</MN_DeclutterAreasNote>
+  <MN_DeclutterHidingTag>(caché par Declutter UI)</MN_DeclutterHidingTag>
+  <MN_TipToday>Aujourd'hui :</MN_TipToday>
+  <MN_TipClickCalendar>Cliquez pour ouvrir le calendrier.</MN_TipClickCalendar>
+
+  <!-- ── Panel mouseover tooltips ────────────────── -->
+  <MN_SpeedPause>Pause</MN_SpeedPause>
+  <MN_SpeedNormal>Vitesse normale</MN_SpeedNormal>
+  <MN_SpeedFast>Rapide</MN_SpeedFast>
+  <MN_SpeedSuperfast>Très rapide</MN_SpeedSuperfast>
+  <MN_SpeedUltrafast>Ultra rapide</MN_SpeedUltrafast>
+  <MN_TipOutdoor>Extérieur : {0}</MN_TipOutdoor>
+  <MN_TipIndoor>Intérieur (sous le curseur) : {0}</MN_TipIndoor>
+
+  <!-- Wind readout (weather row). The Beaufort-step labels below are used when Combat
+       Extended is NOT loaded; with CE we reuse CE's own CE_Wind_Beaufort*/Direction keys
+       so the readout matches CE's localization. -->
+  <MN_TipWind>Vent : {0}</MN_TipWind>
+  <MN_Wind_Beaufort0>Calme</MN_Wind_Beaufort0>
+  <MN_Wind_Beaufort1>Très légère brise</MN_Wind_Beaufort1>
+  <MN_Wind_Beaufort2>Légère brise</MN_Wind_Beaufort2>
+  <MN_Wind_Beaufort3>Petite brise</MN_Wind_Beaufort3>
+  <MN_Wind_Beaufort4>Jolie brise</MN_Wind_Beaufort4>
+  <MN_Wind_Beaufort5>Bonne brise</MN_Wind_Beaufort5>
+  <MN_Wind_Beaufort6>Vent frais</MN_Wind_Beaufort6>
+  <MN_Wind_Beaufort7>Grand frais</MN_Wind_Beaufort7>
+  <MN_Wind_Beaufort8>Coup de vent</MN_Wind_Beaufort8>
+  <MN_Wind_Beaufort9>Fort coup de vent</MN_Wind_Beaufort9>
+  <!-- As above, So below level tags shown on the bottom-right temperature row when viewing a
+       stacked level, so its climate is never mistaken for the surface. -->
+  <MN_AbLevelSky>Ciel</MN_AbLevelSky>
+  <MN_AbLevelBasement>Souterrain</MN_AbLevelBasement>
+  <MN_TipUnroofed>{0} case(s) de toit de cette pièce sont à ciel ouvert : sa température tend vers la température extérieure.</MN_TipUnroofed>
+  <MN_Unroofed>sans toit ({0})</MN_Unroofed>
+  <MN_ProxyHeated>chauffé</MN_ProxyHeated>
+  <MN_ProxyCooled>refroidi</MN_ProxyCooled>
+  <MN_TipProxyHeated>Chauffé par une source proche (sous le curseur) : {0}</MN_TipProxyHeated>
+  <MN_TipProxyCooled>Refroidi par une source proche (sous le curseur) : {0}</MN_TipProxyCooled>
+  <MN_TipDrawer>Afficher ou cacher le tiroir de widgets des options de jeu.</MN_TipDrawer>
+  <MN_TipSeasonNow>Saison actuelle : {0}</MN_TipSeasonNow>
+
+  <!-- ── Settings: Notification strip ───────────────────────────────── -->
+  <MN_StripHeader>Messages</MN_StripHeader>
+  <MN_DockMessages>Ancrer les messages en bas à droite</MN_DockMessages>
+  <MN_DockMessagesDesc>Activé : les messages passagers s'empilent dans la colonne de notifications en bas à droite, juste sous les lettres et les alertes. Désactivé : ils flottent dans une bande déplaçable en haut à gauche.</MN_DockMessagesDesc>
+  <MN_TruncateDocked>Raccourcir les messages longs</MN_TruncateDocked>
+  <MN_TruncateDockedDesc>Activé : les messages ancrés gardent la largeur de carte normale et le surplus est coupé par des points de suspension. Désactivé : un long message élargit sa carte vers la gauche et, au-delà de la moitié de la largeur de l'écran, passe à la ligne et agrandit sa carte en hauteur (cinq lignes au plus ; au-delà, le texte complet s'affiche au survol).</MN_TruncateDockedDesc>
+  <MN_StripHoverHint>Survolez la bande en jeu pour faire apparaître la poignée, puis faites-la glisser où vous voulez.</MN_StripHoverHint>
+  <MN_ResetPosition>Remettre la position par défaut</MN_ResetPosition>
+  <MN_ScaleLabel>Échelle de la bande</MN_ScaleLabel>
+  <MN_ScaleLabelDesc>La taille du texte est fixe ; l'échelle change la forme des cartes.</MN_ScaleLabelDesc>
+  <MN_MessageOpacity>Opacité des cartes</MN_MessageOpacity>
+  <MN_MsgDraggable>Déverrouiller et permettre le déplacement</MN_MsgDraggable>
+  <MN_MsgDraggableDesc>Désactivé : les messages en haut à gauche restent fixés à la position du jeu. Activez pour faire apparaître une poignée et déplacer la bande n'importe où.</MN_MsgDraggableDesc>
+  <MN_MsgAlign>Alignement du texte des messages</MN_MsgAlign>
+  <MN_AlignLeft>Gauche</MN_AlignLeft>
+  <MN_AlignCenter>Centre</MN_AlignCenter>
+  <MN_AlignRight>Droite</MN_AlignRight>
+  <MN_HideAlertHint>Maj-clic sur une alerte pour la cacher définitivement. Elle n'apparaît plus jusqu'à ce que vous la rétablissiez ci-dessous.</MN_HideAlertHint>
+  <MN_ManageHiddenAlerts>Gérer les alertes cachées ({0})</MN_ManageHiddenAlerts>
+  <MN_HiddenAlertsTitle>Alertes cachées</MN_HiddenAlertsTitle>
+  <MN_HiddenAlertsEmpty>Aucune alerte n'est cachée. Faites Maj-clic sur une alerte en jeu pour la cacher ici.</MN_HiddenAlertsEmpty>
+  <MN_Restore>Rétablir</MN_Restore>
+  <MN_RestoreAll>Tout rétablir</MN_RestoreAll>
+
+  <!-- ── Settings: Right-side panel ─────────────────────────────────── -->
+  <MN_PanelHeader>Panneau en bas à droite</MN_PanelHeader>
+  <MN_ColumnSize>Taille de la colonne</MN_ColumnSize>
+  <MN_ColumnSizeHint>Le design est conçu à 346 px — ce seul curseur zoome toute la composition, formes et texte ensemble. Il remplace l'ancien curseur séparé d'échelle du panneau ; les réglages d'échelle existants ont été repris automatiquement.</MN_ColumnSizeHint>
+  <MN_PanelOpacity>Opacité du panneau</MN_PanelOpacity>
+  <MN_RefreshMoved>La mise à jour des données de fond est maintenant un réglage unique pour toute la suite, dans les options du mod Radius UI Framework. Elle gère l'état de la colonie, la liste des conditions et les libellés de température des pièces de ce panneau.</MN_RefreshMoved>
+  <MN_TempUnit>Unités de température</MN_TempUnit>
+  <MN_TempUnit_Game>Jeu</MN_TempUnit_Game>
+  <MN_TempUnit_C>C</MN_TempUnit_C>
+  <MN_TempUnit_F>F</MN_TempUnit_F>
+  <MN_TempUnit_K>K</MN_TempUnit_K>
+  <MN_TempUnit_Both>C&amp;F</MN_TempUnit_Both>
+  <MN_AnimateTemp>Animer les températures extrêmes</MN_AnimateTemp>
+  <MN_AnimateTempDesc>Quand la température extérieure sort de la plage sûre, son affichage reçoit une lueur pulsante avec des ondes de chaleur qui montent (chaud) ou du givre qui tombe (froid).</MN_AnimateTempDesc>
+  <MN_HeatShimmer>Ondes de chaleur au-dessus de</MN_HeatShimmer>
+  <MN_FrostBelow>Givre en dessous de</MN_FrostBelow>
+  <MN_AnimateIcons>Animer les icônes</MN_AnimateIcons>
+  <MN_AnimateIconsDesc>Mouvements discrets des icônes : pluie qui tombe, neige qui tourne, éclairs qui clignotent, vent et brouillard qui ondulent, soleil et feu qui vacillent, effets psychiques et maladies qui palpitent, radiations qui tournent, séismes et raids qui tremblent, bouton de vitesse actif qui pulse et aiguille d'horloge qui balaie.</MN_AnimateIconsDesc>
+
+  <!-- ── Settings: Alert cards ──────────────────────────────────────── -->
+  <MN_AlertHeader>Cartes d'alerte  (avertissements à droite)</MN_AlertHeader>
+  <MN_HoverOpacity>Opacité au survol et des fenêtres surgissantes</MN_HoverOpacity>
+  <MN_CountdownFade>Estompage de la barre de compte à rebours</MN_CountdownFade>
+  <MN_SnoozeDuration>Mise en sourdine par clic droit</MN_SnoozeDuration>
+  <MN_AlertSnoozeHint>Clic droit sur une carte d'alerte en jeu pour la cacher temporairement.</MN_AlertSnoozeHint>
+
+  <!-- ── Settings: Occasions &amp; calendar ─────────────────────────────── -->
+  <MN_OccasionsHeader>Occasions et calendrier</MN_OccasionsHeader>
+  <MN_EventDateLine>Ligne de date avec les événements</MN_EventDateLine>
+  <MN_EventDateLineDesc>Signaler sur la date en bas à droite les anniversaires, changements de quadrum, échéances de quêtes et autres à venir. Cliquez sur la date pour ouvrir le calendrier.</MN_EventDateLineDesc>
+  <MN_Confetti>Confettis pour les fêtes</MN_Confetti>
+  <MN_ConfettiDesc>Faire éclater des confettis autour de la date le jour d'un anniversaire ou d'une autre occasion festive.</MN_ConfettiDesc>
+  <MN_CalendarFilterHint>Ouvrez le calendrier (clic sur la date) et utilisez son filtre d'icônes pour choisir les événements qui apparaissent sur la ligne de date et dans le calendrier.</MN_CalendarFilterHint>
+
+  <!-- ── Occasion category names (plural, for filters) ────────────────────── -->
+  <MN_CatL_Birthday>Anniversaires</MN_CatL_Birthday>
+  <MN_CatL_Anniversary>Commémorations</MN_CatL_Anniversary>
+  <MN_CatL_Ritual>Rituels</MN_CatL_Ritual>
+  <MN_CatL_Quest>Quêtes</MN_CatL_Quest>
+  <MN_CatL_Milestone>Étapes</MN_CatL_Milestone>
+  <MN_CatL_Royal>Royauté</MN_CatL_Royal>
+  <MN_CatL_Growth>Moments de croissance</MN_CatL_Growth>
+  <MN_CatL_Death>Décès</MN_CatL_Death>
+  <MN_CatL_Raid>Raids</MN_CatL_Raid>
+  <MN_CatL_Marriage>Mariages</MN_CatL_Marriage>
+  <MN_CatL_Solar>Événements solaires</MN_CatL_Solar>
+  <MN_CatL_Incident>Incidents</MN_CatL_Incident>
+  <MN_CatL_Reminder>Rappels</MN_CatL_Reminder>
+  <MN_CatL_Caravan>Caravanes</MN_CatL_Caravan>
+  <MN_CatL_Shuttle>Navettes</MN_CatL_Shuttle>
+  <MN_CatL_Pregnancy>Grossesses</MN_CatL_Pregnancy>
+  <MN_CatL_Research>Recherche</MN_CatL_Research>
+  <MN_CatL_Election>Élections</MN_CatL_Election>
+  <MN_CatL_Conclave>Conclaves</MN_CatL_Conclave>
+  <MN_CatL_Appointment>Rendez-vous</MN_CatL_Appointment>
+  <MN_CatL_Challenge>Défis</MN_CatL_Challenge>
+  <MN_CatL_Coronation>Couronnements</MN_CatL_Coronation>
+
+  <!-- ── Occasion category names (singular, for day cells) ───────────────── -->
+  <MN_CatS_Birthday>Anniversaire</MN_CatS_Birthday>
+  <MN_CatS_Anniversary>Commémoration</MN_CatS_Anniversary>
+  <MN_CatS_Ritual>Rituel</MN_CatS_Ritual>
+  <MN_CatS_Quest>Quête</MN_CatS_Quest>
+  <MN_CatS_Milestone>Étape</MN_CatS_Milestone>
+  <MN_CatS_Royal>Titre</MN_CatS_Royal>
+  <MN_CatS_Growth>Croissance</MN_CatS_Growth>
+  <MN_CatS_Death>Décès</MN_CatS_Death>
+  <MN_CatS_Raid>Raid</MN_CatS_Raid>
+  <MN_CatS_Marriage>Mariage</MN_CatS_Marriage>
+  <MN_CatS_Solar>Solaire</MN_CatS_Solar>
+  <MN_CatS_Incident>Incident</MN_CatS_Incident>
+  <MN_CatS_Reminder>Rappel</MN_CatS_Reminder>
+  <MN_CatS_Caravan>Caravane</MN_CatS_Caravan>
+  <MN_CatS_Shuttle>Navette</MN_CatS_Shuttle>
+  <MN_CatS_Pregnancy>Grossesse</MN_CatS_Pregnancy>
+  <MN_CatS_Research>Recherche</MN_CatS_Research>
+  <MN_CatS_Election>Élection</MN_CatS_Election>
+  <MN_CatS_Conclave>Conclave</MN_CatS_Conclave>
+  <MN_CatS_Appointment>Rendez-vous</MN_CatS_Appointment>
+  <MN_CatS_Challenge>Défi</MN_CatS_Challenge>
+  <MN_CatS_Coronation>Couronnement</MN_CatS_Coronation>
+
+  <!-- ── Severity / recurrence / day phrases ────────────────────────── -->
+  <MN_Sev_Info>Info</MN_Sev_Info>
+  <MN_Sev_Good>Bon</MN_Sev_Good>
+  <MN_Sev_Caution>Prudence</MN_Sev_Caution>
+  <MN_Sev_Urgent>Urgent</MN_Sev_Urgent>
+  <MN_Rec_OneTime>Une fois</MN_Rec_OneTime>
+  <MN_Rec_Quadrum>Chaque quadrum</MN_Rec_Quadrum>
+  <MN_Rec_Monthly>Chaque mois</MN_Rec_Monthly>
+  <MN_Rec_Yearly>Chaque année</MN_Rec_Yearly>
+  <MN_AnyDayNow>D'un jour à l'autre</MN_AnyDayNow>
+  <MN_InDay>Dans 1 jour</MN_InDay>
+  <MN_InDays>Dans {0} jours</MN_InDays>
+  <MN_ResDay>~1 jour</MN_ResDay>
+  <MN_ResDays>~{0} jours</MN_ResDays>
+  <MN_ClickToView>(Cliquez pour voir)</MN_ClickToView>
+
+  <!-- ── Occasion providers ──────────────────────────────────── -->
+  <MN_Birthday>Anniversaire : {0}</MN_Birthday>
+  <MN_BirthdayAnimal>Anniversaire (animal) : {0}</MN_BirthdayAnimal>
+  <MN_GrowthMoment>Moment de croissance : {0}</MN_GrowthMoment>
+  <MN_Turns>Fête ses {0} ans</MN_Turns>
+  <MN_ReachesAge>Atteint {0} ans</MN_ReachesAge>
+  <MN_QuadrumBegins>Début de {0}</MN_QuadrumBegins>
+  <MN_MonthBegins>Début de {0}</MN_MonthBegins>
+  <MN_SeasonSuffix>Saison : {0}</MN_SeasonSuffix>
+  <MN_OfferExpires>Expiration de l'offre : {0}</MN_OfferExpires>
+  <MN_QuestEnds>Fin de la quête : {0}</MN_QuestEnds>
+  <MN_PawnDue>Naissance attendue : {0}</MN_PawnDue>
+  <MN_CaravanArrives>Arrivée de {0}</MN_CaravanArrives>
+  <MN_ShuttleArriving>Navette en approche</MN_ShuttleArriving>
+  <MN_ShuttlesArriving>{0} navettes en approche</MN_ShuttlesArriving>
+  <MN_ResearchLabel>Recherche : {0}</MN_ResearchLabel>
+  <MN_Today>Aujourd'hui</MN_Today>
+  <MN_ReminderShort>Rappel</MN_ReminderShort>
+  <MN_ReminderLabel>Rappel : {0}</MN_ReminderLabel>
+  <MN_Sent>Envoyé</MN_Sent>
+  <MN_ReminderDefault>Vous avez programmé un rappel pour aujourd'hui.</MN_ReminderDefault>
+
+  <!-- ── Calendar window ─────────────────────────────────── -->
+  <MN_CalToday>Aujourd'hui</MN_CalToday>
+  <MN_CalTomorrow>Demain</MN_CalTomorrow>
+  <MN_CalAgenda>Agenda</MN_CalAgenda>
+  <MN_CalGrid>Grille</MN_CalGrid>
+  <MN_CalShow>Afficher</MN_CalShow>
+  <MN_CalNoEvents>Aucun événement ce jour-là.</MN_CalNoEvents>
+  <MN_CalNothingUpcoming>Rien à venir.</MN_CalNothingUpcoming>
+  <MN_CalInDays>(dans {0} jours)</MN_CalInDays>
+  <MN_CalMore>+{0} de plus</MN_CalMore>
+  <MN_CalShown>(affiché)</MN_CalShown>
+  <MN_CalHidden>(caché)</MN_CalHidden>
+  <MN_CalSetReminder>Clic droit pour programmer un rappel.</MN_CalSetReminder>
+
+  <!-- ── FuckQuadrums (Earth calendar) compat ────────────── -->
+  <MN_Month01>Janvier</MN_Month01>
+  <MN_Month02>Février</MN_Month02>
+  <MN_Month03>Mars</MN_Month03>
+  <MN_Month04>Avril</MN_Month04>
+  <MN_Month05>Mai</MN_Month05>
+  <MN_Month06>Juin</MN_Month06>
+  <MN_Month07>Juillet</MN_Month07>
+  <MN_Month08>Août</MN_Month08>
+  <MN_Month09>Septembre</MN_Month09>
+  <MN_Month10>Octobre</MN_Month10>
+  <MN_Month11>Novembre</MN_Month11>
+  <MN_Month12>Décembre</MN_Month12>
+  <MN_WeekdayShort01>Lun</MN_WeekdayShort01>
+  <MN_WeekdayShort02>Mar</MN_WeekdayShort02>
+  <MN_WeekdayShort03>Mer</MN_WeekdayShort03>
+  <MN_WeekdayShort04>Jeu</MN_WeekdayShort04>
+  <MN_WeekdayShort05>Ven</MN_WeekdayShort05>
+  <MN_WeekdayShort06>Sam</MN_WeekdayShort06>
+  <MN_WeekdayShort07>Dim</MN_WeekdayShort07>
+
+  <!-- ── Reminder dialog ─────────────────────────────────── -->
+  <MN_RemSet>Programmer un rappel</MN_RemSet>
+  <MN_RemEdit>Modifier le rappel</MN_RemEdit>
+  <MN_RemFires>Arrive sous forme de lettre le {0}</MN_RemFires>
+  <MN_RemTitle>Titre</MN_RemTitle>
+  <MN_RemMessage>Message</MN_RemMessage>
+  <MN_RemSeverity>Importance</MN_RemSeverity>
+  <MN_RemRepeat>Répétition</MN_RemRepeat>
+  <MN_RemIcon>Icône</MN_RemIcon>
+  <MN_BtnSave>Enregistrer</MN_BtnSave>
+  <MN_BtnCancel>Annuler</MN_BtnCancel>
+  <MN_BtnDelete>Supprimer</MN_BtnDelete>
+
+  <!-- ── Colony vitals ───────────────────────────────────── -->
+  <MN_VitHealth>Santé</MN_VitHealth>
+  <MN_VitMood>Humeur</MN_VitMood>
+  <MN_VitFood>Nourriture</MN_VitFood>
+  <MN_VitRisk>Risque</MN_VitRisk>
+  <MN_VitOK>OK</MN_VitOK>
+  <MN_RiskCalm>Calme</MN_RiskCalm>
+  <MN_RiskLow>Faible</MN_RiskLow>
+  <MN_RiskHigh>Élevé</MN_RiskHigh>
+  <MN_FoodDays>{0} j</MN_FoodDays>
+  <MN_FoodMax>99+ j</MN_FoodMax>
+  <MN_VitTipHealth>Santé : {0}</MN_VitTipHealth>
+  <MN_VitHealthy>tous les colons en bonne santé</MN_VitHealthy>
+  <MN_VitBreakdown>{0} à soigner, {1} malades, {2} en hémorragie, {3} à terre</MN_VitBreakdown>
+  <MN_VitColonists>{0} colons</MN_VitColonists>
+  <MN_VitAvgMood>Humeur moyenne : {0} %</MN_VitAvgMood>
+  <MN_VitFoodDays>~{0} jours de nourriture</MN_VitFoodDays>
+  <MN_VitWealth>Richesse : {0}</MN_VitWealth>
+  <MN_VitThreat>Menace : {0}</MN_VitThreat>
+  <MN_DragToReposition>glisser pour déplacer</MN_DragToReposition>
+
+  <!-- ── Recorded history ───────────────────────────────── -->
+  <MN_HInMemoriamName>In memoriam : {0}</MN_HInMemoriamName>
+  <MN_HAge>Âge : {0}</MN_HAge>
+  <MN_HCause>Cause : {0}</MN_HCause>
+  <MN_HKilledBy>Tué par {0}</MN_HKilledBy>
+  <MN_HRaid>Raid</MN_HRaid>
+  <MN_HRaidFac>Raid : {0}</MN_HRaidFac>
+  <MN_HRaidBy>Raid de {0}</MN_HRaidBy>
+  <MN_HThreatPoints>Points de menace : {0}</MN_HThreatPoints>
+  <MN_HRaiders>Pillards : {0}</MN_HRaiders>
+  <MN_HMarriage>Mariage : {0} et {1}</MN_HMarriage>
+  <MN_HTitle>{0} a obtenu le titre : {1}</MN_HTitle>
+  <MN_HRitual>Rituel célébré : {0}</MN_HRitual>
+  <MN_HQuestStarted>Quête commencée : {0}</MN_HQuestStarted>
+  <MN_HResearchComplete>Recherche terminée : {0}</MN_HResearchComplete>
+  <MN_HResearched>Recherché : {0}</MN_HResearched>
+  <MN_HCost>Coût : {0} points</MN_HCost>
+  <MN_HTechLevel>Niveau technologique : {0}</MN_HTechLevel>
+  <MN_HBorn>Né : {0}</MN_HBorn>
+  <MN_HChildBorn>Un enfant est né</MN_HChildBorn>
+  <MN_HMother>Mère : {0}</MN_HMother>
+  <MN_HFather>Père : {0}</MN_HFather>
+
+  <!-- ── Ideology Leadership Expanded ───────────────────────── -->
+  <MN_ILE_Upcoming>{0} : {1}</MN_ILE_Upcoming>
+  <MN_ILE_Tip>{0} pour {1}</MN_ILE_Tip>
+  <MN_ILE_CurrentLeader>En tête : {0}</MN_ILE_CurrentLeader>
+  <MN_ILE_WonBy>{0} remporté par {1}</MN_ILE_WonBy>
+  <MN_ILE_PastTip>{0} {1}</MN_ILE_PastTip>
+  <MN_ILE_Winner>Vainqueur : {0}</MN_ILE_Winner>
+  <MN_ILE_CoronationOf>Couronnement de {0}</MN_ILE_CoronationOf>
+  <MN_ILE_Crowned>{0} couronné à la tête de {1}</MN_ILE_Crowned>
+  <MN_ILE_Reigning>Règne en cours</MN_ILE_Reigning>
+  <MN_ILE_ReignEnded>Règne terminé</MN_ILE_ReignEnded>
+  <MN_ILE_ReignEndedReason>Règne terminé ({0})</MN_ILE_ReignEndedReason>
+
+  <!-- ═══ Reminder icon picker ═══════════════════════════════════════════ -->
+  <MN_CellTicks>Ticks</MN_CellTicks>
+  <MN_CellPaused>en pause</MN_CellPaused>
+
+  <MN_CellOutdoor>Extérieur</MN_CellOutdoor>
+  <MN_CellWeather>Météo</MN_CellWeather>
+  <MN_CellRoom>Pièce {0} · clic droit : carte thermique</MN_CellRoom>
+  <MN_CellHeatHint>clic droit : carte thermique</MN_CellHeatHint>
+
+  <MN_SlabColony>Colonie</MN_SlabColony>
+  <MN_SlabEnvironment>Environnement</MN_SlabEnvironment>
+  <MN_SlabTime>Temps</MN_SlabTime>
+  <MN_SlabAlerts>Alertes</MN_SlabAlerts>
+  <MN_SlabMessages>Messages</MN_SlabMessages>
+  <MN_SlabMusic>Musique</MN_SlabMusic>
+  <MN_SlabAlertsLive>{0} actives</MN_SlabAlertsLive>
+  <MN_SlabAlertsCrit>{0} actives · {1} critiques</MN_SlabAlertsCrit>
+
+  <MN_PaneTempTitle>Température extérieure</MN_PaneTempTitle>
+  <MN_PanePerfTitle>Performances</MN_PanePerfTitle>
+  <MN_PanePerfBody>{0} images par seconde. {1} ticks pour un plafond de {2} à cette vitesse.</MN_PanePerfBody>
+  <MN_PaneDateTitle>Date et occasions</MN_PaneDateTitle>
+  <MN_PaneDateBody>{0}, année {1}.</MN_PaneDateBody>
+  <MN_PaneVitalsTitle>État de la colonie</MN_PaneVitalsTitle>
+  <MN_PaneRightClick>Clic droit</MN_PaneRightClick>
+  <MN_PaneLeftClick>Clic gauche</MN_PaneLeftClick>
+  <MN_PaneHeatOn>Afficher la carte thermique</MN_PaneHeatOn>
+  <MN_PaneHeatOff>Cacher la carte thermique</MN_PaneHeatOff>
+  <MN_PaneWind>Vent</MN_PaneWind>
+  <MN_PaneHeading>Direction</MN_PaneHeading>
+  <MN_PaneSpeed>Vitesse</MN_PaneSpeed>
+  <MN_PaneNext>Suivant</MN_PaneNext>
+  <MN_PaneRealTime>Heure réelle</MN_PaneRealTime>
+  <MN_VitColonistsK>Colons</MN_VitColonistsK>
+  <MN_VitWealthK>Richesse</MN_VitWealthK>
+  <MN_VitThreatK>Menace</MN_VitThreatK>
+  <MN_ColFused>Attachée</MN_ColFused>
+  <MN_ColFloating>Flottante</MN_ColFloating>
+  <MN_ColDragDetach>Glisser pour détacher</MN_ColDragDetach>
+  <MN_ColDragRefuse>Glisser pour rattacher</MN_ColDragRefuse>
+  <MN_ColDraggable>Afficher la poignée (déplace tout le coin ; déposez-le près du coin pour le rattacher)</MN_ColDraggable>
+  <MN_CellDate>Date</MN_CellDate>
+  <MN_CellSeason>Saison</MN_CellSeason>
+  <MN_MmDetach>Détacher la mini-carte</MN_MmDetach>
+  <MN_MmDetachBody>Faire flotter la mini-carte dans sa propre carte, déplaçable et redimensionnable. Rattachez-la depuis l'en-tête de la carte.</MN_MmDetachBody>
+  <MN_MmLock>Verrouiller la position</MN_MmLock>
+  <MN_MmLockOnBody>La carte de la mini-carte est fixée : elle ne peut être ni déplacée ni redimensionnée. Cliquez pour déverrouiller.</MN_MmLockOnBody>
+  <MN_MmLockOffBody>La carte se déplace par son en-tête et se redimensionne par son coin. Cliquez pour la fixer.</MN_MmLockOffBody>
+  <MN_MmHide>Cacher la mini-carte</MN_MmHide>
+  <MN_MmHideBody>Fermer la mini-carte. Faites-la revenir avec le bouton carte du tiroir de widgets.</MN_MmHideBody>
+  <MN_MmToggleTip>Afficher ou cacher la mini-carte</MN_MmToggleTip>
+  <MN_KeyFps>IPS</MN_KeyFps>
+  <MN_KeyTps>TPS</MN_KeyTps>
+  <MN_CellTickCap>sur {0} max · {1} ips</MN_CellTickCap>
+  <MN_CellOccToday>{0} aujourd'hui</MN_CellOccToday>
+  <MN_CellOccIn>{0} dans {1} j</MN_CellOccIn>
+  <MN_RowSeasonDay>· jour {0} sur {1}</MN_RowSeasonDay>
+  <MN_AlertSnoozed>encore {0}</MN_AlertSnoozed>
+
+  <!-- Map search, folded into the column (modern layout only) -->
+  <MN_SearchInColumn>Rechercher dans le panneau</MN_SearchInColumn>
+  <MN_SearchInColumnDesc>Ouvre la recherche sur la carte dans cette colonne au lieu d'une fenêtre flottante. Les affichages s'écartent pendant la recherche : le panneau garde exactement la même hauteur quel que soit le nombre de résultats. Les alertes restent visibles. Désactivez pour utiliser une fenêtre séparée ancrée au-dessus du panneau.</MN_SearchInColumnDesc>
+  <MN_SearchSlab>Recherche</MN_SearchSlab>
+  <MN_SearchPlaceholder>Rechercher sur la carte</MN_SearchPlaceholder>
+  <MN_SearchTyping>tapez pour rechercher</MN_SearchTyping>
+  <MN_SearchNone>aucun résultat</MN_SearchNone>
+  <MN_SearchCount>{0} résultats</MN_SearchCount>
+  <MN_SearchEmptyBody>Commencez à taper pour trouver n'importe quoi sur la carte.</MN_SearchEmptyBody>
+  <MN_SearchNoneBody>Rien sur cette carte ne correspond.</MN_SearchNoneBody>
+  <MN_SearchClose>Échap pour fermer</MN_SearchClose>
+
+  <!-- Minimap: downlink card + tray row (modern layout only) -->
+  <MN_MinimapEnable>Afficher la mini-carte</MN_MinimapEnable>
+  <MN_MinimapEnableDesc>Une vue satellite de la carte actuelle. Ancrée, c'est une ligne compacte du panneau avec le nombre de menaces en direct ; cliquez dessus pour ouvrir une fenêtre de carte déplaçable et redimensionnable, avec des calques à activer et un clic pour y aller. L'image se rafraîchit par balayages, comme un passage de satellite.</MN_MinimapEnableDesc>
+  <MN_MinimapDubsNote>Mini-carte cachée : Dubs Mint Minimap est chargé et fournit la sienne.</MN_MinimapDubsNote>
+  <MN_SlabMinimap>Mini-carte</MN_SlabMinimap>
+  <MN_MmUplink>Liaison</MN_MmUplink>
+  <MN_MmTrayName>Mini-carte</MN_MmTrayName>
+  <MN_MmTrayBody>Cliquez pour ouvrir la fenêtre de la carte. Les compteurs restent à jour quand elle est fermée.</MN_MmTrayBody>
+  <MN_MmClear>rien à signaler</MN_MmClear>
+  <MN_MmHostiles>{0} hostiles</MN_MmHostiles>
+  <MN_MmHostileBand>Hostiles sur la carte</MN_MmHostileBand>
+  <MN_MmContacts>{0} contacts · {1}</MN_MmContacts>
+  <MN_MmPass>passage {0} s</MN_MmPass>
+  <MN_MmSector>Secteur {0}, {1}</MN_MmSector>
+  <MN_MmDock>Ancrer</MN_MmDock>
+  <MN_MmLayerCol>Col</MN_MmLayerCol>
+  <MN_MmLayerHos>Hos</MN_MmLayerHos>
+  <MN_MmLayerWld>Sauv</MN_MmLayerWld>
+  <MN_MmLayerFire>Feu</MN_MmLayerFire>
+  <MN_MmLayerFog>Brume</MN_MmLayerFog>
+  <MN_OctN>N</MN_OctN>
+  <MN_OctNE>NE</MN_OctNE>
+  <MN_OctE>E</MN_OctE>
+  <MN_OctSE>SE</MN_OctSE>
+  <MN_OctS>S</MN_OctS>
+  <MN_OctSW>SO</MN_OctSW>
+  <MN_OctW>O</MN_OctW>
+  <MN_OctNW>NO</MN_OctNW>
+  <MN_OctCenter>centre</MN_OctCenter>
+  <MN_MmNoUplink>pas de liaison</MN_MmNoUplink>
+  <MN_MmRequireComms>La liaison demande une console de com alimentée</MN_MmRequireComms>
+  <MN_MmRequireCommsDesc>Le flux satellite ne marche que si une console de com alimentée se trouve sur la carte. Désactivé par défaut.</MN_MmRequireCommsDesc>
+  <MN_MmMarkerScale>Taille des marqueurs</MN_MmMarkerScale>
+  <MN_MmTglPrisoners>Afficher les prisonniers</MN_MmTglPrisoners>
+  <MN_MmTglPredators>Afficher les prédateurs</MN_MmTglPredators>
+  <MN_MmTglCorpses>Afficher les cadavres</MN_MmTglCorpses>
+  <MN_MmTglProjectiles>Afficher les projectiles</MN_MmTglProjectiles>
+  <MN_MmTglDeepRes>Afficher les ressources profondes</MN_MmTglDeepRes>
+  <MN_MmTglFactionCol>Couleurs de faction pour les marqueurs</MN_MmTglFactionCol>
+  <MN_MmTglAttackAlerts>Signal en cas d'attaque</MN_MmTglAttackAlerts>
+
+  <!-- Route planner row, world view (modern layout only) -->
+  <MN_RouteRow>Planificateur d'itinéraire</MN_RouteRow>
+  <MN_RouteOff>désactivé</MN_RouteOff>
+  <MN_RouteOn>en cours</MN_RouteOn>
+  <MN_RouteStart>Commencer à planifier un itinéraire</MN_RouteStart>
+  <MN_RouteStop>Arrêter de planifier</MN_RouteStop>
+  <MN_RouteBody>Tracez un chemin à travers le monde et lisez sa durée de voyage avant d'y engager une caravane. Cliquez sur des cases de la planète pour ajouter des étapes.</MN_RouteBody>
+  <MN_RouteWaypoints>{0} étapes</MN_RouteWaypoints>
+  <MN_RouteDays>{0} jours de voyage</MN_RouteDays>
+  <MN_RoutePlace>cliquez sur la planète pour ajouter des étapes</MN_RoutePlace>
+
+  <!-- Caravan module, world view (modern layout only) -->
+  <MN_ShowCaravans>Afficher les caravanes sur la vue du monde</MN_ShowCaravans>
+  <MN_ShowCaravansDesc>Ajoute une section au panneau quand la planète est ouverte : chaque caravane en route affiche son heure d'arrivée, sa destination, et un relevé de nourriture, de charge, de repos et de membres. La nourriture est jugée par rapport au trajet, pas à un seuil fixe. Cliquez sur une caravane pour y aller.</MN_ShowCaravansDesc>
+  <MN_SlabCaravan>Caravane</MN_SlabCaravan>
+  <MN_CarArrives>Arrivée</MN_CarArrives>
+  <MN_CarHeading>Destination</MN_CarHeading>
+  <MN_CarFood>Nourriture</MN_CarFood>
+  <MN_CarLoad>Charge</MN_CarLoad>
+  <MN_CarRest>Repos</MN_CarRest>
+  <MN_CarPawns>Pions</MN_CarPawns>
+  <MN_CarMoving>en route</MN_CarMoving>
+  <MN_CarResting>halte de nuit</MN_CarResting>
+  <MN_CarImmobile>immobilisée · surchargée</MN_CarImmobile>
+  <MN_CarHolding>à l'arrêt</MN_CarHolding>
+  <MN_CarNoDest>Pas de destination</MN_CarNoDest>
+  <MN_CarDestTile>Case du monde</MN_CarDestTile>
+  <MN_CarTilesLeft>encore {0} cases</MN_CarTilesLeft>
+  <MN_CarRestOK>OK</MN_CarRestOK>
+  <MN_CarRestZzz>Zzz</MN_CarRestZzz>
+  <MN_CarPaneFood>Nourriture</MN_CarPaneFood>
+  <MN_CarPaneLoad>Charge</MN_CarPaneLoad>
+  <MN_CarPaneJump>Aller à la caravane</MN_CarPaneJump>
+  <MN_CarPaneBody>En route vers {0}. La couleur de la nourriture dépend du trajet restant ; rouge veut dire qu'elle manquera avant l'arrivée.</MN_CarPaneBody>
+  <MN_UnitDays>j</MN_UnitDays>
+
+  <!-- Hosted RimAMP player (modern layout only) -->
+  <MN_MusicSection>Afficher la section musique</MN_MusicSection>
+  <MN_MusicSectionDesc>Accueille le lecteur de RimAMP dans cette colonne, en section Musique : il partage la largeur, l'opacité et le coin du panneau au lieu de flotter à côté. Se replie comme toute autre section et garde le titre du morceau dans l'en-tête une fois replié. N'apparaît que si RimAMP est installé.</MN_MusicSectionDesc>
+  <MN_AmpPlaying>Lecture</MN_AmpPlaying>
+  <MN_AmpPaused>En pause</MN_AmpPaused>
+  <MN_AmpStopped>Arrêté</MN_AmpStopped>
+  <MN_AmpWhen>Position</MN_AmpWhen>
+  <MN_AmpSource>Source</MN_AmpSource>
+  <MN_AmpOpen>Ouvrir RimAMP</MN_AmpOpen>
+  <MN_AmpBody>Faites glisser la barre pour avancer ou reculer, ou ouvrez le lecteur RimAMP complet pour la bibliothèque, les listes de lecture et l'égaliseur.</MN_AmpBody>
+
+  <!-- Forecast bands (modern layout only) -->
+  <MN_ForecastBands>Afficher les bandeaux de prévision</MN_ForecastBands>
+  <MN_ForecastBandsDesc>Épingle un bandeau coloré, avec un compte à rebours, sous la zone d'affichage concernée quand un événement qui donnerait normalement une lettre ou une alerte est sur le point d'arriver. Les bandeaux restent visibles même quand leur section est repliée, car tout leur intérêt est qu'on ne puisse pas les manquer. Clic gauche pour aller au sujet, clic droit pour l'écarter jusqu'à ce qu'il soit réglé.</MN_ForecastBandsDesc>
+  <MN_ForecastHorizon>Horizon de prévision</MN_ForecastHorizon>
+  <MN_ForecastHorizonDesc>Rien de plus lointain n'est prévu. Au-delà de quelques heures, un compte à rebours n'est que du bruit.</MN_ForecastHorizonDesc>
+  <MN_ForecastMax>Limite de bandeaux</MN_ForecastMax>
+  <MN_ForecastMaxDesc>Jamais plus d'un bandeau par zone, et jamais plus que ce nombre au total. Les événements les plus urgents et les plus proches l'emportent.</MN_ForecastMaxDesc>
+  <MN_ForecastHint>Seuls les événements auxquels le jeu lui-même donne une échéance : raids détectés, perte de sang, nourriture épuisée, fin de conditions, offres de quête qui expirent, arrivée de caravanes.</MN_ForecastHint>
+
+  <MN_FcRaid>Arrivée d'un raid</MN_FcRaid>
+  <MN_FcBleed>Un colon se vide de son sang</MN_FcBleed>
+  <MN_FcStarve>Les colons commencent à avoir faim</MN_FcStarve>
+  <MN_FcCondEnds>Fin de {0}</MN_FcCondEnds>
+  <MN_FcQuest>Expiration d'une quête</MN_FcQuest>
+  <MN_FcCaravan>Arrivée d'une caravane</MN_FcCaravan>
+  <MN_FcIn>dans {0}</MN_FcIn>
+  <MN_FcMins>{0} min</MN_FcMins>
+  <MN_FcHours>{0} h</MN_FcHours>
+  <MN_FcSubject>Sujet</MN_FcSubject>
+  <MN_FcWhen>Quand</MN_FcWhen>
+  <MN_FcSource>Source</MN_FcSource>
+  <MN_FcSubjColony>La colonie</MN_FcSubjColony>
+  <MN_FcDismissAct>Écarter</MN_FcDismissAct>
+  <MN_FcRaidBody>Un raid a trouvé votre piste et est en route vers ici.</MN_FcRaidBody>
+  <MN_FcBleedBody>Ce colon perd son sang plus vite qu'il ne le renouvelle. Soignez la blessure ou il mourra.</MN_FcBleedBody>
+  <MN_FcStarveBody>Les réserves de nourriture s'épuisent à la fin de ce compte à rebours, et les colons commencent à avoir faim.</MN_FcStarveBody>
+  <MN_FcCondBody>Cette condition prend fin d'elle-même à la fin du compte à rebours.</MN_FcCondBody>
+  <MN_FcQuestBody>Cette offre de quête ne pourra plus être acceptée à la fin du compte à rebours.</MN_FcQuestBody>
+  <MN_FcCaravanBody>Votre caravane arrive à destination à la fin du compte à rebours.</MN_FcCaravanBody>
+  <MN_FcSrcDetect>Détection de raid</MN_FcSrcDetect>
+  <MN_FcSrcHealth>Perte de sang</MN_FcSrcHealth>
+  <MN_FcSrcFood>Réserves de nourriture</MN_FcSrcFood>
+  <MN_FcSrcCond>Condition de jeu</MN_FcSrcCond>
+  <MN_FcSrcQuest>Quête</MN_FcSrcQuest>
+  <MN_FcSrcCaravan>Caravane</MN_FcSrcCaravan>
+
+  <MN_RemPreview>Aperçu</MN_RemPreview>
+  <MN_RemIconSearch>Rechercher parmi {0} icônes</MN_RemIconSearch>
+
+  <MN_RemIconGrp_General>Général</MN_RemIconGrp_General>
+  <MN_RemIconGrp_Events>Événements</MN_RemIconGrp_Events>
+  <MN_RemIconGrp_Occasions>Occasions</MN_RemIconGrp_Occasions>
+  <MN_RemIconGrp_Conditions>Conditions</MN_RemIconGrp_Conditions>
+
+  <!-- General -->
+  <MN_RemIcon_Bell>Cloche</MN_RemIcon_Bell>
+  <MN_RemIcon_Star>Étoile</MN_RemIcon_Star>
+  <MN_RemIcon_Flag>Drapeau</MN_RemIcon_Flag>
+  <MN_RemIcon_Alert>Alerte</MN_RemIcon_Alert>
+  <MN_RemIcon_Heart>Cœur</MN_RemIcon_Heart>
+  <MN_RemIcon_Gift>Cadeau</MN_RemIcon_Gift>
+  <MN_RemIcon_Clock>Horloge</MN_RemIcon_Clock>
+  <MN_RemIcon_Check>Coche</MN_RemIcon_Check>
+
+  <!-- Events -->
+  <MN_RemIcon_Raid>Raid</MN_RemIcon_Raid>
+  <MN_RemIcon_Fang>Chasseurs d'hommes</MN_RemIcon_Fang>
+  <MN_RemIcon_Bug>Infestation</MN_RemIcon_Bug>
+  <MN_RemIcon_Disease>Maladie</MN_RemIcon_Disease>
+  <MN_RemIcon_Trade>Commerce</MN_RemIcon_Trade>
+  <MN_RemIcon_Visitor>Visiteur</MN_RemIcon_Visitor>
+  <MN_RemIcon_Joiner>Nouveau colon</MN_RemIcon_Joiner>
+  <MN_RemIcon_Pod>Capsule de largage</MN_RemIcon_Pod>
+  <MN_RemIcon_Quest>Quête</MN_RemIcon_Quest>
+
+  <!-- Occasions -->
+  <MN_RemIcon_Anniversary>Commémoration</MN_RemIcon_Anniversary>
+  <MN_RemIcon_Appointment>Rendez-vous</MN_RemIcon_Appointment>
+  <MN_RemIcon_Birthday>Anniversaire</MN_RemIcon_Birthday>
+  <MN_RemIcon_Caravan>Caravane</MN_RemIcon_Caravan>
+  <MN_RemIcon_Challenge>Défi</MN_RemIcon_Challenge>
+  <MN_RemIcon_Conclave>Conclave</MN_RemIcon_Conclave>
+  <MN_RemIcon_Coronation>Couronnement</MN_RemIcon_Coronation>
+  <MN_RemIcon_Death>Décès</MN_RemIcon_Death>
+  <MN_RemIcon_Election>Élection</MN_RemIcon_Election>
+  <MN_RemIcon_Growth>Croissance</MN_RemIcon_Growth>
+  <MN_RemIcon_Incident>Incident</MN_RemIcon_Incident>
+  <MN_RemIcon_Marriage>Mariage</MN_RemIcon_Marriage>
+  <MN_RemIcon_Milestone>Étape</MN_RemIcon_Milestone>
+  <MN_RemIcon_Pregnancy>Grossesse</MN_RemIcon_Pregnancy>
+  <MN_RemIcon_CatQuest>Parchemin de quête</MN_RemIcon_CatQuest>
+  <MN_RemIcon_CatRaid>Épées croisées</MN_RemIcon_CatRaid>
+  <MN_RemIcon_Reminder>Rappel</MN_RemIcon_Reminder>
+  <MN_RemIcon_Research>Recherche</MN_RemIcon_Research>
+  <MN_RemIcon_Ritual>Rituel</MN_RemIcon_Ritual>
+  <MN_RemIcon_Royal>Royauté</MN_RemIcon_Royal>
+  <MN_RemIcon_Shuttle>Navette</MN_RemIcon_Shuttle>
+  <MN_RemIcon_CatSolar>Soleil</MN_RemIcon_CatSolar>
+
+  <!-- Conditions -->
+  <MN_RemIcon_Ash>Pluie de cendres</MN_RemIcon_Ash>
+  <MN_RemIcon_Aurora>Aurore</MN_RemIcon_Aurora>
+  <MN_RemIcon_Drought>Sècheresse</MN_RemIcon_Drought>
+  <MN_RemIcon_EMI>Tempête IEM</MN_RemIcon_EMI>
+  <MN_RemIcon_Eclipse>Éclipse</MN_RemIcon_Eclipse>
+  <MN_RemIcon_Fauna>Faune</MN_RemIcon_Fauna>
+  <MN_RemIcon_Fire>Feu</MN_RemIcon_Fire>
+  <MN_RemIcon_Gravity>Gravité</MN_RemIcon_Gravity>
+  <MN_RemIcon_Mech>Mécanoïde</MN_RemIcon_Mech>
+  <MN_RemIcon_Moon>Lune</MN_RemIcon_Moon>
+  <MN_RemIcon_Planetkiller>Destructeur de planète</MN_RemIcon_Planetkiller>
+  <MN_RemIcon_Psychic>Psychique</MN_RemIcon_Psychic>
+  <MN_RemIcon_Quake>Séisme</MN_RemIcon_Quake>
+  <MN_RemIcon_Radiation>Radiation</MN_RemIcon_Radiation>
+  <MN_RemIcon_Rainbow>Arc-en-ciel</MN_RemIcon_Rainbow>
+  <MN_RemIcon_Skull>Crâne</MN_RemIcon_Skull>
+  <MN_RemIcon_CondSolar>Éruption solaire</MN_RemIcon_CondSolar>
+  <MN_RemIcon_Telescope>Télescope</MN_RemIcon_Telescope>
+  <MN_RemIcon_Volcano>Volcan</MN_RemIcon_Volcano>
+
+  <!-- The column's grip and its snap range -->
+  <MN_ColTitle>Mission Control</MN_ColTitle>
+  <MN_ColSnapHere>ZONE D'ACCROCHE · RELÂCHEZ ICI POUR ANCRER</MN_ColSnapHere>
+
+  <!-- Alerts module -->
+  <MN_AlertsCount>{0}</MN_AlertsCount>
+  <MN_AlertsCountHidden>{0} · {1} cachées</MN_AlertsCountHidden>
+  <MN_AlertsHiddenDrawer>{0} cachées</MN_AlertsHiddenDrawer>
+  <MN_AlertsUnhideTip>Cliquez pour l'afficher de nouveau.</MN_AlertsUnhideTip>
+  <MN_MsgHideTip>Maj-clic pour faire taire ce type de message pour de bon.</MN_MsgHideTip>
+  <MN_AlertCritical>Critique</MN_AlertCritical>
+
+  <!-- Top-right readout -->
+  <MN_TempOutside>Extérieur {0}</MN_TempOutside>
+  <MN_TempIndoors>Intérieur {0}</MN_TempIndoors>
+
+  <!-- Tray -->
+  <MN_TrayCalendar>Calendrier</MN_TrayCalendar>
+  <MN_TrayLetters>Historique des messages</MN_TrayLetters>
+  <MN_TraySearch>Rechercher sur la carte</MN_TraySearch>
+  <MN_TrayHidden>Alertes cachées</MN_TrayHidden>
+  <MN_TrayOverlays>Calques de la carte</MN_TrayOverlays>
+  <MN_TraySettings>Réglages</MN_TraySettings>
+
+
+  <MN_CursorReadout>Informations sous le curseur</MN_CursorReadout>
+  <MN_CursorReadoutDesc>Afficher ce qui se trouve sous la souris en bas de l'affichage en haut à droite. Désactivé : ces informations restent dans le coin inférieur gauche de RimWorld.</MN_CursorReadoutDesc>
+  <!-- Collapsed HUD -->
+  <MN_ColCollapseTip>Cacher la colonne. Un onglet reste au bord de l'écran.</MN_ColCollapseTip>
+  <MN_TabOpenTip>{0} alertes. Cliquez pour ouvrir Mission Control.</MN_TabOpenTip>
+  <MN_SpeedPlate>Vitesse</MN_SpeedPlate>
+  <MN_SpeedLockTip>Fixer cette plaque en place.</MN_SpeedLockTip>
+  <MN_SpeedReattachTip>Glisser pour déplacer. Clic droit pour la remettre dans le coin.</MN_SpeedReattachTip>
+  <MN_SpeedFloating>Commandes de vitesse sur leur propre plaque</MN_SpeedFloating>
+  <MN_SpeedFloatingDesc>Détacher les commandes de vitesse pour les placer n'importe où. Détachée, la plaque reste en place quand le reste de l'affichage est replié ; attachée, elle se replie dans l'onglet du bord, qui porte alors la pause. Vous pouvez aussi les détacher par la poignée sur leur bord gauche.</MN_SpeedFloatingDesc>
+  <MN_SpeedLocked>Fixer la plaque de vitesse</MN_SpeedLocked>
+  <MN_SpeedLockedDesc>Empêche de la déplacer, et empêche sa position de changer si votre résolution change.</MN_SpeedLockedDesc>
+  <MN_SpeedDetachTip>Glisser pour placer les commandes de vitesse n'importe où.</MN_SpeedDetachTip>
+  <MN_SpeedPinned>Garder les commandes de vitesse une fois replié</MN_SpeedPinned>
+  <MN_SpeedPinnedDesc>Les commandes de vitesse restent dans le coin quand le reste de l'affichage est caché, au lieu de se replier dans l'onglet du bord.</MN_SpeedPinnedDesc>
+  <MN_CursorPinned>Les garder une fois replié</MN_CursorPinned>
+  <MN_CursorPinnedDesc>Les informations sous le curseur restent à l'écran quand le reste de l'affichage est caché. RimWorld les affiche en permanence : les garder conserve un affichage replié équivalent à celui du jeu.</MN_CursorPinnedDesc>
+  <MN_ReadoutPinHintOn>Reste à l'écran quand l'affichage est replié. Clic droit pour le laisser se replier.</MN_ReadoutPinHintOn>
+  <MN_ReadoutPinHintOff>Se replie avec l'affichage. Clic droit pour le garder à l'écran.</MN_ReadoutPinHintOff>
+  <MN_ReadoutPinnedOn>La date et la météo resteront à l'écran quand l'affichage sera replié.</MN_ReadoutPinnedOn>
+  <MN_ReadoutPinnedOff>La date et la météo se replieront avec l'affichage.</MN_ReadoutPinnedOff>
+  <MN_ReadoutPinned>Garder la date et la météo une fois replié</MN_ReadoutPinned>
+  <MN_ReadoutPinnedDesc>La bande date, météo et température reste dans le coin quand le reste de l'affichage est caché.</MN_ReadoutPinnedDesc>
+  <MN_MsgGroup>{0} de ce type.</MN_MsgGroup>
+  <MN_SpeedInColumn>Commandes de vitesse dans la colonne</MN_SpeedInColumn>
+  <MN_SpeedInColumnDesc>Ancrer les commandes de vitesse en bas de la colonne, où elles se replient avec elle. Désactivé : elles vont dans le coin supérieur droit.</MN_SpeedInColumnDesc>
+  <MN_NotifyCount>Afficher le nombre de notifications</MN_NotifyCount>
+  <MN_NotifyCountDesc>Le nombre sous les points de la bande repliée. Il ne s'affiche jamais quand il ne se passe rien.</MN_NotifyCountDesc>
+</LanguageData>
