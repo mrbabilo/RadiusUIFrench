@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Radius UI - Everywhere : English keys.
+
+  Every player-visible string this module emits from C# lives here. Def labels are not in this
+  file and never should be: the mod ships no defs, and a def's label is translated through
+  DefInjected, which translators generate rather than hand-write.
+
+  Naming follows the suite: RadiusUI.<Module>.<Surface>.<Thing>. A tooltip is the control's own
+  key with .Tip appended, so a translator reading the file top to bottom meets the label and its
+  explanation together.
+
+  Placeholders are {0}, {1}. Translate(a, b) fills them in order. Do not reorder the arguments in
+  code to suit one language - a translation is free to move {0} wherever that language needs it,
+  which is the whole reason they are numbered.
+-->
+<!-- Traduction française : mod « Radius UI - Traduction française » (mrbabilo). -->
+<LanguageData>
+
+  <!-- ===== Mod settings ===== -->
+  <RadiusUI.Everywhere.Settings.Master>Appliquer le style Radius à toutes les fenêtres qu'aucun module Radius ne remplace</RadiusUI.Everywhere.Settings.Master>
+  <RadiusUI.Everywhere.Settings.Master.Tip>Désactivé : le jeu dessine tout exactement comme avant l'installation de ce mod.</RadiusUI.Everywhere.Settings.Master.Tip>
+
+  <RadiusUI.Everywhere.Settings.HideBar>Cacher la barre des onglets principaux derrière un menu d'angle</RadiusUI.Everywhere.Settings.HideBar>
+  <RadiusUI.Everywhere.Settings.HideBar.Tip>La barre du bas est remplacée par un carré dans le coin inférieur gauche, qui ouvre les onglets au survol. Les raccourcis ne changent pas. Désactivé : la barre du jeu revient.</RadiusUI.Everywhere.Settings.HideBar.Tip>
+
+  <RadiusUI.Everywhere.Settings.RailPin>Garder le menu d'angle ouvert</RadiusUI.Everywhere.Settings.RailPin>
+  <RadiusUI.Everywhere.Settings.RailPin.Tip>Le menu reste ouvert au lieu de se replier dans le carré quand le pointeur le quitte.</RadiusUI.Everywhere.Settings.RailPin.Tip>
+
+  <RadiusUI.Everywhere.Settings.Readout>Replier la liste des ressources dans le coin supérieur gauche</RadiusUI.Everywhere.Settings.Readout>
+  <RadiusUI.Everywhere.Settings.Readout.Tip>La liste des quantités en stock devient un carré qui s'ouvre au survol, avec les ressources groupées par catégorie. Désactivé : la liste du jeu revient.</RadiusUI.Everywhere.Settings.Readout.Tip>
+
+  <RadiusUI.Everywhere.Settings.ScarcePct>Rare sous {0} % de votre record</RadiusUI.Everywhere.Settings.ScarcePct>
+  <RadiusUI.Everywhere.Settings.ScarcePct.Tip>Une ressource est marquée rare quand vous en avez moins que cette part du maximum que vous en ayez eu pendant cette session. C'est un rapport et non un nombre fixe : il veut dire la même chose dans une colonie riche ou pauvre.</RadiusUI.Everywhere.Settings.ScarcePct.Tip>
+
+  <RadiusUI.Everywhere.Settings.FollowOverlays>Suivre Toggleable Overlays</RadiusUI.Everywhere.Settings.FollowOverlays>
+  <RadiusUI.Everywhere.Settings.FollowOverlays.Tip>La liste se cache avec les autres calques de ce mod et apparaît tant que sa touche d'affichage rapide est enfoncée. Ignoré si l'affichage rapide y est désactivé, car rien ne pourrait faire revenir la liste.</RadiusUI.Everywhere.Settings.FollowOverlays.Tip>
+
+  <RadiusUI.Everywhere.Settings.Diagnostic>Entourer ce que le style a redessiné à cette image</RadiusUI.Everywhere.Settings.Diagnostic>
+  <RadiusUI.Everywhere.Settings.Diagnostic.Tip>Un diagnostic pour une fenêtre mal affichée : tout ce que le style a touché reçoit un fin contour de la couleur d'accent.</RadiusUI.Everywhere.Settings.Diagnostic.Tip>
+
+  <RadiusUI.Everywhere.Settings.ModsHeader>Mods. Décochez-en un pour laisser ses fenêtres exactement comme ce mod les dessine.</RadiusUI.Everywhere.Settings.ModsHeader>
+  <RadiusUI.Everywhere.Settings.ModsRadiusSuffix>(se dessine lui-même ; toujours exclu)</RadiusUI.Everywhere.Settings.ModsRadiusSuffix>
+
+  <RadiusUI.Everywhere.Settings.ModsSearch>Rechercher un mod</RadiusUI.Everywhere.Settings.ModsSearch>
+  <RadiusUI.Everywhere.Settings.ModsNoMatch>Aucun mod chargé ne correspond à « {0} ».</RadiusUI.Everywhere.Settings.ModsNoMatch>
+
+  <!-- ===== Corner menu ===== -->
+  <RadiusUI.Everywhere.Rail.Menu>Menu</RadiusUI.Everywhere.Rail.Menu>
+  <RadiusUI.Everywhere.Rail.Pin>Garder le menu ouvert</RadiusUI.Everywhere.Rail.Pin>
+  <RadiusUI.Everywhere.Rail.Unpin>Détacher le menu</RadiusUI.Everywhere.Rail.Unpin>
+
+  <!-- ===== Resource readout ===== -->
+  <RadiusUI.Everywhere.Readout.Stock>Stock</RadiusUI.Everywhere.Readout.Stock>
+  <RadiusUI.Everywhere.Readout.RuleCount>{0} règles</RadiusUI.Everywhere.Readout.RuleCount>
+
+  <!-- ===== Scarcity rules window ===== -->
+  <RadiusUI.Everywhere.Rules.Title>Règles de rareté</RadiusUI.Everywhere.Rules.Title>
+  <RadiusUI.Everywhere.Rules.Lede>Une ressource rare remonte en tête de son groupe dans la liste. Donnez-lui une cloche et elle déclenche aussi une alerte tant qu'elle manque.</RadiusUI.Everywhere.Rules.Lede>
+  <RadiusUI.Everywhere.Rules.Default>Par défaut</RadiusUI.Everywhere.Rules.Default>
+  <RadiusUI.Everywhere.Rules.Search>Rechercher une ressource</RadiusUI.Everywhere.Rules.Search>
+  <RadiusUI.Everywhere.Rules.Auto>Auto</RadiusUI.Everywhere.Rules.Auto>
+  <RadiusUI.Everywhere.Rules.Count>Quantité</RadiusUI.Everywhere.Rules.Count>
+  <RadiusUI.Everywhere.Rules.Never>Jamais</RadiusUI.Everywhere.Rules.Never>
+  <RadiusUI.Everywhere.Rules.Reset>Tout remettre en auto</RadiusUI.Everywhere.Rules.Reset>
+  <RadiusUI.Everywhere.Rules.Done>Terminé</RadiusUI.Everywhere.Rules.Done>
+  <RadiusUI.Everywhere.Rules.OverrideOne>1 ressource a sa propre règle</RadiusUI.Everywhere.Rules.OverrideOne>
+  <RadiusUI.Everywhere.Rules.OverrideMany>{0} ressources ont leur propre règle</RadiusUI.Everywhere.Rules.OverrideMany>
+  <RadiusUI.Everywhere.Rules.BellOff>Déclencher aussi une alerte tant qu'elle manque.</RadiusUI.Everywhere.Rules.BellOff>
+  <RadiusUI.Everywhere.Rules.BellOn>Alerte déclenchée tant qu'elle manque. Cliquez pour arrêter.</RadiusUI.Everywhere.Rules.BellOn>
+
+  <!-- ===== Alert =====
+       Four labels rather than one assembled from fragments: a language that pluralises on two,
+       or puts the count after the noun, cannot be served by gluing " resources" onto a number. -->
+  <RadiusUI.Everywhere.Alert.Label>Pénurie</RadiusUI.Everywhere.Alert.Label>
+  <RadiusUI.Everywhere.Alert.LabelOne>Pénurie : {0}</RadiusUI.Everywhere.Alert.LabelOne>
+  <RadiusUI.Everywhere.Alert.LabelTwo>Pénurie : {0}, {1}</RadiusUI.Everywhere.Alert.LabelTwo>
+  <RadiusUI.Everywhere.Alert.LabelMany>Pénurie : {0} ressources</RadiusUI.Everywhere.Alert.LabelMany>
+  <RadiusUI.Everywhere.Alert.Head>Ces ressources sont sous le niveau que vous leur avez fixé :</RadiusUI.Everywhere.Alert.Head>
+  <RadiusUI.Everywhere.Alert.Foot>Changez ce qui compte comme une pénurie, ou ne soyez plus prévenu pour une ressource, depuis les règles de rareté de la liste des ressources.</RadiusUI.Everywhere.Alert.Foot>
+
+</LanguageData>
