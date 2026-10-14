@@ -236,7 +236,7 @@
   <MN_SeasonSuffix>Saison : {0}</MN_SeasonSuffix>
   <MN_OfferExpires>Expiration de l'offre : {0}</MN_OfferExpires>
   <MN_QuestEnds>Fin de la quête : {0}</MN_QuestEnds>
-  <MN_PawnDue>Naissance attendue : {0}</MN_PawnDue>
+  <MN_PawnDue>Accouchement prévu : {0}</MN_PawnDue>
   <MN_CaravanArrives>Arrivée de {0}</MN_CaravanArrives>
   <MN_ShuttleArriving>Navette en approche</MN_ShuttleArriving>
   <MN_ShuttlesArriving>{0} navettes en approche</MN_ShuttlesArriving>

@@ -85,7 +85,7 @@
   <RCB_Setting_BarOpacity>Opacité de la barre : {0} %</RCB_Setting_BarOpacity>
   <RCB_Setting_BarOpacityNote>La densité du fond sombre de la barre. 100 % est totalement opaque ; moins laisse voir le terrain à travers l'encoche. Seul le fond s'estompe : portraits, libellés, jauges et alertes restent entièrement visibles.</RCB_Setting_BarOpacityNote>
   <RCB_Setting_BandOpacity>Opacité du bandeau : {0} %</RCB_Setting_BandOpacity>
-  <RCB_Setting_BandOpacityNote>La densité du fond coloré du bandeau d'alertes, réglée à part de l'opacité de la barre. 100 % est l'aspect d'origine. Moins le fond dans la barre : il reste lisible sans envahir l'écran ; le message, l'icône et les points restent toujours entièrement visibles.</RCB_Setting_BandOpacityNote>
+  <RCB_Setting_BandOpacityNote>La densité du fond coloré du bandeau d'alertes, réglée à part de l'opacité de la barre. 100 % est l'aspect d'origine. Plus bas, il se fond dans la barre : il reste lisible sans envahir l'écran ; le message, l'icône et les points restent toujours entièrement visibles.</RCB_Setting_BandOpacityNote>
   <RCB_Setting_IslandCollapse>Réduire la barre quand vous ne vous en servez plus</RCB_Setting_IslandCollapse>
   <RCB_Setting_IslandCollapseTip>Après le délai d'inactivité ci-dessous, la barre du haut se réduit à une petite pastille de résumé avec le nombre de colons et un point coloré par colon. Elle se déploie dès que vous passez le pointeur dessus, et elle est toujours entièrement ouverte quand vous arrivez sur une carte. Les alertes restent affichées pendant qu'elle est réduite.</RCB_Setting_IslandCollapseTip>
   <RCB_Setting_IslandAnim>Vitesse de déploiement : {0} ms</RCB_Setting_IslandAnim>
