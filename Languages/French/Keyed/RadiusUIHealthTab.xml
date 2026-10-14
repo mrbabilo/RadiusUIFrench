@@ -172,7 +172,7 @@
   <RadiusUI.HealthTab.Triage.TendWorstTip>Envoyer {0} soigner {1} tout de suite.</RadiusUI.HealthTab.Triage.TendWorstTip>
 
   <!-- Now cluster -->
-  <RadiusUI.HealthTab.Now.Label>Maintenant</RadiusUI.HealthTab.Now.Label>
+  <RadiusUI.HealthTab.Now.Label>Auj.</RadiusUI.HealthTab.Now.Label>
   <RadiusUI.HealthTab.Now.NoConditions>aucune affection active</RadiusUI.HealthTab.Now.NoConditions>
   <RadiusUI.HealthTab.Now.Active>affections actives</RadiusUI.HealthTab.Now.Active>
   <RadiusUI.HealthTab.Now.ActiveNeeding>affections actives - {0} à soigner</RadiusUI.HealthTab.Now.ActiveNeeding>
