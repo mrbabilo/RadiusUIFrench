@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  English keys for the Radius UI Framework. Ships so keys resolve at runtime AND so
+  translators have a complete template to copy.
+
+  House style (GLOBAL_RULES §7):
+    - Vanilla sentence case. Only the first word and proper nouns are capitalised.
+    - No em dash and no en dash. A spaced hyphen, a comma or a full stop instead.
+    - No trailing period on a label; full stops only in sentences and tooltips.
+    - {0} placeholders are ordinal so translators can reorder freely.
+-->
+<!-- Traduction française : mod « Radius UI - Traduction française » (mrbabilo). -->
+<LanguageData>
+
+  <!-- OrbitalSection: the widget draws the off-view chevron, so it owns the words for it -->
+  <RadiusUI.Orbital.OutsideView>Hors de la vue</RadiusUI.Orbital.OutsideView>
+
+  <RadiusUI.Framework.Title>Radius UI</RadiusUI.Framework.Title>
+
+  <!-- Theme -->
+  <RadiusUI.Settings.AccentHeading>Couleur d'accent</RadiusUI.Settings.AccentHeading>
+  <RadiusUI.Settings.AccentCurrent>Tous les mods Radius UI utilisent la teinte {0}.</RadiusUI.Settings.AccentCurrent>
+  <RadiusUI.Settings.Bold>Titres en gras</RadiusUI.Settings.Bold>
+  <RadiusUI.Settings.BoldTip>Dessine les titres en vrai gras. Si votre police n'a pas de graisse grasse, les titres restent normaux plutôt que d'être épaissis en faux gras.</RadiusUI.Settings.BoldTip>
+  <RadiusUI.Settings.Italic>Texte en italique</RadiusUI.Settings.Italic>
+  <RadiusUI.Settings.ItalicTip>Dessine le texte de Radius UI en italique.</RadiusUI.Settings.ItalicTip>
+  <RadiusUI.Settings.Roundness>Arrondi des coins : {0}</RadiusUI.Settings.Roundness>
+  <RadiusUI.Settings.RoundnessTip>L'arrondi des coins des cartes et des panneaux. Réglez-le à zéro pour des coins carrés.</RadiusUI.Settings.RoundnessTip>
+  <RadiusUI.Settings.Refresh>Mise à jour en arrière-plan : {0} ({1})</RadiusUI.Settings.Refresh>
+  <RadiusUI.Settings.RefreshFresher>Plus fraîche</RadiusUI.Settings.RefreshFresher>
+  <RadiusUI.Settings.RefreshDefault>Par défaut</RadiusUI.Settings.RefreshDefault>
+  <RadiusUI.Settings.RefreshCheaper>Plus légère</RadiusUI.Settings.RefreshCheaper>
+  <RadiusUI.Settings.RefreshCheapest>La plus légère</RadiusUI.Settings.RefreshCheapest>
+  <RadiusUI.Settings.RefreshStandard>rythme normal</RadiusUI.Settings.RefreshStandard>
+  <RadiusUI.Settings.RefreshTwice>deux fois plus souvent</RadiusUI.Settings.RefreshTwice>
+  <RadiusUI.Settings.RefreshHalf>deux fois moins souvent</RadiusUI.Settings.RefreshHalf>
+  <RadiusUI.Settings.RefreshQuarter>quatre fois moins souvent</RadiusUI.Settings.RefreshQuarter>
+  <RadiusUI.Settings.RefreshPct>{0} % de la fréquence</RadiusUI.Settings.RefreshPct>
+  <RadiusUI.Settings.RefreshTip>La fréquence à laquelle les mods Radius UI relisent les données de fond, comme l'état de la colonie et les conditions. Glissez vers la droite pour les relire moins souvent et prendre moins de temps par image, ce qui aide dans une grande colonie ; vers la gauche pour des chiffres plus frais. L'affichage reste fluide dans les deux cas, et les valeurs que vous regardez en ce moment ne sont pas concernées.</RadiusUI.Settings.RefreshTip>
+  <RadiusUI.Settings.ColourIcons>Icônes en couleur</RadiusUI.Settings.ColourIcons>
+  <RadiusUI.Settings.ColourIconsTip>Radius UI fournit deux sortes d'icônes : des pictogrammes blancs unis, qui prennent la couleur de ce qui les dessine, et des illustrations en couleur, qui gardent leurs propres couleurs. Désactivez cette option pour dessiner les illustrations en pictogrammes monochromes : toutes les icônes de la suite suivent alors votre couleur d'accent. Le changement s'applique tout de suite, sans redémarrer.</RadiusUI.Settings.ColourIconsTip>
+  <RadiusUI.Settings.Notices>Afficher les avis de mise à jour</RadiusUI.Settings.Notices>
+  <RadiusUI.Settings.NoticesTip>Affiche un avis au menu principal quand le framework a été mis à jour, et chaque fois qu'un module Radius UI demande un framework plus récent que le vôtre. Désactiver cette option cache aussi l'avertissement sur un module qui ne peut pas fonctionner.</RadiusUI.Settings.NoticesTip>
+  <RadiusUI.Settings.Reset>Valeurs par défaut</RadiusUI.Settings.Reset>
+
+  <!-- Main-menu update notice -->
+  <RadiusUI.Notice.TitleUpdated>Radius UI Framework mis à jour</RadiusUI.Notice.TitleUpdated>
+  <RadiusUI.Notice.TitleFirst>Radius UI Framework</RadiusUI.Notice.TitleFirst>
+  <RadiusUI.Notice.GenFromTo>Génération {0} vers {1}</RadiusUI.Notice.GenFromTo>
+  <RadiusUI.Notice.Gen>Génération {0}</RadiusUI.Notice.Gen>
+  <RadiusUI.Notice.Body>Le framework commun avec lequel chaque module Radius UI se dessine a été mis à jour. Les modules prévus pour une génération plus ancienne continuent de fonctionner : vous n'avez rien à faire. Steam ne télécharge pas toujours tous les mods d'une collection en même temps : si une fenêtre Radius UI s'affiche mal ou refuse de s'ouvrir, mettez ce module à jour et redémarrez.</RadiusUI.Notice.Body>
+  <RadiusUI.Notice.BodyFirst>Voici le framework commun avec lequel chaque module Radius UI se dessine. Les modules prévus pour une génération plus ancienne continuent de fonctionner : vous n'avez rien à faire. Steam ne télécharge pas toujours tous les mods d'une collection en même temps : si une fenêtre Radius UI s'affiche mal ou refuse de s'ouvrir, mettez ce module à jour et redémarrez.</RadiusUI.Notice.BodyFirst>
+  <RadiusUI.Notice.BodyBehind>Un module ci-dessous demande un framework plus récent que le vôtre, et ne fonctionnera pas correctement tant que les deux ne seront pas à la même version. Mettez-le à jour depuis le Workshop, ou réabonnez-vous s'il est déjà à jour d'après Steam, puis redémarrez RimWorld.</RadiusUI.Notice.BodyBehind>
+  <RadiusUI.Notice.Modules>Modules Radius UI chargés</RadiusUI.Notice.Modules>
+  <RadiusUI.Notice.NoModules>Aucun module Radius UI n'est chargé.</RadiusUI.Notice.NoModules>
+  <RadiusUI.Notice.BuiltFor>prévu pour {0}</RadiusUI.Notice.BuiltFor>
+  <RadiusUI.Notice.Needs>demande la génération {0}</RadiusUI.Notice.Needs>
+  <RadiusUI.Notice.Silent>aucune version indiquée</RadiusUI.Notice.Silent>
+  <RadiusUI.Notice.Stop>Ne plus afficher ces avis</RadiusUI.Notice.Stop>
+  <RadiusUI.Notice.Ok>Compris</RadiusUI.Notice.Ok>
+
+  <!-- Widgets -->
+  <RadiusUI.Field.ClearTip>Effacer le texte.</RadiusUI.Field.ClearTip>
+
+  <!-- Button and checkbox colours -->
+  <RadiusUI.Settings.ColoursHeading>Couleurs des boutons et des cases à cocher</RadiusUI.Settings.ColoursHeading>
+  <RadiusUI.Settings.ColoursNote>En hexadécimal, avec ou sans le dièse initial. Laissez un champ vide pour garder la couleur d'origine. S'applique à tous les mods Radius UI à la fois.</RadiusUI.Settings.ColoursNote>
+  <RadiusUI.Settings.ButtonColour>Fond des boutons</RadiusUI.Settings.ButtonColour>
+  <RadiusUI.Settings.ButtonColourTip>La plaque derrière chaque bouton dessiné par la suite. Les états survolé et enfoncé en sont dérivés : ils restent visibles quelle que soit la couleur choisie.</RadiusUI.Settings.ButtonColourTip>
+  <RadiusUI.Settings.CheckColour>Fond des cases cochées</RadiusUI.Settings.CheckColour>
+  <RadiusUI.Settings.CheckColourTip>La case d'une case cochée. Volontairement distincte du fond des boutons : une case cochée doit se repérer dans une longue colonne, alors qu'une plaque de bouton doit rester discrète.</RadiusUI.Settings.CheckColourTip>
+  <RadiusUI.Settings.ColourDefault>Par défaut</RadiusUI.Settings.ColourDefault>
+  <RadiusUI.Settings.ColourSample>Bouton</RadiusUI.Settings.ColourSample>
+
+  <!-- Accent names -->
+  <RadiusUI.Accent.Sky>ciel</RadiusUI.Accent.Sky>
+  <RadiusUI.Accent.Gold>or</RadiusUI.Accent.Gold>
+  <RadiusUI.Accent.Emerald>émeraude</RadiusUI.Accent.Emerald>
+  <RadiusUI.Accent.Violet>violet</RadiusUI.Accent.Violet>
+  <RadiusUI.Accent.Crimson>cramoisi</RadiusUI.Accent.Crimson>
+  <RadiusUI.Accent.Teal>sarcelle</RadiusUI.Accent.Teal>
+  <RadiusUI.Accent.Amber>ambre</RadiusUI.Accent.Amber>
+  <RadiusUI.Accent.Rose>rose</RadiusUI.Accent.Rose>
+
+</LanguageData>
