@@ -35,7 +35,7 @@ MODS = [
 # Values allowed to stay as in English: proper names, symbols, words French writes the same way.
 EXCEPTIONS = {
     "Radius UI", "Radius", "OK", "HP", "XP", "DPS", "Mission Control", "Command Center",
-    "Menu", "Stock", "Auto", "Radius UI Framework", "violet", "rose", "Structure", "Styles", "Rites", "Hostile", "Radius UI - Ideology", "factions", "Factions", "Radius UI - Needs Tab", "ARC", "Impact", "Plan", "archite", "Relations", "Population", "Description", "Empire", "stable", "Archétype", "Radius UI - Health Tab", "Triage", "Contagion", "Physique", "Composition", "Biceps", "Triceps", "Cardio", "Stable", "archotech", "implant", "Implant", "Structure",
+    "Menu", "Stock", "Auto", "Radius UI Framework", "violet", "rose", "Structure", "Styles", "Rites", "Hostile", "Radius UI - Ideology", "factions", "Factions", "Radius UI - Needs Tab", "ARC", "Impact", "Plan", "archite", "Relations", "Population", "Description", "Empire", "stable", "Archétype", "Radius UI - Health Tab", "Triage", "Contagion", "Physique", "Composition", "Biceps", "Triceps", "Cardio", "Stable", "archotech", "implant", "Implant", "Structure", "Radius UI - Colonist Bar", "Portraits", "Extras", "Kit", "auto",
 }
 
 DEF_INJECTED = HERE / "ColonistBar/Languages/French/DefInjected/KeyBindingDef/KeyBindings.xml"
@@ -91,7 +91,8 @@ def check_mod(source, folder, name):
             errors.append(f"nombre de \\n différent : {k}")
         if not f.strip() and e.strip():
             errors.append(f"valeur vide : {k}")
-        if f == e and has_letters(e) and PLACEHOLDER.sub("", e).strip() not in EXCEPTIONS:
+        core = PLACEHOLDER.sub("", e).strip()
+        if f == e and has_letters(core) and core not in EXCEPTIONS:
             errors.append(f"non traduit : {k} = {e!r}")
     return ("OK" if not errors else "erreur"), errors
 

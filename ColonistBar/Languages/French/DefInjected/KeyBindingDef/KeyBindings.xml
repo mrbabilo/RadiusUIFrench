@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Traduction française : mod « Radius UI - Traduction française » (mrbabilo).
+     Chargé seulement avec Colonist Bar ou son fork (LoadFolders.xml). -->
+<LanguageData>
+  <RCB_FollowCam.label>suivre le pion sélectionné (Radius UI)</RCB_FollowCam.label>
+</LanguageData>

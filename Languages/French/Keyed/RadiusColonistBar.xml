@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Traduction française : mod « Radius UI - Traduction française » (mrbabilo). -->
+<LanguageData>
+
+  <!-- ================= Mod options entry ================= -->
+  <RCB_SettingsCategory>Radius UI - Colonist Bar</RCB_SettingsCategory>
+
+  <!-- ================= Window chrome ================= -->
+  <RCB_Setting_MasterEnabled>Activer Radius UI - Colonist Bar  (désactivé = barre du jeu)</RCB_Setting_MasterEnabled>
+  <RCB_Setting_MasterDisabled>Radius UI - Colonist Bar est désactivé. Activez-le ci-dessus pour le régler.</RCB_Setting_MasterDisabled>
+
+
+
+  <!-- ================= View selector ================= -->
+  <RCB_Setting_ResetAll>Tout réinitialiser</RCB_Setting_ResetAll>
+  <RCB_Setting_ResetAllConfirm>Réinitialiser les TROIS vues à leurs valeurs par défaut ? Les réglages généraux sont conservés.</RCB_Setting_ResetAllConfirm>
+
+  <!-- ================= Content tab ================= -->
+
+  <RCB_Setting_ShowStatusIndicators>Indicateurs d'état (crise / inspiration / fuite / danger)</RCB_Setting_ShowStatusIndicators>
+  <RCB_Setting_ShowSquadBadges>Badges d'escouade (Defensive Positions)</RCB_Setting_ShowSquadBadges>
+  <RCB_Setting_HostForeignMarks>Icônes de Useful Marks sur le portrait</RCB_Setting_HostForeignMarks>
+  <RCB_Setting_HostForeignMarksTip>Dessine en haut à gauche du portrait les marques de Useful Marks et des mods qui l'alimentent, comme Busywork.</RCB_Setting_HostForeignMarksTip>
+  <RCB_Setting_HostForeignMarksNote>Ces mods accrochent leurs marques à la case de colon du jeu, que cette barre remplace : sans cette option, elles n'apparaissent pas du tout ici. Quatre au plus tiennent ; un badge d'état ou un numéro d'escouade garde son coin et les icônes commencent à côté.</RCB_Setting_HostForeignMarksNote>
+  <RCB_Setting_ShowSpeechBubbles>Bulles de dialogue</RCB_Setting_ShowSpeechBubbles>
+  <RCB_Setting_ShowSpeechBubblesTip>Affiche la dernière réplique sociale d'un pion (conversations du jeu + RimTalk) dans une bulle pointée vers son portrait.</RCB_Setting_ShowSpeechBubblesTip>
+
+  <RCB_Cohort_All>Tous</RCB_Cohort_All>
+  <RCB_Cohort_Colonists>Colons</RCB_Cohort_Colonists>
+  <RCB_Cohort_Prisoners>Prisonniers</RCB_Cohort_Prisoners>
+  <RCB_Cohort_Slaves>Esclaves</RCB_Cohort_Slaves>
+  <RCB_Cohort_Pinned>Épinglés</RCB_Cohort_Pinned>
+  <RCB_Cohort_Tip>Afficher {COHORT} sur la barre.</RCB_Cohort_Tip>
+  <RCB_Cohort_TipAlert>Quelqu'un dans ce groupe demande de l'attention.</RCB_Cohort_TipAlert>
+  <RCB_Cohort_TipAll>Clic droit sur la rangée d'onglets : afficher tout le monde.</RCB_Cohort_TipAll>
+  <RCB_Cohort_More>{COUNT} groupes de plus. Cliquez pour choisir.</RCB_Cohort_More>
+  <RCB_Pin_Add>Épingler sur la barre</RCB_Pin_Add>
+  <RCB_Pin_Remove>Désépingler de la barre</RCB_Pin_Remove>
+  <RCB_Setting_CohortTabs>Onglets de groupes</RCB_Setting_CohortTabs>
+  <RCB_Setting_CohortTabsTip>Ajoute une rangée d'onglets en haut de la barre - Tous, vos escouades, Colons, Prisonniers, Esclaves, Animaux, Épinglés - pour que la barre n'affiche qu'un groupe à la fois et garde la même taille quelle que soit la taille de la colonie. Un groupe compte ses membres où qu'ils soient, sur n'importe quelle carte. Chaque onglet affiche son effectif, et un point coloré quand quelqu'un du groupe demande de l'attention ; quand les onglets ne tiennent pas tous, les derniers passent dans un menu « +N ». Clic droit sur la rangée pour revenir à tout le monde. Les onglets n'apparaissent que s'il y a plus d'un groupe entre lesquels passer.</RCB_Setting_CohortTabsTip>
+  <RCB_Setting_SortMode>Ordre de la barre</RCB_Setting_SortMode>
+  <RCB_Sort_Manual>Manuel (glisser pour réordonner)</RCB_Sort_Manual>
+  <RCB_Sort_Urgency>Le plus urgent d'abord</RCB_Sort_Urgency>
+  <RCB_Sort_Mood>La plus basse humeur d'abord</RCB_Sort_Mood>
+  <RCB_Sort_Name>Nom</RCB_Sort_Name>
+  <RCB_Setting_SortModeNote>Les colons épinglés passent toujours en premier. L'ordre est recalculé quand l'effectif change, pas en continu : les colons ne bougent jamais sous votre curseur.</RCB_Setting_SortModeNote>
+  <RCB_Setting_IslandMaxWidth>Largeur maximale de la barre : {0} % de l'écran</RCB_Setting_IslandMaxWidth>
+  <RCB_Setting_IslandMaxWidthNote>Les colons passent sur une autre rangée plutôt que d'étirer la barre au-delà de cette largeur.</RCB_Setting_IslandMaxWidthNote>
+  <RCB_Value_Auto>auto</RCB_Value_Auto>
+  <RCB_Setting_RaceAdd>Régler une race en particulier…</RCB_Setting_RaceAdd>
+  <RCB_Setting_RaceNoneLeft>Toutes les races sont déjà réglées</RCB_Setting_RaceNoneLeft>
+  <RCB_Setting_RaceMissing>{0} (mod non chargé)</RCB_Setting_RaceMissing>
+  <RCB_Setting_RaceZoom>Zoom : {0}x</RCB_Setting_RaceZoom>
+  <RCB_Setting_RacePan>Décalage : {0}, {1}</RCB_Setting_RacePan>
+  <RCB_Setting_RaceFramingNote>Certaines races ne tiennent pas dans le même cadrage de portrait qu'un humain : une grande peut perdre le haut de la tête, une petite peut sembler perdue au milieu. Ces réglages ajustent une race en plus des réglages ci-dessus. Les races non réglées ne sont pas enregistrées, et un réglage est gardé même si son mod est désactivé.</RCB_Setting_RaceFramingNote>
+  <RCB_Setting_Preview>Aperçu :</RCB_Setting_Preview>
+  <RCB_Setting_PreviewAuto>Auto</RCB_Setting_PreviewAuto>
+  <RCB_Setting_PreviewOpen>Garder ouverte</RCB_Setting_PreviewOpen>
+  <RCB_Setting_PreviewClosed>Garder repliée</RCB_Setting_PreviewClosed>
+  <RCB_Setting_PreviewTip>Garde la barre ouverte ou repliée pendant vos réglages, pour voir l'effet d'un réglage sur l'état qu'il concerne. Auto rétablit le comportement normal : la barre s'ouvre quand vous la pointez et se replie quand on la laisse. Non enregistré : revient à Auto quand vous fermez le jeu.</RCB_Setting_PreviewTip>
+  <RCB_Setting_CardLayout>Disposition des cartes</RCB_Setting_CardLayout>
+  <RCB_Setting_CardLayout_Side>Côte à côte</RCB_Setting_CardLayout_Side>
+  <RCB_Setting_CardLayout_SideTip>Portrait à gauche, nom et détails en colonne à côté.</RCB_Setting_CardLayout_SideTip>
+  <RCB_Setting_CardLayout_Stacked>Empilée</RCB_Setting_CardLayout_Stacked>
+  <RCB_Setting_CardLayout_StackedTip>Portrait en haut, avec le nom et chaque ligne de détail centrés dessous.</RCB_Setting_CardLayout_StackedTip>
+  <RCB_Setting_CardLayoutNote>Les cartes empilées sont bien plus étroites : plus de colons tiennent avant que la barre passe à la ligne ou en pages. Mais chaque carte est plus haute, et le portrait n'est plus à côté du nom.</RCB_Setting_CardLayoutNote>
+  <RCB_Setting_OpenMaxH>Encoche ouverte : hauteur max : {0}</RCB_Setting_OpenMaxH>
+  <RCB_Setting_OpenMaxHNote>Plafond de l'encoche ouverte. Quand les rangées le dépasseraient, la barre s'élargit au-delà de la largeur maximale : un colon inaccessible est pire qu'une barre large. Approximatif, ne cache jamais personne.</RCB_Setting_OpenMaxHNote>
+  <RCB_Setting_CollapsedMaxW>Encoche repliée : largeur max : {0}</RCB_Setting_CollapsedMaxW>
+  <RCB_Setting_CollapsedMaxWNote>Plafond de la capsule au repos. Le contenu de la pastille (et la barre d'outils de développement, en mode développement) fixe un minimum : ce réglage enlève le superflu, il ne coupe jamais.</RCB_Setting_CollapsedMaxWNote>
+  <RCB_Setting_BubbleWidth>Largeur des bulles de dialogue : {0}</RCB_Setting_BubbleWidth>
+  <RCB_Setting_BubbleWidthNote>La largeur qu'une bulle peut prendre avant de passer à la ligne. Une réplique courte garde une bulle courte : c'est un plafond, pas une taille. Auto suit la taille de la barre.</RCB_Setting_BubbleWidthNote>
+  <RCB_Setting_BubbleLines>Lignes des bulles de dialogue : {0}</RCB_Setting_BubbleLines>
+  <RCB_Setting_BubbleLinesNote>La hauteur qu'une bulle peut prendre avant que la réplique soit coupée par des points de suspension. RimTalk écrit des paragraphes : augmentez cette valeur pour les lire sur la barre.</RCB_Setting_BubbleLinesNote>
+  <RCB_Head_Hidden>Colons cachés</RCB_Head_Hidden>
+  <RCB_Setting_HiddenNone>Personne n'est caché. Faites un clic droit sur un colon de la barre pour le cacher : il apparaîtra ici pour que vous puissiez le faire revenir.</RCB_Setting_HiddenNone>
+  <RCB_Setting_HiddenNote>Cachés d'un clic droit sur la barre. Ils restent hors de la barre jusqu'à ce que vous les affichiez de nouveau, même d'une sauvegarde à l'autre.</RCB_Setting_HiddenNote>
+  <RCB_Setting_HiddenShow>Afficher</RCB_Setting_HiddenShow>
+  <RCB_Setting_HiddenShowAll>Afficher tout le monde</RCB_Setting_HiddenShowAll>
+  <RCB_Setting_NotchPos>Position de l'encoche : {0}</RCB_Setting_NotchPos>
+  <RCB_Setting_NotchPosCentre>Centrée</RCB_Setting_NotchPosCentre>
+  <RCB_Setting_NotchPosNote>Fait glisser l'encoche le long du haut de l'écran, sans jamais en sortir : 0 % colle son bord gauche à celui de l'écran, 100 % le bord droit, et une barre aussi large que l'écran ne peut pas bouger.</RCB_Setting_NotchPosNote>
+  <RCB_Setting_CollapsedMaxH>Encoche repliée : hauteur max : {0}</RCB_Setting_CollapsedMaxH>
+  <RCB_Setting_CollapsedMaxHNote>Plafond du corps de la capsule. La bande de commandes et le bandeau d'alertes ajoutent leur propre hauteur par-dessus.</RCB_Setting_CollapsedMaxHNote>
+  <RCB_Setting_BarOpacity>Opacité de la barre : {0} %</RCB_Setting_BarOpacity>
+  <RCB_Setting_BarOpacityNote>La densité du fond sombre de la barre. 100 % est totalement opaque ; moins laisse voir le terrain à travers l'encoche. Seul le fond s'estompe : portraits, libellés, jauges et alertes restent entièrement visibles.</RCB_Setting_BarOpacityNote>
+  <RCB_Setting_BandOpacity>Opacité du bandeau : {0} %</RCB_Setting_BandOpacity>
+  <RCB_Setting_BandOpacityNote>La densité du fond coloré du bandeau d'alertes, réglée à part de l'opacité de la barre. 100 % est l'aspect d'origine. Moins le fond dans la barre : il reste lisible sans envahir l'écran ; le message, l'icône et les points restent toujours entièrement visibles.</RCB_Setting_BandOpacityNote>
+  <RCB_Setting_IslandCollapse>Réduire la barre quand vous ne vous en servez plus</RCB_Setting_IslandCollapse>
+  <RCB_Setting_IslandCollapseTip>Après le délai d'inactivité ci-dessous, la barre du haut se réduit à une petite pastille de résumé avec le nombre de colons et un point coloré par colon. Elle se déploie dès que vous passez le pointeur dessus, et elle est toujours entièrement ouverte quand vous arrivez sur une carte. Les alertes restent affichées pendant qu'elle est réduite.</RCB_Setting_IslandCollapseTip>
+  <RCB_Setting_IslandAnim>Vitesse de déploiement : {0} ms</RCB_Setting_IslandAnim>
+  <RCB_Setting_IslandAnimInstant>Vitesse de déploiement : immédiate (sans animation)</RCB_Setting_IslandAnimInstant>
+  <RCB_Setting_AlertBand>Bandeau d'alertes</RCB_Setting_AlertBand>
+  <RCB_Setting_AlertBandTip>Un bandeau coloré en bas de la barre du haut, qui nomme ce qui demande de l'attention en ce moment : hémorragie mortelle, colon à terre, crise de nerfs, risque de crise, famine, hypothermie ou insolation, ou colon à soigner. S'il y en a plusieurs, il les fait défiler ; le survol le met en pause, un clic va vers le colon. Quand la barre est repliée, le bandeau devient une fine bande colorée sous la pastille de résumé, qui montre toujours ce qui ne va pas. Vue de la barre du haut seulement.</RCB_Setting_AlertBandTip>
+  <RCB_Setting_AlertCycle>Changer toutes les : {0} s</RCB_Setting_AlertCycle>
+  <RCB_Setting_AlertCycleStatic>Ne pas faire défiler (n'afficher que l'alerte la plus urgente)</RCB_Setting_AlertCycleStatic>
+
+  <RCB_Alert_BleedingOut>{PAWN} se vide de son sang</RCB_Alert_BleedingOut>
+  <RCB_Alert_Downed>{PAWN} est à terre</RCB_Alert_Downed>
+  <RCB_Alert_Break>{PAWN} fait une crise de nerfs</RCB_Alert_Break>
+  <RCB_Alert_BreakRisk>{PAWN} est au bord de la crise</RCB_Alert_BreakRisk>
+  <RCB_Alert_Starving>{PAWN} meurt de faim</RCB_Alert_Starving>
+  <RCB_Alert_Hypothermia>{PAWN} est en hypothermie</RCB_Alert_Hypothermia>
+  <RCB_Alert_Heatstroke>{PAWN} a trop chaud</RCB_Alert_Heatstroke>
+  <RCB_Alert_NeedsTend>{PAWN} doit être soigné</RCB_Alert_NeedsTend>
+  <RCB_Alert_MetaNow>maintenant</RCB_Alert_MetaNow>
+  <RCB_Alert_ClickToJump>Cliquez pour aller vers ce colon. Survolez pour mettre en pause le défilement ; faites défiler la molette pour passer d'une alerte à l'autre.</RCB_Alert_ClickToJump>
+
+  <RCB_Gear_Tip>Réglages de Radius UI - Colonist Bar</RCB_Gear_Tip>
+  <RCB_CC_Tip>Centre de commandement : effectif, escouades, équipement et règles</RCB_CC_Tip>
+  <RCB_Grip_Collapse>Replier la barre des colons</RCB_Grip_Collapse>
+  <RCB_Grip_Expand>Afficher la barre des colons</RCB_Grip_Expand>
+  <RCB_CC_RailCollapse>Réduire la colonne aux icônes</RCB_CC_RailCollapse>
+  <RCB_CC_RailExpand>Afficher les libellés de la colonne</RCB_CC_RailExpand>
+  <RCB_State_Idle>Inactif</RCB_State_Idle>
+  <RCB_Cell_Mood>Humeur</RCB_Cell_Mood>
+  <RCB_Cell_Health>Santé</RCB_Cell_Health>
+  <RCB_Cell_Weapon>Arme</RCB_Cell_Weapon>
+  <RCB_Cell_Unarmed>Désarmé</RCB_Cell_Unarmed>
+  <RCB_Weap_InHand>En main</RCB_Weap_InHand>
+  <RCB_Weap_Stowed>Arme secondaire (rangée)</RCB_Weap_Stowed>
+  <RCB_Weap_SwapTo>Cliquez pour passer à :</RCB_Weap_SwapTo>
+  <RCB_Weap_AlsoCarrying>Porte aussi :</RCB_Weap_AlsoCarrying>
+  <RCB_State_Critical>Critique</RCB_State_Critical>
+  <RCB_State_Warning>Alerte</RCB_State_Warning>
+  <RCB_State_Drafted>Mobilisé</RCB_State_Drafted>
+  <RCB_State_Away>Absent</RCB_State_Away>
+  <!-- The state pill's tooltip: one line per condition behind a Warning / Critical pill, worst first. -->
+  <RCB_Cond_BleedingOut>Hémorragie mortelle</RCB_Cond_BleedingOut>
+  <RCB_Cond_Break>Crise de nerfs</RCB_Cond_Break>
+  <RCB_Cond_Downed>À terre</RCB_Cond_Downed>
+  <RCB_Cond_BreakRisk>Au bord de la crise</RCB_Cond_BreakRisk>
+  <RCB_Cond_Starving>Famine</RCB_Cond_Starving>
+  <RCB_Cond_Hypothermia>Hypothermie</RCB_Cond_Hypothermia>
+  <RCB_Cond_Heatstroke>Insolation</RCB_Cond_Heatstroke>
+  <RCB_Cond_NeedsTend>À soigner</RCB_Cond_NeedsTend>
+  <!-- Feedback phase 1 settings -->
+  <RCB_Setting_CardOpacity>Opacité des cartes : {0} %</RCB_Setting_CardOpacity>
+  <RCB_Setting_CardOpacityNote>La densité de la carte de chaque colon, à part de la barre derrière. Baissez-la avec l'opacité de la barre si les cartes ressemblent à des blocs pleins sur une barre transparente. Portraits, libellés, jauges et pastille restent entièrement visibles.</RCB_Setting_CardOpacityNote>
+  <RCB_Setting_JobTitleFallback>Seulement sans titre royal ni rôle</RCB_Setting_JobTitleFallback>
+  <RCB_Setting_JobTitleFallbackTip>N'afficher le titre d'histoire que pour les colons qui n'ont ni titre royal ni rôle d'idéoligion sur leur carte. Les colons titrés gardent une ligne ; les autres en ont toujours une.</RCB_Setting_JobTitleFallbackTip>
+  <RCB_TaskMode_Always>Toujours</RCB_TaskMode_Always>
+  <RCB_TaskMode_Hover>Au survol</RCB_TaskMode_Hover>
+  <RCB_TaskMode_Off>Jamais</RCB_TaskMode_Off>
+  <RCB_Setting_StatePill>Pastille d'état (Critique / Alerte / Mobilisé / Absent)</RCB_Setting_StatePill>
+  <RCB_Setting_StatePillNote>Le mot affiché en bas du portrait. Survolez une pastille Alerte ou Critique pour voir les problèmes qui en sont la cause. « Discrète avec le bandeau d'alertes » cache seulement les mots Alerte et Critique quand le bandeau les affiche déjà ; Mobilisé et Absent restent.</RCB_Setting_StatePillNote>
+  <RCB_PillMode_Show>Afficher</RCB_PillMode_Show>
+  <RCB_PillMode_QuietWithBand>Discrète avec le bandeau d'alertes</RCB_PillMode_QuietWithBand>
+  <RCB_PillMode_Off>Masquer</RCB_PillMode_Off>
+  <!-- Feedback phase 2 settings -->
+  <RCB_Setting_TitleColor>Couleur</RCB_Setting_TitleColor>
+  <RCB_TitleColor_Accent>Accent (or)</RCB_TitleColor_Accent>
+  <RCB_TitleColor_Faction>Bleu de faction</RCB_TitleColor_Faction>
+  <RCB_TitleColor_Ink>Vive</RCB_TitleColor_Ink>
+  <RCB_TitleColor_Quiet>Discrète</RCB_TitleColor_Quiet>
+  <RCB_TitleColor_Ideoligion>Couleur de l'idéoligion</RCB_TitleColor_Ideoligion>
+  <!-- Feedback phase 3 -->
+  <RCB_Head_Frames>Cadres</RCB_Head_Frames>
+  <RCB_Setting_Frames>Cadres d'univers</RCB_Setting_Frames>
+  <RCB_Setting_FramesNote>Un cadre ornemental autour de la carte d'un colon, de la couleur de ce qu'il est : sa voie de psylanceur (Vanilla Psycasts Expanded), son lien psychique, son rôle d'idéoligion ou son titre royal. Désactivé : la carte reste simple.</RCB_Setting_FramesNote>
+  <RCB_FrameMode_Off>Désactivés</RCB_FrameMode_Off>
+  <RCB_FrameMode_Cards>Sur les cartes</RCB_FrameMode_Cards>
+  <RCB_FrameMode_CardsPopout>Cartes et panneau de survol</RCB_FrameMode_CardsPopout>
+  <RCB_Setting_FrameStrength>Intensité du cadre : {0} %</RCB_Setting_FrameStrength>
+  <RCB_Setting_FrameWatermark>Emblème sur le panneau de survol</RCB_Setting_FrameWatermark>
+  <RCB_Setting_FrameWatermarkTip>Un emblème discret de la source du cadre derrière le contenu du panneau de survol : l'illustration de la voie de psylanceur, l'icône de l'idéoligion, celle de l'Empire.</RCB_Setting_FrameWatermarkTip>
+  <RCB_Setting_FrameSources>Sources du cadre, la première trouvée l'emporte</RCB_Setting_FrameSources>
+  <RCB_FrameSource_Path>Voie de psylanceur (Vanilla Psycasts Expanded)</RCB_FrameSource_Path>
+  <RCB_FrameSource_Psylink>Lien psychique</RCB_FrameSource_Psylink>
+  <RCB_FrameSource_IdeoRole>Rôle d'idéoligion</RCB_FrameSource_IdeoRole>
+  <RCB_FrameSource_Royal>Titre royal</RCB_FrameSource_Royal>
+  <RCB_Setting_SpeechPlacement>Les répliques vont</RCB_Setting_SpeechPlacement>
+  <RCB_SpeechPlace_Bubble>Dans une bulle sous le locuteur</RCB_SpeechPlace_Bubble>
+  <RCB_SpeechPlace_Card>Sur la carte</RCB_SpeechPlace_Card>
+  <RCB_Setting_SpeechPlacementNote>Sur la carte, la réplique prend la place du nom et des titres aussi longtemps qu'elle serait restée dans une bulle. Survolez la carte pour le texte complet.</RCB_Setting_SpeechPlacementNote>
+  <RCB_Setting_HealthStyle>Jauge de santé</RCB_Setting_HealthStyle>
+  <RCB_HealthStyle_Rail>Barre</RCB_HealthStyle_Rail>
+  <RCB_HealthStyle_Ekg>Tracé d'ECG</RCB_HealthStyle_Ekg>
+  <RCB_Setting_HealthStyleNote>Le tracé d'ECG bat plus vite et plus haut quand le colon est en bonne santé, en vert, orange ou rouge, et devient plat quand il est presque mort. Il coûte un peu plus par carte que la barre.</RCB_Setting_HealthStyleNote>
+  <RCB_Setting_BandStandsIn>Faire taire les mêmes alertes dans Mission Control et Modern Notifications</RCB_Setting_BandStandsIn>
+  <RCB_Setting_BandStandsInTip>Tant que le bandeau est actif, ces deux mods cessent de répéter les alertes qu'il affiche déjà. Désactivez cette option pour les voir aux trois endroits.</RCB_Setting_BandStandsInTip>
+  <RCB_Setting_DraftedWeaponCard>Mobilisé : afficher l'arme au lieu des titres</RCB_Setting_DraftedWeaponCard>
+  <RCB_Setting_DraftedWeaponCardTip>Quand un colon est mobilisé, les lignes sous son nom laissent la place à son arme équipée, dessinée aussi grande que possible. La carte garde la même taille. Les pastilles d'armes secondaires sous le portrait sont cachées pendant que l'arme est affichée.</RCB_Setting_DraftedWeaponCardTip>
+  <RCB_Setting_WeaponModeNever>Jamais</RCB_Setting_WeaponModeNever>
+  <RCB_Setting_WeaponModeDrafted>Une fois mobilisé</RCB_Setting_WeaponModeDrafted>
+  <RCB_Setting_WeaponModeAlways>Toujours</RCB_Setting_WeaponModeAlways>
+  <RCB_Setting_ShowWeaponIcon>Afficher l'icône de l'arme</RCB_Setting_ShowWeaponIcon>
+  <RCB_Setting_WeaponPrimaryOnly>Arme équipée seulement</RCB_Setting_WeaponPrimaryOnly>
+  <RCB_Setting_WeaponPrimaryOnlyTip>N'afficher que l'arme que le pion tient. Les armes de rechange portées avec Simple Sidearms ne figurent pas dans la bande.</RCB_Setting_WeaponPrimaryOnlyTip>
+
+  <!-- ================= Effects tab ================= -->
+  <RCB_Setting_PulseOnDamage>Faire clignoter le cadre en rouge en cas de dégâts</RCB_Setting_PulseOnDamage>
+
+  <!-- ================= Text tab ================= -->
+
+  <RCB_Font_Tiny>Très petite</RCB_Font_Tiny>
+  <RCB_Font_Small>Petite</RCB_Font_Small>
+  <RCB_Font_Medium>Moyenne</RCB_Font_Medium>
+  <RCB_Weight_Regular>Normal</RCB_Weight_Regular>
+  <RCB_Weight_Bold>Gras</RCB_Weight_Bold>
+  <RCB_Weight_Italic>Italique</RCB_Weight_Italic>
+  <RCB_Weight_BoldItalic>Gras italique</RCB_Weight_BoldItalic>
+
+
+  <!-- ================= General tab ================= -->
+  <RCB_Setting_RenderMode>Mode de rendu</RCB_Setting_RenderMode>
+  <RCB_Setting_RenderLiveCameras>Caméras en direct</RCB_Setting_RenderLiveCameras>
+  <RCB_Setting_RenderLivingPortraits>Portraits animés</RCB_Setting_RenderLivingPortraits>
+  <RCB_Setting_LiveCamerasWarning>[Expérimental] Les caméras en direct rendent une vraie caméra par pion à chaque image et peuvent peser sur les performances. Les portraits animés sont le choix stable par défaut.</RCB_Setting_LiveCamerasWarning>
+  <RCB_Setting_LivingPortraitsNote>Portraits animés : des portraits nets et mis en cache, sur une tuile de tableau de bord.</RCB_Setting_LivingPortraitsNote>
+  <RCB_Setting_FaPortraits>Facial Animation dans les portraits</RCB_Setting_FaPortraits>
+  <RCB_Setting_FaPortraitsTip>Laisser [NL] Facial Animation jouer dans les portraits de la barre, le panneau de survol et le Centre de commandement, par le chemin d'animation des portraits du jeu (celui des pions qui clignotent) : clignements et expressions bougent en direct. Désactivé : visages fixes (moins coûteux). Si l'option « Enable Facial Animation in Portraits » de Facial Animation est active, c'est elle qui décide, avec son propre intervalle.</RCB_Setting_FaPortraitsTip>
+  <RCB_Setting_FaRate>Rafraîchissement des visages : environ {0} fois par seconde</RCB_Setting_FaRate>
+  <RCB_Setting_FaRateDeferred>Facial Animation rafraîchit lui-même les portraits (tous les {0} ticks). Changez le rythme dans ses options.</RCB_Setting_FaRateDeferred>
+
+  <RCB_Setting_FollowCam>Caméra de suivi (touche par défaut : F5)</RCB_Setting_FollowCam>
+  <RCB_Setting_FollowCamTip>Suit en douceur le pion sélectionné avec la caméra. Appuyez de nouveau sur la touche ou déplacez la caméra pour arrêter. Un pion porté renvoie à celui qui le porte : la caméra suit l'ambulance. Le zoom reste sous votre contrôle. Changez la touche dans Options &gt; Configuration du clavier &gt; Caméra.</RCB_Setting_FollowCamTip>
+  <RCB_Setting_FollowCamStabilize>Stabilisée (steadicam)</RCB_Setting_FollowCamStabilize>
+  <RCB_Setting_FollowCamStabilizeTip>Comme un cadreur : la caméra reste parfaitement immobile tant que le pion reste près du centre de l'écran (une petite zone morte), et bouge avec poids et inertie quand elle le suit, en accélérant et en freinant en douceur au lieu de reproduire chaque mouvement. Désactivé : mode serré, collé au pion.</RCB_Setting_FollowCamStabilizeTip>
+  <RCB_Setting_FollowCamSmooth>Réactivité du suivi : {0} ms (plus bas = plus serré)</RCB_Setting_FollowCamSmooth>
+
+  <RCB_Setting_UseCcmb>Humeur en couleur derrière les portraits</RCB_Setting_UseCcmb>
+  <RCB_Setting_UseCcmbTip>Affiche l'humeur en fond coloré derrière chaque portrait (dans les trois vues), avec les six couleurs d'humeur réglées dans les options de Color Coded Mood Bar. La barre d'humeur dédiée est cachée tant que cette option est active, sauf si vous avez affecté cet emplacement à une autre statistique. Désactivé : la barre d'humeur intégrée reste, avec ses couleurs du vert à l'aqua.</RCB_Setting_UseCcmbTip>
+
+  <RCB_Setting_HideSlaves>Cacher les esclaves</RCB_Setting_HideSlaves>
+  <RCB_Setting_HideMechs>Cacher les mécas et les mutants</RCB_Setting_HideMechs>
+  <RCB_Setting_HideCorpses>Cacher les cadavres</RCB_Setting_HideCorpses>
+
+  <!-- ================= Camera tab ================= -->
+  <RCB_Setting_LiveWholeMap>Vue en direct sur toute la carte</RCB_Setting_LiveWholeMap>
+  <RCB_Setting_LiveWholeMapTip>Garder la vue en direct active pour chaque pion de la colonie, y compris ceux hors de l'écran.</RCB_Setting_LiveWholeMapTip>
+  <RCB_Setting_LiveZoom>Zoom de la vue en direct : {0}x</RCB_Setting_LiveZoom>
+  <RCB_Setting_PortraitZoom>Zoom du portrait : {0}x</RCB_Setting_PortraitZoom>
+
+  <!-- ================= Pop-out tab ================= -->
+  <RCB_Setting_PopoutOpacityLinked>L'opacité du panneau de survol suit celle de l'encoche</RCB_Setting_PopoutOpacityLinked>
+  <RCB_Setting_PopoutOpacityLinkedTip>Une seule opacité pour la barre et son panneau de survol. Décochez pour régler le panneau à part.</RCB_Setting_PopoutOpacityLinkedTip>
+  <RCB_Setting_PopoutOpacityLinkedNote>Suit l'opacité de l'encoche : {0} %. Réglée dans l'onglet Barre.</RCB_Setting_PopoutOpacityLinkedNote>
+  <RCB_Setting_PopoutOpacity>Opacité du panneau de survol : {0} %</RCB_Setting_PopoutOpacity>
+  <RCB_Setting_PopoutScale>Taille du panneau de survol : {0} %</RCB_Setting_PopoutScale>
+  <RCB_Setting_PopoutPad>Marge intérieure : {0} px</RCB_Setting_PopoutPad>
+  <RCB_Setting_QaShow>Boutons d'accès rapide (6 au plus, 2 rangées de 3)</RCB_Setting_QaShow>
+  <RCB_Setting_QaDraft>Mobiliser / démobiliser</RCB_Setting_QaDraft>
+  <RCB_Setting_QaJump>Aller au pion</RCB_Setting_QaJump>
+  <RCB_Setting_QaHealth>Ouvrir l'onglet santé</RCB_Setting_QaHealth>
+  <RCB_Setting_QaBio>Ouvrir l'onglet biographie</RCB_Setting_QaBio>
+  <RCB_Setting_QaSocial>Ouvrir l'onglet social</RCB_Setting_QaSocial>
+  <RCB_Setting_QaGear>Ouvrir l'onglet équipement</RCB_Setting_QaGear>
+  <RCB_Setting_QaPolicies>Règles (tenue / nourriture / drogues)</RCB_Setting_QaPolicies>
+  <RCB_Setting_QaRename>Renommer</RCB_Setting_QaRename>
+  <RCB_Setting_QaDefPos>Position défensive</RCB_Setting_QaDefPos>
+  <RCB_Setting_QaAdaptiveWork>Priorités de travail adaptatives</RCB_Setting_QaAdaptiveWork>
+  <RCB_Setting_QaAdaptiveWorkTip>Ajoute au panneau de survol un bouton Travail qui le remplace par la fiche de pion d'Adaptive Work Priorities. Le bouton porte un badge avec le nombre de propositions de priorités en attente pour ce colon.</RCB_Setting_QaAdaptiveWorkTip>
+
+  <!-- Pop-out quick action: hand-off to Adaptive Work Priorities -->
+  <RCB_Qa_Work>Travail</RCB_Qa_Work>
+  <RCB_Qa_WorkTip>Ouvrir la fiche des priorités de travail adaptatives</RCB_Qa_WorkTip>
+  <RCB_Qa_WorkTipPending>Ouvrir la fiche des priorités de travail adaptatives : {0} en attente</RCB_Qa_WorkTipPending>
+  <RCB_Qa_WorkUntracked>{0} n'est pas encore suivi par Adaptive Work Priorities.</RCB_Qa_WorkUntracked>
+
+  <!-- ================= Layout tab ================= -->
+  <RCB_Setting_PortraitScale>Taille des portraits : {0} %</RCB_Setting_PortraitScale>
+  <RCB_Setting_BarTopOffset>Décalage vertical de la barre : {0} px</RCB_Setting_BarTopOffset>
+
+  <!-- ================= Stat slot names ================= -->
+  <RCB_Stat_None>(aucune)</RCB_Stat_None>
+  <RCB_Stat_Health>Santé</RCB_Stat_Health>
+  <RCB_Stat_Mood>Humeur</RCB_Stat_Mood>
+  <RCB_Stat_Readiness>Préparation au combat</RCB_Stat_Readiness>
+  <RCB_Stat_Psyfocus>Concentration psychique</RCB_Stat_Psyfocus>
+  <RCB_Stat_Entropy>Échauffement neuronal</RCB_Stat_Entropy>
+  <RCB_Stat_Mmb>Santé mentale (MMB)</RCB_Stat_Mmb>
+
+  <!-- ===== settings page (rebuilt - tabs named for what the player wants to change) ===== -->
+  <RCB_Tab_Bar>Barre</RCB_Tab_Bar>
+  <RCB_Tab_Cards>Cartes</RCB_Tab_Cards>
+  <RCB_Tab_Who>Qui est affiché</RCB_Tab_Who>
+  <RCB_Tab_Alerts>Alertes</RCB_Tab_Alerts>
+  <RCB_Tab_Portraits>Portraits</RCB_Tab_Portraits>
+  <RCB_Tab_Hover>Panneau de survol</RCB_Tab_Hover>
+  <RCB_Tab_Extras>Extras</RCB_Tab_Extras>
+
+  <RCB_Head_Look>Taille et aspect</RCB_Head_Look>
+  <RCB_Head_Minimize>Réduction</RCB_Head_Minimize>
+  <RCB_Head_Perf>Performances</RCB_Head_Perf>
+  <RCB_Head_Camera>Caméra de suivi</RCB_Head_Camera>
+  <RCB_Head_Rows>Texte de chaque carte</RCB_Head_Rows>
+  <RCB_Head_Meters>Jauges sous le portrait</RCB_Head_Meters>
+  <RCB_Head_Markers>Alertes sur la carte</RCB_Head_Markers>
+  <RCB_Head_Extras>Extras</RCB_Head_Extras>
+  <RCB_Head_Paging>Colons par page</RCB_Head_Paging>
+  <RCB_Head_Order>Ordre et groupes</RCB_Head_Order>
+  <RCB_Head_WhoShows>Qui apparaît sur la barre</RCB_Head_WhoShows>
+  <RCB_Head_PortraitMode>Comment les colons sont dessinés</RCB_Head_PortraitMode>
+  <RCB_Head_Framing>Cadrage</RCB_Head_Framing>
+  <RCB_Head_Quality>Qualité</RCB_Head_Quality>
+  <RCB_Head_Compat>Autres mods</RCB_Head_Compat>
+  <RCB_Head_PopoutLook>Apparence</RCB_Head_PopoutLook>
+  <RCB_Head_QuickActions>Actions rapides</RCB_Head_QuickActions>
+
+  <RCB_Setting_CardIntro>Ce que montre la carte de chaque colon.</RCB_Setting_CardIntro>
+  <RCB_Setting_RosterIntro>Qui est sur la barre, dans quel ordre, et comment les grandes colonies restent lisibles.</RCB_Setting_RosterIntro>
+  <RCB_Setting_AlertsIntro>Un bandeau coloré en bas de la barre qui nomme qui a le plus besoin de vous. Cliquez dessus pour aller vers lui.</RCB_Setting_AlertsIntro>
+  <RCB_Setting_MetersNote>Deux fines barres sous chaque portrait. Réglez l'une ou l'autre sur « Aucune » pour la cacher.</RCB_Setting_MetersNote>
+  <RCB_Setting_PortraitScaleNote>Agrandit ou réduit la carte de chaque colon.</RCB_Setting_PortraitScaleNote>
+  <RCB_Setting_BarTopOffsetNote>Descend toute la barre sur l'écran. Une valeur négative la colle davantage au bord du haut.</RCB_Setting_BarTopOffsetNote>
+  <RCB_Setting_ShowJobTitleTip>Le métier d'histoire du colon, comme « Mercenaire » ou « Paysan benêt ».</RCB_Setting_ShowJobTitleTip>
+  <RCB_Setting_PulseOnDamageTip>Fait clignoter en rouge la carte d'un colon dès qu'il est blessé.</RCB_Setting_PulseOnDamageTip>
+  <RCB_Setting_AlertCycleNote>Avec plusieurs problèmes à la fois, le bandeau les fait défiler. Glissez tout à gauche pour arrêter le défilement et toujours afficher le pire.</RCB_Setting_AlertCycleNote>
+  <RCB_Setting_Quality>Qualité des portraits</RCB_Setting_Quality>
+  <RCB_Setting_QualityNote>La netteté du rendu de chaque colon. Plus haut est plus beau de près et coûte plus de mémoire et de temps GPU ; sur une petite barre, la différence se voit à peine : commencez par Moyenne.</RCB_Setting_QualityNote>
+  <RCB_Quality_Low>Basse : la moins coûteuse</RCB_Quality_Low>
+  <RCB_Quality_Medium>Moyenne : recommandée</RCB_Quality_Medium>
+  <RCB_Quality_High>Haute</RCB_Quality_High>
+  <RCB_Quality_Ultra>Très haute : pour les grandes cartes</RCB_Quality_Ultra>
+  <RCB_Setting_InfoRefresh>Rafraîchir les détails des colons : {0} fois par seconde</RCB_Setting_InfoRefresh>
+  <RCB_Setting_InfoRefreshNote>Noms, titres et ce que fait chaque colon. Plus bas est moins coûteux. La santé, l'humeur et les alertes se mettent toujours à jour immédiatement, quelle que soit cette valeur.</RCB_Setting_InfoRefreshNote>
+  <RCB_Setting_CameraBudget>Mises à jour des caméras en direct : {0} colons par image</RCB_Setting_CameraBudget>
+  <RCB_Setting_CameraBudgetNote>Ne sert qu'aux caméras en direct. Plus bas : la vue de chaque colon se met à jour moins souvent, mais le jeu travaille moins à chaque image.</RCB_Setting_CameraBudgetNote>
+  <RCB_Setting_FollowCamNote>Plus haut glisse plus doucement ; plus bas reste plus près du colon.</RCB_Setting_FollowCamNote>
+  <RCB_Setting_PinNote>Épinglez un colon depuis son menu de clic droit. Les colons épinglés passent en premier dans chaque groupe et remplissent l'onglet Épinglés.</RCB_Setting_PinNote>
+
+  <RCB_Setting_CollapseDelay>Replier après : {0} sans utiliser la barre</RCB_Setting_CollapseDelay>
+  <RCB_Setting_CollapseDelayNone>Replier dès que le pointeur s'en va</RCB_Setting_CollapseDelayNone>
+  <RCB_Setting_CollapseDelayNote>La barre se rouvre dès que vous la pointez ; ce réglage ne fait que retarder sa fermeture. Le compte à rebours démarre à votre arrivée sur une carte : la barre n'est donc jamais déjà réduite quand vous y arrivez.</RCB_Setting_CollapseDelayNote>
+
+  <RCB_Setting_ShowName>Nom</RCB_Setting_ShowName>
+  <RCB_Setting_ShowRoyalTitle>Titre royal</RCB_Setting_ShowRoyalTitle>
+  <RCB_Setting_ShowRoyalTitleTip>Affiche un titre honorifique impérial sous le nom, quand le colon en a un.</RCB_Setting_ShowRoyalTitleTip>
+  <RCB_Setting_ShowJobTitle>Métier d'histoire</RCB_Setting_ShowJobTitle>
+  <RCB_Setting_ShowIdeoRole>Rôle d'idéoligion</RCB_Setting_ShowIdeoRole>
+  <RCB_Setting_ShowJobLabel>Tâche en cours</RCB_Setting_ShowJobLabel>
+  <RCB_Setting_ShowJobLabelTip>La dernière ligne de la carte : ce que fait le colon en ce moment, ou ce qui ne va pas chez lui.</RCB_Setting_ShowJobLabelTip>
+  <RCB_Setting_RailTop>Jauge de gauche</RCB_Setting_RailTop>
+  <RCB_Setting_RailBottom>Jauge de droite</RCB_Setting_RailBottom>
+  <RCB_Setting_ShowStatusIndicatorsTip>Un badge d'angle pour les crises de nerfs, les fuites et les inspirations.</RCB_Setting_ShowStatusIndicatorsTip>
+  <RCB_Setting_ShowSquadBadgesTip>Affiche le numéro d'escouade Defensive Positions du colon dans le coin de son portrait.</RCB_Setting_ShowSquadBadgesTip>
+
+  <RCB_Setting_HideSlavesTip>Garder les esclaves hors de la barre, sauf si vous passez à leur onglet.</RCB_Setting_HideSlavesTip>
+  <RCB_Setting_HideMechsTip>Garder les mécanoïdes et les mutants hors de la barre.</RCB_Setting_HideMechsTip>
+  <RCB_Setting_HideCorpsesTip>Garder les colons morts hors de la barre.</RCB_Setting_HideCorpsesTip>
+
+
+  <RCB_Setting_PortraitHoverInfo>Panneau de survol</RCB_Setting_PortraitHoverInfo>
+  <RCB_Setting_PortraitHoverInfoTip>Un panneau de détail avec humeur, santé, arme et actions rapides quand vous survolez un colon.</RCB_Setting_PortraitHoverInfoTip>
+  <RCB_Setting_QaShowTip>La rangée de boutons en bas du panneau de survol.</RCB_Setting_QaShowTip>
+  <RCB_Setting_PopoutOffset>Décaler le panneau : {0}, {1} px</RCB_Setting_PopoutOffset>
+
+  <RCB_Setting_LivePan>Décalage de la caméra : {0}, {1}</RCB_Setting_LivePan>
+  <RCB_Setting_PortraitPan>Décalage du portrait : {0}, {1}</RCB_Setting_PortraitPan>
+  <RCB_Setting_DuetNote>Quand un colon s'occupe de quelqu'un - conversation, soin, combat - l'autre personne apparaît aussi : les portraits se partagent la carte, et les caméras en direct reculent pour cadrer les deux.</RCB_Setting_DuetNote>
+
+  <RCB_Alert_Inspired>{PAWN} est inspiré</RCB_Alert_Inspired>
+  <RCB_Setting_AlertInspired>Afficher aussi les inspirations</RCB_Setting_AlertInspired>
+  <RCB_Setting_AlertInspiredTip>Ajoute un bandeau bleu clair pour les colons inspirés. Les inspirations expirent : une inspiration inutilisée est perdue. Mais c'est la seule bonne nouvelle du bandeau, vous pouvez donc la couper et réserver le bandeau aux problèmes.</RCB_Setting_AlertInspiredTip>
+  <RCB_Alert_InspiredNamed>{PAWN} est inspiré : {WHAT}</RCB_Alert_InspiredNamed>
+  <RCB_Cohort_Animals>Animaux</RCB_Cohort_Animals>
+  <RCB_Setting_CollapseDisabledNote>Activez « Réduire la barre quand vous ne vous en servez plus » ci-dessus pour utiliser ces réglages.</RCB_Setting_CollapseDisabledNote>
+  <RCB_Setting_Animals>Animaux de la colonie</RCB_Setting_Animals>
+  <RCB_Animals_Off>Pas sur la barre</RCB_Animals_Off>
+  <RCB_Animals_Bonded>Animaux liés seulement</RCB_Animals_Bonded>
+  <RCB_Animals_All>Tous les animaux de la colonie</RCB_Animals_All>
+  <RCB_Setting_AnimalsNote>Les animaux ont leur propre groupe et leur propre onglet. « Liés seulement » demande un vrai lien : un animal tout juste apprivoisé n'en a pas encore.</RCB_Setting_AnimalsNote>
+  <RCB_Head_Diag>Diagnostic (mode développement)</RCB_Head_Diag>
+  <RCB_Setting_PopoutDiag>Calque de mise en page du panneau</RCB_Setting_PopoutDiag>
+  <RCB_Setting_PopoutDiagTip>Entoure le panneau de survol et le cadre du nom, et affiche les largeurs qui décident si le nom est raccourci. Vert : le nom entier tient ; magenta : il a été raccourci. Ne s'affiche qu'en mode développement.</RCB_Setting_PopoutDiagTip>
+  <RCB_Setting_CollapsedCount>Afficher le nombre de colons sur la barre repliée</RCB_Setting_CollapsedCount>
+  <RCB_Setting_CollapsedCountTip>Le nombre à gauche de la pastille repliée. Désactivez-le pour garder la pastille la plus étroite possible : les points colorés restent, un par colon.</RCB_Setting_CollapsedCountTip>
+  <RCB_Setting_MaxVisible>Colons affichés à la fois au plus : {0}</RCB_Setting_MaxVisible>
+  <RCB_Setting_MaxVisibleOff>Colons affichés à la fois au plus : sans limite (tout le monde)</RCB_Setting_MaxVisibleOff>
+  <RCB_Setting_MaxVisibleNote>Au-delà, des flèches apparaissent à chaque bout de la barre pour feuilleter les autres. Les 5 par défaut gardent une rangée de taille normale au lieu d'une bande de petites tuiles sur toute la largeur ; glissez tout à gauche pour supprimer la limite. Les colons épinglés restent toujours à l'écran et ne sont jamais feuilletés. Une flèche porte un point coloré quand quelqu'un caché derrière demande de l'attention.</RCB_Setting_MaxVisibleNote>
+  <RCB_Window_Tip>{COUNT} de plus par ici. Cliquez pour faire défiler ; les points dessous sautent d'une page à la fois.</RCB_Window_Tip>
+  <RCB_Setting_CondMarkers>Afficher les marqueurs d'état</RCB_Setting_CondMarkers>
+  <RCB_Setting_CondMarkersTip>Une barre colorée en bas de la carte d'un colon, qui montre son pire problème, avec un nombre en haut à droite quand il en a plusieurs. Mêmes couleurs que le bandeau d'alertes ; rien du tout pour un colon qui va bien.</RCB_Setting_CondMarkersTip>
+  <RCB_Setting_CondPulse>Faire pulser le marqueur à partir de {0} problèmes</RCB_Setting_CondPulse>
+  <RCB_Setting_CondPulseOff>Ne jamais faire pulser le marqueur</RCB_Setting_CondPulseOff>
+  <RCB_Setting_CondPulseNote>Au-delà de quelques problèmes, tout est du même rouge : le marqueur se met alors à respirer. Gardez cette valeur haute : si plusieurs colons pulsent à la fois, cela ne veut plus rien dire.</RCB_Setting_CondPulseNote>
+
+  <!-- ===== Command Center (gen-15 rebuild, 2026-09-10): rail, modules, the band's counter ===== -->
+  <RCB_CC_Title>Centre de commandement</RCB_CC_Title>
+  <RCB_CC_Roster>Effectif</RCB_CC_Roster>
+  <RCB_CC_Overview>Vue d'ensemble</RCB_CC_Overview>
+  <RCB_CC_Health>Santé</RCB_CC_Health>
+  <RCB_CC_Armory>Armurerie</RCB_CC_Armory>
+  <RCB_CC_Loadouts>Équipements</RCB_CC_Loadouts>
+  <RCB_CC_Squads>Escouades</RCB_CC_Squads>
+
+  <RCB_CC_ColonyDay>Colonie · jour {DAY}</RCB_CC_ColonyDay>
+  <RCB_CC_StatColonists>colons</RCB_CC_StatColonists>
+  <RCB_CC_StatDrafted>mobilisés</RCB_CC_StatDrafted>
+  <RCB_CC_StatTending>à soigner</RCB_CC_StatTending>
+  <RCB_CC_StatMood>humeur moyenne</RCB_CC_StatMood>
+  <RCB_CC_StatWealth>richesse de la colonie</RCB_CC_StatWealth>
+  <RCB_CC_NeedsAttention>À surveiller</RCB_CC_NeedsAttention>
+  <RCB_CC_AllQuiet>Personne ne demande d'attention pour l'instant.</RCB_CC_AllQuiet>
+  <RCB_CC_Bleeding>Hémorragie · {TIME}</RCB_CC_Bleeding>
+  <RCB_CC_BleedingUntended>Hémorragie · non soignée · {TIME}</RCB_CC_BleedingUntended>
+  <RCB_CC_NeedsTending>À soigner</RCB_CC_NeedsTending>
+  <RCB_CC_Stressed>Stressé · {PCT} % au-dessus du seuil de crise</RCB_CC_Stressed>
+  <RCB_CC_BreakRisk>Humeur {PCT} % · sous le seuil de crise</RCB_CC_BreakRisk>
+  <RCB_CC_Tend>Soigner</RCB_CC_Tend>
+  <RCB_CC_Inspect>Inspecter</RCB_CC_Inspect>
+
+  <RCB_CC_MedicalPolicies>Règles médicales</RCB_CC_MedicalPolicies>
+  <RCB_CC_Colonists>Colons</RCB_CC_Colonists>
+  <RCB_CC_Healthy>En bonne santé</RCB_CC_Healthy>
+  <RCB_CC_HealthLink>Santé</RCB_CC_HealthLink>
+
+  <RCB_CC_AutoAssign>Attribuer automatiquement</RCB_CC_AutoAssign>
+  <RCB_CC_Apply>Appliquer</RCB_CC_Apply>
+  <RCB_CC_Cancel>Annuler</RCB_CC_Cancel>
+  <RCB_CC_Weapons>Armes</RCB_CC_Weapons>
+  <RCB_CC_NoWeapons>Aucune arme trouvée.</RCB_CC_NoWeapons>
+  <RCB_CC_QualityHp>{QUALITY} · {HP} %</RCB_CC_QualityHp>
+  <RCB_CC_HpOnly>{HP} %</RCB_CC_HpOnly>
+  <RCB_CC_Unassigned>Sans affectation</RCB_CC_Unassigned>
+  <RCB_CC_Unarmed>désarmé</RCB_CC_Unarmed>
+  <RCB_CC_EquipOn>Équiper {PAWN}</RCB_CC_EquipOn>
+  <RCB_CC_JumpToWeapon>Aller à l'arme</RCB_CC_JumpToWeapon>
+  <RCB_CC_ProposalHeader>Changements proposés ({N})</RCB_CC_ProposalHeader>
+  <RCB_CC_NoProposal>Rien à améliorer : chacun a déjà la meilleure arme à sa portée.</RCB_CC_NoProposal>
+  <RCB_CC_Applied>{N} ordres d'équipement donnés.</RCB_CC_Applied>
+
+  <RCB_CC_EditLoadouts>Modifier les équipements</RCB_CC_EditLoadouts>
+  <RCB_CC_LoadoutsHeader>Équipements</RCB_CC_LoadoutsHeader>
+  <RCB_CC_AddLoadout>+ Ajouter</RCB_CC_AddLoadout>
+  <RCB_CC_KitDefaultName>Kit {N}</RCB_CC_KitDefaultName>
+  <RCB_CC_Missing>{N} manquants</RCB_CC_Missing>
+  <RCB_CC_Complete>complet</RCB_CC_Complete>
+  <RCB_CC_NoLoadout>Aucun équipement</RCB_CC_NoLoadout>
+  <RCB_CC_Edit>Modifier</RCB_CC_Edit>
+  <RCB_CC_AssignKit>Attribuer {KIT}</RCB_CC_AssignKit>
+  <RCB_CC_AssignedKit>{KIT} (attribué)</RCB_CC_AssignedKit>
+  <RCB_CC_ApplyNow>Appliquer maintenant</RCB_CC_ApplyNow>
+  <RCB_CC_ClearLoadout>Retirer l'équipement</RCB_CC_ClearLoadout>
+  <RCB_CC_NoKitsYet>Aucun équipement pour l'instant. Ajoutez-en un ci-dessus.</RCB_CC_NoKitsYet>
+
+  <RCB_CC_NewSquad>Nouvelle escouade</RCB_CC_NewSquad>
+  <RCB_CC_NewSquadEllipsis>Nouvelle escouade…</RCB_CC_NewSquadEllipsis>
+  <RCB_CC_SquadsHeader>Escouades</RCB_CC_SquadsHeader>
+  <RCB_CC_SquadCount>{NAME} · {N}</RCB_CC_SquadCount>
+  <RCB_CC_UnassignedCount>Sans affectation · {N}</RCB_CC_UnassignedCount>
+  <RCB_CC_Move>Déplacer</RCB_CC_Move>
+  <RCB_CC_SquadRename>Renommer</RCB_CC_SquadRename>
+  <RCB_CC_SquadMoveUp>Monter</RCB_CC_SquadMoveUp>
+  <RCB_CC_SquadMoveDown>Descendre</RCB_CC_SquadMoveDown>
+  <RCB_CC_SquadDisband>Dissoudre</RCB_CC_SquadDisband>
+  <RCB_CC_NoColonists>Aucun colon.</RCB_CC_NoColonists>
+  <RCB_Rename>Renommer</RCB_Rename>
+
+  <RCB_Band_Counter>{CUR} sur {N}</RCB_Band_Counter>
+</LanguageData>
