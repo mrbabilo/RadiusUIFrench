@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Radius UI - Ideology : English source of truth for every C# facing string.
+  House style (GLOBAL_RULES §7):
+    - Vanilla sentence case. Only the first word is capitalized, plus proper nouns.
+    - No em dash and no en dash anywhere. Use a spaced hyphen, a comma or a full stop.
+    - Second person, present tense, concrete.
+  Def labels and descriptions are NOT here; those are DefInjected. This mod ships no defs.
+-->
+<!-- Traduction française : mod « Radius UI - Traduction française » (mrbabilo). -->
+<LanguageData>
+
+  <!-- ===== Window chrome ===== -->
+  <RadiusIdeo_WindowTitle>Idéoligions</RadiusIdeo_WindowTitle>
+  <RadiusIdeo_CloseTip>Échap ferme aussi cette fenêtre.</RadiusIdeo_CloseTip>
+  <RadiusIdeo_VanillaViewTip>Passer à la vue des idéoligions du jeu. Ce choix est retenu, et vous pouvez revenir à tout moment.</RadiusIdeo_VanillaViewTip>
+
+  <!-- ===== Left rail ===== -->
+  <RadiusIdeo_Search>Rechercher une idéoligion…</RadiusIdeo_Search>
+  <RadiusIdeo_NoMatch>Aucune idéoligion ne correspond à cette recherche.</RadiusIdeo_NoMatch>
+  <!-- These render as standalone tags/badges rather than mid-sentence, so they take a
+       capital the way "Believers" and "World" on the atlas do. -->
+  <RadiusIdeo_TagFixed>Figée</RadiusIdeo_TagFixed>
+
+  <!-- ===== Tabs and chapter headings ===== -->
+  <RadiusIdeo_TabOverview>Vue d'ensemble</RadiusIdeo_TabOverview>
+  <RadiusIdeo_TabMemes>Mèmes</RadiusIdeo_TabMemes>
+  <RadiusIdeo_TabPrecepts>Préceptes</RadiusIdeo_TabPrecepts>
+  <RadiusIdeo_TabRoles>Rôles et rituels</RadiusIdeo_TabRoles>
+  <RadiusIdeo_TabFollowers>Adeptes</RadiusIdeo_TabFollowers>
+
+  <!-- ===== Banner ===== -->
+  <RadiusIdeo_AddStyle>Ajouter une catégorie de style</RadiusIdeo_AddStyle>
+  <RadiusIdeo_NoMoreStyles>Plus aucune catégorie de style</RadiusIdeo_NoMoreStyles>
+  <RadiusIdeo_Styles>Styles</RadiusIdeo_Styles>
+  <RadiusIdeo_NoStyles>Cette idéoligion n'a aucune catégorie de style.</RadiusIdeo_NoStyles>
+
+  <!-- ===== Reform ===== -->
+  <RadiusIdeo_DevelopmentPoints>Points de développement</RadiusIdeo_DevelopmentPoints>
+  <RadiusIdeo_Reform>Réformer</RadiusIdeo_Reform>
+  <RadiusIdeo_ReformTip>Réformer cette idéoligion : changer ses mèmes, ses préceptes et son style.</RadiusIdeo_ReformTip>
+  <RadiusIdeo_ReformNotFluid>Seules les idéoligions fluides peuvent être réformées.</RadiusIdeo_ReformNotFluid>
+  <RadiusIdeo_ReformNeedPoints>Il faut {0} points de développement pour réformer. Vous en avez {1}.</RadiusIdeo_ReformNeedPoints>
+
+  <!-- ===== Memes chapter ===== -->
+  <RadiusIdeo_TagStructure>Structure</RadiusIdeo_TagStructure>
+  <RadiusIdeo_AddMemeTip>Un mème de structure remplace celui en place.</RadiusIdeo_AddMemeTip>
+  <RadiusIdeo_RemoveMeme>Retirer ce mème. Les préceptes compatibles sont gardés.</RadiusIdeo_RemoveMeme>
+  <RadiusIdeo_NoMemesToAdd>Aucun mème disponible à ajouter</RadiusIdeo_NoMemesToAdd>
+
+  <!-- Precept categories -->
+  <RadiusIdeo_CatGeneral>Général</RadiusIdeo_CatGeneral>
+  <RadiusIdeo_CatBuildings>Bâtiments sacrés</RadiusIdeo_CatBuildings>
+  <RadiusIdeo_CatRelics>Reliques</RadiusIdeo_CatRelics>
+  <RadiusIdeo_CatWeapons>Armes</RadiusIdeo_CatWeapons>
+  <RadiusIdeo_CatAnimals>Animaux vénérés</RadiusIdeo_CatAnimals>
+  <RadiusIdeo_CatXenotypes>Xénotypes préférés</RadiusIdeo_CatXenotypes>
+  <RadiusIdeo_CatApparel>Vêtements</RadiusIdeo_CatApparel>
+  <RadiusIdeo_CatOther>Autres</RadiusIdeo_CatOther>
+  <RadiusIdeo_CatEmpty>Pas encore détenu</RadiusIdeo_CatEmpty>
+  <RadiusIdeo_MemeStructureReplaces>(structure, remplace celle en place)</RadiusIdeo_MemeStructureReplaces>
+
+  <!-- Impact, matching vanilla PreceptImpact -->
+  <RadiusIdeo_ImpactHigh>Impact fort</RadiusIdeo_ImpactHigh>
+  <RadiusIdeo_ImpactMedium>Impact moyen</RadiusIdeo_ImpactMedium>
+  <RadiusIdeo_ImpactLow>Impact faible</RadiusIdeo_ImpactLow>
+
+  <!-- Precept float menu -->
+  <RadiusIdeo_AddToCategory>Ajouter : {0}</RadiusIdeo_AddToCategory>
+  <RadiusIdeo_NoPreceptsInCategory>Aucun précepte disponible dans cette catégorie</RadiusIdeo_NoPreceptsInCategory>
+
+  <!-- ===== Roles and rituals chapter ===== -->
+  <RadiusIdeo_Rites>Rites</RadiusIdeo_Rites>
+  <RadiusIdeo_Unassigned>Non attribué</RadiusIdeo_Unassigned>
+  <RadiusIdeo_HeldBy>Tenu par {0}</RadiusIdeo_HeldBy>
+  <RadiusIdeo_AddRole>Ajouter un rôle</RadiusIdeo_AddRole>
+  <RadiusIdeo_AddRitual>Ajouter un rituel</RadiusIdeo_AddRitual>
+  <RadiusIdeo_NoRituals>Cette idéoligion n'a aucun rituel.</RadiusIdeo_NoRituals>
+
+  <!-- ===== Followers chapter ===== -->
+  <RadiusIdeo_NoFollowers>Aucun adepte connu.</RadiusIdeo_NoFollowers>
+
+  <!-- ===== Developer tools ===== -->
+  <RadiusIdeo_EditModeTip>Modifier cette idéoligion directement dans cette fenêtre.</RadiusIdeo_EditModeTip>
+  <RadiusIdeo_RegenDescTip>Régénérer le récit généré.</RadiusIdeo_RegenDescTip>
+  <RadiusIdeo_SinglePreceptTip>Effacer tous les préceptes et en installer un seul.</RadiusIdeo_SinglePreceptTip>
+  <RadiusIdeo_GrantPointsTip>Remplir jusqu'au seuil de réforme, actuellement {0} sur {1}. L'idéoligion devient fluide si elle ne l'est pas déjà.</RadiusIdeo_GrantPointsTip>
+
+  <!-- ===== Settings ===== -->
+  <RadiusIdeo_SettingsCategory>Radius UI - Ideology</RadiusIdeo_SettingsCategory>
+  <RadiusIdeo_SettingEnabled>Activer la fenêtre d'idéoligion de Radius UI</RadiusIdeo_SettingEnabled>
+  <RadiusIdeo_SettingEnabledTip>Activé : les liens vers une idéoligion, partout dans l'interface, ouvrent cette fenêtre au lieu de l'onglet Idéoligions du jeu.</RadiusIdeo_SettingEnabledTip>
+
+  <!-- ===== Spread chapter (the atlas) ===== -->
+  <RadiusIdeo_TabSpread>Diffusion</RadiusIdeo_TabSpread>
+  <RadiusIdeo_ChapterSpread>Portée</RadiusIdeo_ChapterSpread>
+  <!-- Atlas badge labels are capitalised single words by design: they read as chart legends,
+       not as sentences, and "of the world" wrapped onto two lines in a 78px box. -->
+  <RadiusIdeo_StatHoldings>Colonies</RadiusIdeo_StatHoldings>
+  <RadiusIdeo_StatOfWorld>Monde</RadiusIdeo_StatOfWorld>
+  <RadiusIdeo_NoSettlements>Aucune colonie connue pour l'instant.</RadiusIdeo_NoSettlements>
+  <RadiusIdeo_NoIdeo>Aucune idéoligion</RadiusIdeo_NoIdeo>
+  <RadiusIdeo_TilesAway>À {0} cases</RadiusIdeo_TilesAway>
+  <RadiusIdeo_Unreachable>Aucun chemin par la terre depuis ici</RadiusIdeo_Unreachable>
+
+  <!-- ===== Spread The Word compat ===== -->
+  <RadiusIdeo_ConversionProgress>Progression de la conversion</RadiusIdeo_ConversionProgress>
+  <RadiusIdeo_ConversionReady>Prête à convertir. Le prochain converti libéré de cette faction la fait basculer.</RadiusIdeo_ConversionReady>
+  <RadiusIdeo_ConversionNeedMore>Il faut encore {0} convertis libérés de cette faction.</RadiusIdeo_ConversionNeedMore>
+  <RadiusIdeo_ConversionNeedGoodwill>Assez de convertis, mais la bonne entente doit atteindre {0}. Elle est à {1}.</RadiusIdeo_ConversionNeedGoodwill>
+  <RadiusIdeo_ConversionNone>Aucune autre faction n'a de colonie à convertir.</RadiusIdeo_ConversionNone>
+
+  <!-- ===== Atlas overlay ===== -->
+  <RadiusIdeo_LayerReach>Portée</RadiusIdeo_LayerReach>
+  <RadiusIdeo_ZoomIn>Zoom avant</RadiusIdeo_ZoomIn>
+  <RadiusIdeo_ZoomOut>Zoom arrière</RadiusIdeo_ZoomOut>
+  <RadiusIdeo_ClickToEdit>Cliquez pour remplacer, régénérer ou retirer.</RadiusIdeo_ClickToEdit>
+  <RadiusIdeo_DevEditOn>Mode d'édition de développement activé. Cliquez sur un précepte ou un mème pour le changer.</RadiusIdeo_DevEditOn>
+  <RadiusIdeo_DevEditOff>Mode d'édition de développement désactivé</RadiusIdeo_DevEditOff>
+  <RadiusIdeo_DevDescRegenerated>Description régénérée.</RadiusIdeo_DevDescRegenerated>
+  <RadiusIdeo_DevPointsGranted>Points de développement réglés à {0}. L'idéoligion est maintenant fluide.</RadiusIdeo_DevPointsGranted>
+  <RadiusIdeo_ZoomReset>Ajuster la vue aux colonies de cette idéoligion</RadiusIdeo_ZoomReset>
+  <RadiusIdeo_OffView>Cette idéoligion est hors de la vue. Cliquez pour ajuster.</RadiusIdeo_OffView>
+  <RadiusIdeo_SettlementsKnown>{0} colonies connues</RadiusIdeo_SettlementsKnown>
+  <RadiusIdeo_StatBelievers>Croyants</RadiusIdeo_StatBelievers>
+
+  <!-- ===== Spread chapter prose ===== -->
+  <RadiusIdeo_SpreadLede>{0} est suivie dans {1} des {2} colonies connues, réparties entre {3} factions. C'est une foi {4}.</RadiusIdeo_SpreadLede>
+  <RadiusIdeo_SpreadConcentrated>concentrée</RadiusIdeo_SpreadConcentrated>
+  <RadiusIdeo_SpreadScattered>dispersée</RadiusIdeo_SpreadScattered>
+  <RadiusIdeo_SpreadSub>Sa colonie la plus proche est à {0} cases ; la plus lointaine à {1}. {2}</RadiusIdeo_SpreadSub>
+  <RadiusIdeo_SpreadSubNoRoute>Aucune de ses colonies n'a de chemin par la terre depuis ici. {0}</RadiusIdeo_SpreadSubNoRoute>
+  <RadiusIdeo_SpreadYours>Votre colonie la pratique.</RadiusIdeo_SpreadYours>
+  <RadiusIdeo_SpreadNotYours>Votre colonie ne la pratique pas.</RadiusIdeo_SpreadNotYours>
+
+  <!-- World standing. Replaces the pairwise conversion-pressure list: prevalence is a global
+       question, and RimWorld exposes no per-settlement population, so share of known
+       settlements plus faction count is the only honest measure of it. -->
+  <RadiusIdeo_Standing>Place dans le monde</RadiusIdeo_Standing>
+  <RadiusIdeo_NSettlements>{0} colonies</RadiusIdeo_NSettlements>
+  <RadiusIdeo_NFactions>{0} factions</RadiusIdeo_NFactions>
+  <RadiusIdeo_StandingTip>Suivie dans {0} des {1} colonies connues, réparties entre {2} factions.</RadiusIdeo_StandingTip>
+
+  <!-- ===== Rail: sections, row subtitle, relation chips =====
+       The relation chip answers "why do I care about this faith" in one word. Hostile wins
+       over ally when a faith is carried by both, so the word is never reassuring about a
+       belief the raiders also hold. -->
+  <RadiusIdeo_RailColony>Colonie</RadiusIdeo_RailColony>
+  <RadiusIdeo_RailKnown>Connues</RadiusIdeo_RailKnown>
+  <RadiusIdeo_RailSub>{0} adeptes · {1} mèmes</RadiusIdeo_RailSub>
+  <RadiusIdeo_RelYours>La vôtre</RadiusIdeo_RelYours>
+  <RadiusIdeo_RelAlly>Alliée</RadiusIdeo_RelAlly>
+  <RadiusIdeo_RelHostile>Hostile</RadiusIdeo_RelHostile>
+  <RadiusIdeo_RelNeutral>Neutre</RadiusIdeo_RelNeutral>
+
+  <!-- A colonist with no role. Lower case on purpose: it is a rank chip beside "Leader" and
+       "Moral guide", and capitalising it would imply it is a role too. -->
+  <RadiusIdeo_Believer>croyant</RadiusIdeo_Believer>
+
+  <!-- ===== Atlas framing =====
+       The band does not re-frame when you click a settlement, and a map that stays put when
+       you expected it to move looks broken unless it says so. The caption is that sentence;
+       the header word is the way to move it. -->
+  <RadiusIdeo_RangeFixed>Échelle figée jusqu'au prochain ajustement</RadiusIdeo_RangeFixed>
+  <RadiusIdeo_ReachOverlay>Calque de portée</RadiusIdeo_ReachOverlay>
+  <RadiusIdeo_ReachOverlayTip>Afficher la portée de cette foi et ajuster la carte autour.</RadiusIdeo_ReachOverlayTip>
+
+</LanguageData>
