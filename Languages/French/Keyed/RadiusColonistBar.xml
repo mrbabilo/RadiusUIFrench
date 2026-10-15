@@ -123,7 +123,7 @@
   <RCB_Weap_AlsoCarrying>Porte aussi :</RCB_Weap_AlsoCarrying>
   <RCB_State_Critical>Critique</RCB_State_Critical>
   <RCB_State_Warning>Alerte</RCB_State_Warning>
-  <RCB_State_Drafted>Mobilisé</RCB_State_Drafted>
+  <RCB_State_Drafted>Mobil.</RCB_State_Drafted>
   <RCB_State_Away>Absent</RCB_State_Away>
   <!-- The state pill's tooltip: one line per condition behind a Warning / Critical pill, worst first. -->
   <RCB_Cond_BleedingOut>Hémorragie mortelle</RCB_Cond_BleedingOut>

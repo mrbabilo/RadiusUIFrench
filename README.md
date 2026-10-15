@@ -26,7 +26,7 @@ Le mod s'active avec n'importe quel sous-ensemble de la suite : une traduction d
 
 - **Radius UI - Inspector Plus** a déjà son français.
 - Les textes écrits directement dans le code d'un mod (par exemple l'infobulle des sous-menus et les boutons de la carte de survol de Colonist Bar, ou « no active conditions » dans la chronologie de Health Tab) : un mod de traduction ne peut pas les atteindre. Colonist Bar Plus, le fork de Colonist Bar, les affiche en français.
-- Les libellés que le mod place dans une case de largeur fixe gardent une traduction courte : « Now » de Health Tab devient « Auj. », car « Maintenant » déborde sur le texte voisin.
+- Les libellés que le mod place dans une case de largeur fixe gardent une traduction courte : « Now » de Health Tab devient « Auj. », car « Maintenant » déborde sur le texte voisin. De même, l'étiquette « Drafted » sous le portrait dans Colonist Bar devient « Mobil. », car « Mobilisé » est coupé.
 
 ## Vocabulaire
 
